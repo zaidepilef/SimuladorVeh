@@ -1,0 +1,123 @@
+﻿<%-- Default textbox appearance --%>
+<asp:TextBox runat="server" CssClass="TextBox"/>
+
+<asp:DropDownList runat="server" CssClass="DropDownList" />
+
+<asp:Label runat="server" SkinID="TituloPrincipal" CssClass="TituloPrincipal" />
+
+<asp:Image runat="server" SkinID="ImgTarjetaClasica" ImageUrl="Images/visa_classic.jpg" AlternateText="Tarjeta" Width="129" Height="81" />
+
+<asp:Image runat="server" SkinID="ImgTarjetaFecha" ImageUrl="Images/visa_numero.jpg" AlternateText="Tarjeta" Width="129" Height="81" />
+
+<asp:Image runat="server" SkinID="ImgTarjetaNumero" ImageUrl="Images/visa_fecha.jpg" AlternateText="Tarjeta" Width="129" Height="81" />
+
+<asp:Image runat="server" SkinID="ImgTicket" ImageUrl="Images/check.png" AlternateText="OK" />
+
+<asp:Image runat="server" SkinID="ImgNota" ImageUrl="Images/Info.gif" />
+
+<asp:Image runat="server" SkinID="ImgNotaTrans" ImageUrl="Images/Info2.gif" />
+
+<asp:Image runat="server" SkinID="ImgNota2" ImageUrl="Images/Info3.gif" />
+
+<asp:Image runat="server" SkinID="ImgCoberturasAntiguo" ImageUrl="Images/cobertura_AutoAntiguo.jpg" />
+
+<asp:Image runat="server" SkinID="ImgCoberturas" ImageUrl="Images/Coberturas.gif" />
+
+<asp:ImageButton runat="server" SkinID="ImgCalcular" ImageUrl="Images/calcular.gif" AlternateText="Calcular" />
+
+<asp:ImageButton runat="server" SkinID="ImgCotizar" BorderWidth="10px" BorderColor="White" ImageUrl="Images/generarcotizacion.gif" AlternateText="Cotizar" />
+
+<asp:ImageButton runat="server" SkinID="ImgNuevaCotizacion" BorderWidth="10px" BorderColor="White" ImageUrl="Images/nuevacotizacion.gif" AlternateText="Nueva Cotizacion" />
+
+<asp:ImageButton runat="server" SkinID="ImgEnviarMail" BorderWidth="10px" BorderColor="White" ImageUrl="Images/mail.gif" AlternateText="Enviar por Email" />
+
+<asp:ImageButton runat="server" SkinID="ImgEnviarMail2" BorderWidth="10px" BorderColor="White" ImageUrl="Images/enviar1.gif" AlternateText="Enviar por Email" />
+
+<asp:ImageButton runat="server" SkinID="ImgCancelar" BorderWidth="10px" BorderColor="White" ImageUrl="Images/cancelar1.gif" AlternateText="Cancelar" />
+
+<asp:ImageButton runat="server" SkinID="ImgRecalcular" BorderWidth="10px" BorderColor="White" ImageUrl="Images/recalcular.gif" AlternateText="Recalcular" />
+
+<asp:ImageButton runat="server" SkinID="ImgEmitir" BorderWidth="10px" BorderColor="White" ImageUrl="Images/emitir.gif" AlternateText="Emitir" />
+
+<asp:ImageButton runat="server" SkinID="ImgImprimirPoliza" BorderWidth="10px" BorderColor="White" ImageUrl="Images/imprimir_poliza.gif" AlternateText="Imprimir Poliza" />
+
+<asp:ImageButton runat="server" SkinID="ImgImprimirMandato" BorderWidth="10px" BorderColor="White" ImageUrl="Images/mandato1.gif" AlternateText="Imprimir Mandato" />
+
+<asp:ImageButton runat="server" SkinID="ImgSuplanta" BorderWidth="10px" BorderColor="White" ImageUrl="Images/suplanta.gif" AlternateText="Suplantar" />
+
+<asp:ImageButton runat="server" SkinID="ImgNoSuplanta" BorderWidth="10px" BorderColor="White" ImageUrl="Images/no_suplanta.gif" AlternateText="No Suplantar" />
+
+<asp:ImageButton runat="server" SkinID="ImgMuestraSuplanta" BorderColor="White" ImageUrl="Images/opcionsuplantar.gif"  AlternateText="Suplantar" />
+
+<asp:ImageButton runat="server" SkinID="ImgEliminar" BorderColor="White" ImageUrl="Images/eliminar.gif"  AlternateText="Eliminar"  />
+
+<asp:ImageButton runat="server" SkinID="ImgAgregar" BorderColor="White" ImageUrl="Images/agregar.gif"  AlternateText="Agregar"  />
+
+<asp:ImageButton runat="server" SkinID="ImgGuardar" BorderColor="White" ImageUrl="Images/guardar.gif"  AlternateText="Guardar"  />
+
+<asp:ImageButton runat="server" SkinID="ImgMel" BorderColor="White" ImageUrl="Images/botonmel.gif"  AlternateText="MEL"  CssClass="btnmel" />
+
+<asp:ImageButton runat="server" SkinID="ImgTw" BorderColor="White" ImageUrl="Images/botontw.gif"  AlternateText="TW"  CssClass="btntw"   />
+
+<asp:TableRow runat="server" SkinID="skTipoCot" CssClass="TipoCot" />
+
+<asp:TableRow runat="server" SkinID="skNomPlan" CssClass="NombrePlan" />
+
+<asp:TableRow runat="server" SkinID="skPrimaNeta" CssClass="PrimaNeta" />
+
+<asp:TableRow runat="server" SkinID="skPrimaNetaDisabled" CssClass="PrimaNetaDisabled" />
+
+<asp:TableRow runat="server" SkinID="skDescuento" CssClass="Descuento" />
+
+<asp:TableRow runat="server" SkinID="skRecargo" CssClass="Recargo" />
+
+<asp:TableRow runat="server" SkinID="skPrimaTotal" CssClass="PrimaTotal" />
+
+<asp:TableRow runat="server" SkinID="skPrimaComision" CssClass="PrimaComision" />
+
+<asp:TableRow runat="server" SkinID="skCuota" CssClass="Cuota" />
+
+<asp:TableRow runat="server" SkinID="skCuotaPAT" CssClass="CuotaPAT" />
+
+<asp:TableRow runat="server" SkinID="skValorRef"  CssClass="ValorRef" />
+
+<asp:TableRow runat="server" SkinID="skSelModalidades"  CssClass="SelModalidades" />
+
+<asp:TableRow runat="server" SkinID="skSelModalidadesEmitir"  CssClass="SelModalidadesEmitir" />
+
+<asp:Table cellSpacing="0" cellPadding="1" runat="server" SkinID="skTblResultados" CssClass="Resultados" />
+
+<asp:TableCell runat="server" SkinID="skCeldaRes" CssClass="Celda" />
+
+<asp:TableCell runat="server" SkinID="skCeldaEliminar" CssClass="CeldaEliminarTit" />
+
+<asp:TableCell runat="server" SkinID="skCeldaDesc" CssClass="CeldaDescTit" />
+
+<asp:TableCell runat="server" SkinID="skCeldaDaño" CssClass="CeldaDañoTit" />
+
+<asp:TableCell runat="server" SkinID="skCeldaObs" CssClass="CeldaObsTit" />
+
+<asp:TableCell runat="server" SkinID="skCeldaRes_Master" CssClass="Celda_Master" />
+
+<asp:TableCell runat="server" SkinID="skCeldaRes_Flex" CssClass="Celda_Flex" />
+
+<asp:TableCell runat="server" SkinID="skCeldaRes_Elemental" CssClass="Celda_Elemental" />
+
+<asp:TableCell runat="server" SkinID="skCeldaRes_Balance" CssClass="Celda_Balance" />
+
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+

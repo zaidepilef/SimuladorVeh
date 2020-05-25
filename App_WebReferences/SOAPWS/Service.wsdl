@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.mapfre.cl/xsd" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.mapfre.cl/xsd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.mapfre.cl/xsd">
+      <s:element name="EmiteSoap">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="num_cotizacion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EmiteSoapResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="return" nillable="true" type="tns:EmisionPolizaSoap" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="EmisionPolizaSoap">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="poliza" type="tns:datospoliza" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="datospoliza">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="NumPoliza" nillable="true" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UrlPoliza" nillable="true" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ImprimeSoap">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="num_poliza" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImprimeSoapResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImprimeSoapResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidaPagoMatricula">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="num_matricula" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidaPagoMatriculaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidaPagoMatriculaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="EmiteSoapSoapIn">
+    <wsdl:part name="parameters" element="tns:EmiteSoap" />
+  </wsdl:message>
+  <wsdl:message name="EmiteSoapSoapOut">
+    <wsdl:part name="parameters" element="tns:EmiteSoapResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImprimeSoapSoapIn">
+    <wsdl:part name="parameters" element="tns:ImprimeSoap" />
+  </wsdl:message>
+  <wsdl:message name="ImprimeSoapSoapOut">
+    <wsdl:part name="parameters" element="tns:ImprimeSoapResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidaPagoMatriculaSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidaPagoMatricula" />
+  </wsdl:message>
+  <wsdl:message name="ValidaPagoMatriculaSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidaPagoMatriculaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="EmiteSoap">
+      <wsdl:input message="tns:EmiteSoapSoapIn" />
+      <wsdl:output message="tns:EmiteSoapSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImprimeSoap">
+      <wsdl:input message="tns:ImprimeSoapSoapIn" />
+      <wsdl:output message="tns:ImprimeSoapSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidaPagoMatricula">
+      <wsdl:input message="tns:ValidaPagoMatriculaSoapIn" />
+      <wsdl:output message="tns:ValidaPagoMatriculaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EmiteSoap">
+      <soap:operation soapAction="urn:EmiteSoap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImprimeSoap">
+      <soap:operation soapAction="http://www.mapfre.cl/xsd/ImprimeSoap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidaPagoMatricula">
+      <soap:operation soapAction="http://www.mapfre.cl/xsd/ValidaPagoMatricula" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EmiteSoap">
+      <soap12:operation soapAction="urn:EmiteSoap" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImprimeSoap">
+      <soap12:operation soapAction="http://www.mapfre.cl/xsd/ImprimeSoap" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidaPagoMatricula">
+      <soap12:operation soapAction="http://www.mapfre.cl/xsd/ValidaPagoMatricula" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://scl002001-013:8084/SOAPWS/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="http://scl002001-013:8084/SOAPWS/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

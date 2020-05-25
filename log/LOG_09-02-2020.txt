@@ -1,0 +1,4132 @@
+2/9/2020 1:27:50 AM;ExisteInspeccion post
+
+2/9/2020 3:04:57 AM;ExisteInspeccion post
+
+2/9/2020 9:47:19 AM;ExisteInspeccion post
+
+2/9/2020 10:43:42 AM;CodMarca 65
+
+2/9/2020 10:43:42 AM;CodModelo 420
+
+2/9/2020 10:43:42 AM;CodSubModelo 999
+
+2/9/2020 10:43:42 AM;AñoFab 2019
+
+2/9/2020 10:43:42 AM;CodDocum 163192349
+
+2/9/2020 10:43:42 AM;CodDocumAseg 245250584
+
+2/9/2020 10:43:42 AM;NumMatricula LHHY76
+
+2/9/2020 10:43:42 AM;Error Cotizar : 1001
+
+2/9/2020 10:43:43 AM;CodMarca 65
+
+2/9/2020 10:43:43 AM;CodModelo 420
+
+2/9/2020 10:43:43 AM;CodSubModelo 999
+
+2/9/2020 10:43:43 AM;AñoFab 2019
+
+2/9/2020 10:43:43 AM;CodDocum 163192349
+
+2/9/2020 10:43:43 AM;CodDocumAseg 245250584
+
+2/9/2020 10:43:43 AM;NumMatricula LHHY76
+
+2/9/2020 10:43:43 AM;Error Cotizar : 1001
+
+2/9/2020 10:43:43 AM;CodMarca 65
+
+2/9/2020 10:43:43 AM;CodModelo 420
+
+2/9/2020 10:43:43 AM;CodSubModelo 999
+
+2/9/2020 10:43:43 AM;AñoFab 2019
+
+2/9/2020 10:43:43 AM;CodDocum 163192349
+
+2/9/2020 10:43:43 AM;CodDocumAseg 245250584
+
+2/9/2020 10:43:43 AM;NumMatricula LHHY76
+
+2/9/2020 10:43:43 AM;Error Cotizar : 1001
+
+2/9/2020 10:43:43 AM;CodMarca 65
+
+2/9/2020 10:43:43 AM;CodModelo 420
+
+2/9/2020 10:43:43 AM;CodSubModelo 999
+
+2/9/2020 10:43:43 AM;AñoFab 2019
+
+2/9/2020 10:43:43 AM;CodDocum 163192349
+
+2/9/2020 10:43:43 AM;CodDocumAseg 245250584
+
+2/9/2020 10:43:43 AM;NumMatricula LHHY76
+
+2/9/2020 10:43:43 AM;Error Cotizar : 1001
+
+2/9/2020 11:02:01 AM;CodMarca 535
+
+2/9/2020 11:02:01 AM;CodModelo 165
+
+2/9/2020 11:02:01 AM;CodSubModelo 2
+
+2/9/2020 11:02:01 AM;AñoFab 2016
+
+2/9/2020 11:02:01 AM;CodDocum 105278322
+
+2/9/2020 11:02:01 AM;CodDocumAseg 182436186
+
+2/9/2020 11:02:01 AM;NumMatricula HLLV73
+
+2/9/2020 11:02:01 AM;Error Cotizar : 1001
+
+2/9/2020 11:02:01 AM;CodMarca 535
+
+2/9/2020 11:02:01 AM;CodModelo 165
+
+2/9/2020 11:02:01 AM;CodSubModelo 2
+
+2/9/2020 11:02:01 AM;AñoFab 2016
+
+2/9/2020 11:02:01 AM;CodDocum 105278322
+
+2/9/2020 11:02:01 AM;CodDocumAseg 182436186
+
+2/9/2020 11:02:01 AM;NumMatricula HLLV73
+
+2/9/2020 11:02:01 AM;Error Cotizar : 1001
+
+2/9/2020 11:02:02 AM;CodMarca 535
+
+2/9/2020 11:02:02 AM;CodModelo 165
+
+2/9/2020 11:02:02 AM;CodSubModelo 2
+
+2/9/2020 11:02:02 AM;AñoFab 2016
+
+2/9/2020 11:02:02 AM;CodDocum 105278322
+
+2/9/2020 11:02:02 AM;CodDocumAseg 182436186
+
+2/9/2020 11:02:02 AM;NumMatricula HLLV73
+
+2/9/2020 11:02:02 AM;Error Cotizar : 1001
+
+2/9/2020 11:02:02 AM;CodMarca 535
+
+2/9/2020 11:02:02 AM;CodModelo 165
+
+2/9/2020 11:02:02 AM;CodSubModelo 2
+
+2/9/2020 11:02:02 AM;AñoFab 2016
+
+2/9/2020 11:02:02 AM;CodDocum 105278322
+
+2/9/2020 11:02:02 AM;CodDocumAseg 182436186
+
+2/9/2020 11:02:02 AM;NumMatricula HLLV73
+
+2/9/2020 11:02:02 AM;Error Cotizar : 1001
+
+2/9/2020 11:48:36 AM;CodMarca 535
+
+2/9/2020 11:48:36 AM;CodModelo 202
+
+2/9/2020 11:48:36 AM;CodSubModelo 2
+
+2/9/2020 11:48:36 AM;AñoFab 2003
+
+2/9/2020 11:48:36 AM;CodDocum 769514015
+
+2/9/2020 11:48:36 AM;CodDocumAseg 93156560
+
+2/9/2020 11:48:36 AM;NumMatricula VS4878
+
+2/9/2020 11:48:36 AM;Error Cotizar : 1003
+
+2/9/2020 11:48:36 AM;CodMarca 535
+
+2/9/2020 11:48:36 AM;CodModelo 202
+
+2/9/2020 11:48:36 AM;CodSubModelo 2
+
+2/9/2020 11:48:36 AM;AñoFab 2003
+
+2/9/2020 11:48:36 AM;CodDocum 769514015
+
+2/9/2020 11:48:36 AM;CodDocumAseg 93156560
+
+2/9/2020 11:48:36 AM;NumMatricula VS4878
+
+2/9/2020 11:48:36 AM;Error Cotizar : 1003
+
+2/9/2020 11:48:36 AM;CodMarca 535
+
+2/9/2020 11:48:36 AM;CodModelo 202
+
+2/9/2020 11:48:36 AM;CodSubModelo 2
+
+2/9/2020 11:48:36 AM;AñoFab 2003
+
+2/9/2020 11:48:36 AM;CodDocum 769514015
+
+2/9/2020 11:48:36 AM;CodDocumAseg 93156560
+
+2/9/2020 11:48:36 AM;NumMatricula VS4878
+
+2/9/2020 11:48:36 AM;Error Cotizar : 1003
+
+2/9/2020 11:48:36 AM;CodMarca 535
+
+2/9/2020 11:48:36 AM;CodModelo 202
+
+2/9/2020 11:48:36 AM;CodSubModelo 2
+
+2/9/2020 11:48:36 AM;AñoFab 2003
+
+2/9/2020 11:48:36 AM;CodDocum 769514015
+
+2/9/2020 11:48:36 AM;CodDocumAseg 93156560
+
+2/9/2020 11:48:36 AM;NumMatricula VS4878
+
+2/9/2020 11:48:36 AM;Error Cotizar : 1003
+
+2/9/2020 11:48:37 AM;CodMarca 535
+
+2/9/2020 11:48:37 AM;CodModelo 202
+
+2/9/2020 11:48:37 AM;CodSubModelo 2
+
+2/9/2020 11:48:37 AM;AñoFab 2003
+
+2/9/2020 11:48:37 AM;CodDocum 769514015
+
+2/9/2020 11:48:37 AM;CodDocumAseg 93156560
+
+2/9/2020 11:48:37 AM;NumMatricula VS4878
+
+2/9/2020 11:48:37 AM;Error Cotizar : 1003
+
+2/9/2020 11:48:37 AM;CodMarca 535
+
+2/9/2020 11:48:37 AM;CodModelo 202
+
+2/9/2020 11:48:37 AM;CodSubModelo 2
+
+2/9/2020 11:48:37 AM;AñoFab 2003
+
+2/9/2020 11:48:37 AM;CodDocum 769514015
+
+2/9/2020 11:48:37 AM;CodDocumAseg 93156560
+
+2/9/2020 11:48:37 AM;NumMatricula VS4878
+
+2/9/2020 11:48:37 AM;Error Cotizar : 1003
+
+2/9/2020 11:48:37 AM;CodMarca 535
+
+2/9/2020 11:48:37 AM;CodModelo 202
+
+2/9/2020 11:48:37 AM;CodSubModelo 2
+
+2/9/2020 11:48:37 AM;AñoFab 2003
+
+2/9/2020 11:48:37 AM;CodDocum 769514015
+
+2/9/2020 11:48:37 AM;CodDocumAseg 93156560
+
+2/9/2020 11:48:37 AM;NumMatricula VS4878
+
+2/9/2020 11:48:37 AM;Error Cotizar : 1003
+
+2/9/2020 11:48:37 AM;CodMarca 535
+
+2/9/2020 11:48:37 AM;CodModelo 202
+
+2/9/2020 11:48:37 AM;CodSubModelo 2
+
+2/9/2020 11:48:37 AM;AñoFab 2003
+
+2/9/2020 11:48:37 AM;CodDocum 769514015
+
+2/9/2020 11:48:37 AM;CodDocumAseg 93156560
+
+2/9/2020 11:48:37 AM;NumMatricula VS4878
+
+2/9/2020 11:48:37 AM;Error Cotizar : 1003
+
+2/9/2020 11:48:37 AM;CodMarca 535
+
+2/9/2020 11:48:37 AM;CodModelo 202
+
+2/9/2020 11:48:37 AM;CodSubModelo 2
+
+2/9/2020 11:48:37 AM;AñoFab 2003
+
+2/9/2020 11:48:37 AM;CodDocum 769514015
+
+2/9/2020 11:48:37 AM;CodDocumAseg 93156560
+
+2/9/2020 11:48:37 AM;NumMatricula VS4878
+
+2/9/2020 11:48:37 AM;Error Cotizar : 1003
+
+2/9/2020 11:48:38 AM;Error Input string was not in a correct format.
+
+2/9/2020 12:15:40 PM;CodMarca 720
+
+2/9/2020 12:15:40 PM;CodModelo 8
+
+2/9/2020 12:15:40 PM;CodSubModelo 18
+
+2/9/2020 12:15:40 PM;AñoFab 2020
+
+2/9/2020 12:15:40 PM;CodDocum 109229377
+
+2/9/2020 12:15:40 PM;CodDocumAseg 189760205
+
+2/9/2020 12:15:40 PM;NumMatricula A/D
+
+2/9/2020 12:15:40 PM;Error Cotizar : 1001
+
+2/9/2020 12:15:40 PM;CodMarca 720
+
+2/9/2020 12:15:40 PM;CodModelo 8
+
+2/9/2020 12:15:40 PM;CodSubModelo 18
+
+2/9/2020 12:15:40 PM;AñoFab 2020
+
+2/9/2020 12:15:40 PM;CodDocum 109229377
+
+2/9/2020 12:15:40 PM;CodDocumAseg 189760205
+
+2/9/2020 12:15:40 PM;NumMatricula A/D
+
+2/9/2020 12:15:40 PM;Error Cotizar : 1001
+
+2/9/2020 12:15:40 PM;CodMarca 720
+
+2/9/2020 12:15:40 PM;CodModelo 8
+
+2/9/2020 12:15:40 PM;CodSubModelo 18
+
+2/9/2020 12:15:40 PM;AñoFab 2020
+
+2/9/2020 12:15:40 PM;CodDocum 109229377
+
+2/9/2020 12:15:40 PM;CodDocumAseg 189760205
+
+2/9/2020 12:15:40 PM;NumMatricula A/D
+
+2/9/2020 12:15:40 PM;Error Cotizar : 1001
+
+2/9/2020 12:15:40 PM;CodMarca 720
+
+2/9/2020 12:15:40 PM;CodModelo 8
+
+2/9/2020 12:15:40 PM;CodSubModelo 18
+
+2/9/2020 12:15:40 PM;AñoFab 2020
+
+2/9/2020 12:15:40 PM;CodDocum 109229377
+
+2/9/2020 12:15:40 PM;CodDocumAseg 189760205
+
+2/9/2020 12:15:40 PM;NumMatricula A/D
+
+2/9/2020 12:15:40 PM;Error Cotizar : 1001
+
+2/9/2020 12:30:04 PM;CodMarca 720
+
+2/9/2020 12:30:04 PM;CodModelo 8
+
+2/9/2020 12:30:04 PM;CodSubModelo 18
+
+2/9/2020 12:30:04 PM;AñoFab 2020
+
+2/9/2020 12:30:04 PM;CodDocum 109229377
+
+2/9/2020 12:30:04 PM;CodDocumAseg 189760205
+
+2/9/2020 12:30:04 PM;NumMatricula A/D
+
+2/9/2020 12:30:04 PM;Error Cotizar : 1001
+
+2/9/2020 12:30:04 PM;CodMarca 720
+
+2/9/2020 12:30:04 PM;CodModelo 8
+
+2/9/2020 12:30:04 PM;CodSubModelo 18
+
+2/9/2020 12:30:04 PM;AñoFab 2020
+
+2/9/2020 12:30:04 PM;CodDocum 109229377
+
+2/9/2020 12:30:04 PM;CodDocumAseg 189760205
+
+2/9/2020 12:30:04 PM;NumMatricula A/D
+
+2/9/2020 12:30:04 PM;Error Cotizar : 1001
+
+2/9/2020 12:30:04 PM;CodMarca 720
+
+2/9/2020 12:30:04 PM;CodModelo 8
+
+2/9/2020 12:30:04 PM;CodSubModelo 18
+
+2/9/2020 12:30:04 PM;AñoFab 2020
+
+2/9/2020 12:30:04 PM;CodDocum 109229377
+
+2/9/2020 12:30:04 PM;CodDocumAseg 189760205
+
+2/9/2020 12:30:04 PM;NumMatricula A/D
+
+2/9/2020 12:30:04 PM;Error Cotizar : 1001
+
+2/9/2020 12:30:04 PM;CodMarca 720
+
+2/9/2020 12:30:04 PM;CodModelo 8
+
+2/9/2020 12:30:04 PM;CodSubModelo 18
+
+2/9/2020 12:30:04 PM;AñoFab 2020
+
+2/9/2020 12:30:04 PM;CodDocum 109229377
+
+2/9/2020 12:30:04 PM;CodDocumAseg 189760205
+
+2/9/2020 12:30:04 PM;NumMatricula A/D
+
+2/9/2020 12:30:04 PM;Error Cotizar : 1001
+
+2/9/2020 1:06:08 PM;CodMarca 720
+
+2/9/2020 1:06:08 PM;CodModelo 8
+
+2/9/2020 1:06:08 PM;CodSubModelo 18
+
+2/9/2020 1:06:08 PM;AñoFab 2020
+
+2/9/2020 1:06:08 PM;CodDocum 109229377
+
+2/9/2020 1:06:08 PM;CodDocumAseg 189760205
+
+2/9/2020 1:06:08 PM;NumMatricula A/D
+
+2/9/2020 1:06:08 PM;Error Cotizar : 1001
+
+2/9/2020 1:06:08 PM;CodMarca 720
+
+2/9/2020 1:06:08 PM;CodModelo 8
+
+2/9/2020 1:06:08 PM;CodSubModelo 18
+
+2/9/2020 1:06:08 PM;AñoFab 2020
+
+2/9/2020 1:06:08 PM;CodDocum 109229377
+
+2/9/2020 1:06:08 PM;CodDocumAseg 189760205
+
+2/9/2020 1:06:09 PM;NumMatricula A/D
+
+2/9/2020 1:06:09 PM;Error Cotizar : 1001
+
+2/9/2020 1:06:09 PM;CodMarca 720
+
+2/9/2020 1:06:09 PM;CodModelo 8
+
+2/9/2020 1:06:09 PM;CodSubModelo 18
+
+2/9/2020 1:06:09 PM;AñoFab 2020
+
+2/9/2020 1:06:09 PM;CodDocum 109229377
+
+2/9/2020 1:06:09 PM;CodDocumAseg 189760205
+
+2/9/2020 1:06:09 PM;NumMatricula A/D
+
+2/9/2020 1:06:09 PM;Error Cotizar : 1001
+
+2/9/2020 1:06:09 PM;CodMarca 720
+
+2/9/2020 1:06:09 PM;CodModelo 8
+
+2/9/2020 1:06:09 PM;CodSubModelo 18
+
+2/9/2020 1:06:09 PM;AñoFab 2020
+
+2/9/2020 1:06:09 PM;CodDocum 109229377
+
+2/9/2020 1:06:09 PM;CodDocumAseg 189760205
+
+2/9/2020 1:06:09 PM;NumMatricula A/D
+
+2/9/2020 1:06:09 PM;Error Cotizar : 1001
+
+2/9/2020 1:09:05 PM;CodMarca 720
+
+2/9/2020 1:09:05 PM;CodModelo 8
+
+2/9/2020 1:09:05 PM;CodSubModelo 18
+
+2/9/2020 1:09:05 PM;AñoFab 2020
+
+2/9/2020 1:09:05 PM;CodDocum 109229377
+
+2/9/2020 1:09:05 PM;CodDocumAseg 189760205
+
+2/9/2020 1:09:05 PM;NumMatricula A/D
+
+2/9/2020 1:09:05 PM;Error Cotizar : 1001
+
+2/9/2020 1:09:05 PM;CodMarca 720
+
+2/9/2020 1:09:05 PM;CodModelo 8
+
+2/9/2020 1:09:05 PM;CodSubModelo 18
+
+2/9/2020 1:09:05 PM;AñoFab 2020
+
+2/9/2020 1:09:05 PM;CodDocum 109229377
+
+2/9/2020 1:09:05 PM;CodDocumAseg 189760205
+
+2/9/2020 1:09:05 PM;NumMatricula A/D
+
+2/9/2020 1:09:05 PM;Error Cotizar : 1001
+
+2/9/2020 1:09:05 PM;CodMarca 720
+
+2/9/2020 1:09:05 PM;CodModelo 8
+
+2/9/2020 1:09:05 PM;CodSubModelo 18
+
+2/9/2020 1:09:05 PM;AñoFab 2020
+
+2/9/2020 1:09:05 PM;CodDocum 109229377
+
+2/9/2020 1:09:05 PM;CodDocumAseg 189760205
+
+2/9/2020 1:09:05 PM;NumMatricula A/D
+
+2/9/2020 1:09:05 PM;Error Cotizar : 1001
+
+2/9/2020 1:09:05 PM;CodMarca 720
+
+2/9/2020 1:09:05 PM;CodModelo 8
+
+2/9/2020 1:09:05 PM;CodSubModelo 18
+
+2/9/2020 1:09:05 PM;AñoFab 2020
+
+2/9/2020 1:09:05 PM;CodDocum 109229377
+
+2/9/2020 1:09:05 PM;CodDocumAseg 189760205
+
+2/9/2020 1:09:05 PM;NumMatricula A/D
+
+2/9/2020 1:09:05 PM;Error Cotizar : 1001
+
+2/9/2020 1:10:59 PM;CodMarca 720
+
+2/9/2020 1:10:59 PM;CodModelo 8
+
+2/9/2020 1:10:59 PM;CodSubModelo 18
+
+2/9/2020 1:10:59 PM;AñoFab 2020
+
+2/9/2020 1:10:59 PM;CodDocum 109229377
+
+2/9/2020 1:10:59 PM;CodDocumAseg 189760205
+
+2/9/2020 1:10:59 PM;NumMatricula A/D
+
+2/9/2020 1:10:59 PM;Error Cotizar : 1001
+
+2/9/2020 1:10:59 PM;CodMarca 720
+
+2/9/2020 1:10:59 PM;CodModelo 8
+
+2/9/2020 1:10:59 PM;CodSubModelo 18
+
+2/9/2020 1:10:59 PM;AñoFab 2020
+
+2/9/2020 1:10:59 PM;CodDocum 109229377
+
+2/9/2020 1:10:59 PM;CodDocumAseg 189760205
+
+2/9/2020 1:10:59 PM;NumMatricula A/D
+
+2/9/2020 1:10:59 PM;Error Cotizar : 1001
+
+2/9/2020 1:10:59 PM;CodMarca 720
+
+2/9/2020 1:10:59 PM;CodModelo 8
+
+2/9/2020 1:10:59 PM;CodSubModelo 18
+
+2/9/2020 1:10:59 PM;AñoFab 2020
+
+2/9/2020 1:10:59 PM;CodDocum 109229377
+
+2/9/2020 1:10:59 PM;CodDocumAseg 189760205
+
+2/9/2020 1:10:59 PM;NumMatricula A/D
+
+2/9/2020 1:10:59 PM;Error Cotizar : 1001
+
+2/9/2020 1:10:59 PM;CodMarca 720
+
+2/9/2020 1:10:59 PM;CodModelo 8
+
+2/9/2020 1:10:59 PM;CodSubModelo 18
+
+2/9/2020 1:10:59 PM;AñoFab 2020
+
+2/9/2020 1:10:59 PM;CodDocum 109229377
+
+2/9/2020 1:10:59 PM;CodDocumAseg 189760205
+
+2/9/2020 1:10:59 PM;NumMatricula A/D
+
+2/9/2020 1:10:59 PM;Error Cotizar : 1001
+
+2/9/2020 1:14:51 PM;CodMarca 720
+
+2/9/2020 1:14:51 PM;CodModelo 8
+
+2/9/2020 1:14:51 PM;CodSubModelo 18
+
+2/9/2020 1:14:51 PM;AñoFab 2020
+
+2/9/2020 1:14:51 PM;CodDocum 109229377
+
+2/9/2020 1:14:51 PM;CodDocumAseg 189760205
+
+2/9/2020 1:14:51 PM;NumMatricula A/D
+
+2/9/2020 1:14:51 PM;Error Cotizar : 1001
+
+2/9/2020 1:14:51 PM;CodMarca 720
+
+2/9/2020 1:14:51 PM;CodModelo 8
+
+2/9/2020 1:14:51 PM;CodSubModelo 18
+
+2/9/2020 1:14:51 PM;AñoFab 2020
+
+2/9/2020 1:14:51 PM;CodDocum 109229377
+
+2/9/2020 1:14:51 PM;CodDocumAseg 189760205
+
+2/9/2020 1:14:51 PM;NumMatricula A/D
+
+2/9/2020 1:14:51 PM;Error Cotizar : 1001
+
+2/9/2020 1:14:51 PM;CodMarca 720
+
+2/9/2020 1:14:51 PM;CodModelo 8
+
+2/9/2020 1:14:51 PM;CodSubModelo 18
+
+2/9/2020 1:14:51 PM;AñoFab 2020
+
+2/9/2020 1:14:51 PM;CodDocum 109229377
+
+2/9/2020 1:14:51 PM;CodDocumAseg 189760205
+
+2/9/2020 1:14:51 PM;NumMatricula A/D
+
+2/9/2020 1:14:51 PM;Error Cotizar : 1001
+
+2/9/2020 1:14:51 PM;CodMarca 720
+
+2/9/2020 1:14:51 PM;CodModelo 8
+
+2/9/2020 1:14:51 PM;CodSubModelo 18
+
+2/9/2020 1:14:51 PM;AñoFab 2020
+
+2/9/2020 1:14:51 PM;CodDocum 109229377
+
+2/9/2020 1:14:51 PM;CodDocumAseg 189760205
+
+2/9/2020 1:14:51 PM;NumMatricula A/D
+
+2/9/2020 1:14:51 PM;Error Cotizar : 1001
+
+2/9/2020 1:15:59 PM;CodMarca 720
+
+2/9/2020 1:15:59 PM;CodModelo 8
+
+2/9/2020 1:15:59 PM;CodSubModelo 18
+
+2/9/2020 1:15:59 PM;AñoFab 2020
+
+2/9/2020 1:15:59 PM;CodDocum 109229377
+
+2/9/2020 1:15:59 PM;CodDocumAseg 189760205
+
+2/9/2020 1:15:59 PM;NumMatricula A/D
+
+2/9/2020 1:15:59 PM;Error Cotizar : 1001
+
+2/9/2020 1:15:59 PM;CodMarca 720
+
+2/9/2020 1:15:59 PM;CodModelo 8
+
+2/9/2020 1:15:59 PM;CodSubModelo 18
+
+2/9/2020 1:15:59 PM;AñoFab 2020
+
+2/9/2020 1:15:59 PM;CodDocum 109229377
+
+2/9/2020 1:15:59 PM;CodDocumAseg 189760205
+
+2/9/2020 1:15:59 PM;NumMatricula A/D
+
+2/9/2020 1:15:59 PM;Error Cotizar : 1001
+
+2/9/2020 1:15:59 PM;CodMarca 720
+
+2/9/2020 1:15:59 PM;CodModelo 8
+
+2/9/2020 1:15:59 PM;CodSubModelo 18
+
+2/9/2020 1:15:59 PM;AñoFab 2020
+
+2/9/2020 1:15:59 PM;CodDocum 109229377
+
+2/9/2020 1:15:59 PM;CodDocumAseg 189760205
+
+2/9/2020 1:15:59 PM;NumMatricula A/D
+
+2/9/2020 1:15:59 PM;Error Cotizar : 1001
+
+2/9/2020 1:15:59 PM;CodMarca 720
+
+2/9/2020 1:15:59 PM;CodModelo 8
+
+2/9/2020 1:15:59 PM;CodSubModelo 18
+
+2/9/2020 1:15:59 PM;AñoFab 2020
+
+2/9/2020 1:15:59 PM;CodDocum 109229377
+
+2/9/2020 1:15:59 PM;CodDocumAseg 189760205
+
+2/9/2020 1:15:59 PM;NumMatricula A/D
+
+2/9/2020 1:15:59 PM;Error Cotizar : 1001
+
+2/9/2020 1:34:05 PM;CodMarca 720
+
+2/9/2020 1:34:05 PM;CodModelo 8
+
+2/9/2020 1:34:05 PM;CodSubModelo 18
+
+2/9/2020 1:34:05 PM;AñoFab 2020
+
+2/9/2020 1:34:05 PM;CodDocum 109229377
+
+2/9/2020 1:34:05 PM;CodDocumAseg 189760205
+
+2/9/2020 1:34:05 PM;NumMatricula A/D
+
+2/9/2020 1:34:05 PM;Error Cotizar : 1001
+
+2/9/2020 1:34:05 PM;CodMarca 720
+
+2/9/2020 1:34:05 PM;CodModelo 8
+
+2/9/2020 1:34:05 PM;CodSubModelo 18
+
+2/9/2020 1:34:05 PM;AñoFab 2020
+
+2/9/2020 1:34:05 PM;CodDocum 109229377
+
+2/9/2020 1:34:05 PM;CodDocumAseg 189760205
+
+2/9/2020 1:34:05 PM;NumMatricula A/D
+
+2/9/2020 1:34:05 PM;Error Cotizar : 1001
+
+2/9/2020 1:34:05 PM;CodMarca 720
+
+2/9/2020 1:34:05 PM;CodModelo 8
+
+2/9/2020 1:34:05 PM;CodSubModelo 18
+
+2/9/2020 1:34:05 PM;AñoFab 2020
+
+2/9/2020 1:34:05 PM;CodDocum 109229377
+
+2/9/2020 1:34:05 PM;CodDocumAseg 189760205
+
+2/9/2020 1:34:05 PM;NumMatricula A/D
+
+2/9/2020 1:34:05 PM;Error Cotizar : 1001
+
+2/9/2020 1:34:05 PM;CodMarca 720
+
+2/9/2020 1:34:05 PM;CodModelo 8
+
+2/9/2020 1:34:05 PM;CodSubModelo 18
+
+2/9/2020 1:34:05 PM;AñoFab 2020
+
+2/9/2020 1:34:05 PM;CodDocum 109229377
+
+2/9/2020 1:34:05 PM;CodDocumAseg 189760205
+
+2/9/2020 1:34:05 PM;NumMatricula A/D
+
+2/9/2020 1:34:05 PM;Error Cotizar : 1001
+
+2/9/2020 1:37:09 PM;CodMarca 720
+
+2/9/2020 1:37:09 PM;CodModelo 8
+
+2/9/2020 1:37:09 PM;CodSubModelo 18
+
+2/9/2020 1:37:09 PM;AñoFab 2020
+
+2/9/2020 1:37:09 PM;CodDocum 109229377
+
+2/9/2020 1:37:09 PM;CodDocumAseg 189760205
+
+2/9/2020 1:37:09 PM;NumMatricula A/D
+
+2/9/2020 1:37:09 PM;Error Cotizar : 1001
+
+2/9/2020 1:37:09 PM;CodMarca 720
+
+2/9/2020 1:37:09 PM;CodModelo 8
+
+2/9/2020 1:37:09 PM;CodSubModelo 18
+
+2/9/2020 1:37:09 PM;AñoFab 2020
+
+2/9/2020 1:37:09 PM;CodDocum 109229377
+
+2/9/2020 1:37:09 PM;CodDocumAseg 189760205
+
+2/9/2020 1:37:09 PM;NumMatricula A/D
+
+2/9/2020 1:37:09 PM;Error Cotizar : 1001
+
+2/9/2020 1:37:09 PM;CodMarca 720
+
+2/9/2020 1:37:09 PM;CodModelo 8
+
+2/9/2020 1:37:09 PM;CodSubModelo 18
+
+2/9/2020 1:37:09 PM;AñoFab 2020
+
+2/9/2020 1:37:09 PM;CodDocum 109229377
+
+2/9/2020 1:37:09 PM;CodDocumAseg 189760205
+
+2/9/2020 1:37:09 PM;NumMatricula A/D
+
+2/9/2020 1:37:09 PM;Error Cotizar : 1001
+
+2/9/2020 1:37:09 PM;CodMarca 720
+
+2/9/2020 1:37:09 PM;CodModelo 8
+
+2/9/2020 1:37:09 PM;CodSubModelo 18
+
+2/9/2020 1:37:09 PM;AñoFab 2020
+
+2/9/2020 1:37:09 PM;CodDocum 109229377
+
+2/9/2020 1:37:09 PM;CodDocumAseg 189760205
+
+2/9/2020 1:37:09 PM;NumMatricula A/D
+
+2/9/2020 1:37:09 PM;Error Cotizar : 1001
+
+2/9/2020 3:04:35 PM;GrabaTabladeDesctoPAT
+
+2/9/2020 3:04:35 PM;8012000054439
+
+2/9/2020 3:04:35 PM;5
+
+2/9/2020 3:04:35 PM;13.26
+
+2/9/2020 3:04:35 PM;12.60
+
+2/9/2020 3:04:35 PM;15.78
+
+2/9/2020 3:04:35 PM;14.99
+
+2/9/2020 3:04:39 PM;ExisteInspeccion post
+
+2/9/2020 3:04:39 PM;dvDeclaracionEstado.Visible
+
+2/9/2020 3:04:39 PM;8003
+
+2/9/2020 3:04:39 PM;1
+
+2/9/2020 3:04:39 PM;FALSE
+
+2/9/2020 3:08:33 PM;GrabaTabladeDesctoPAT
+
+2/9/2020 3:08:33 PM;8012000054439
+
+2/9/2020 3:08:33 PM;GD
+
+2/9/2020 6:41:02 PM;CodMarca 535
+
+2/9/2020 6:41:02 PM;CodModelo 73
+
+2/9/2020 6:41:02 PM;CodSubModelo 4
+
+2/9/2020 6:41:02 PM;AñoFab 2016
+
+2/9/2020 6:41:02 PM;CodDocum 167967884
+
+2/9/2020 6:41:02 PM;CodDocumAseg 190810739
+
+2/9/2020 6:41:02 PM;NumMatricula HHCG78
+
+2/9/2020 6:41:02 PM;Error Cotizar : 1001
+
+2/9/2020 6:41:02 PM;CodMarca 535
+
+2/9/2020 6:41:02 PM;CodModelo 73
+
+2/9/2020 6:41:02 PM;CodSubModelo 4
+
+2/9/2020 6:41:02 PM;AñoFab 2016
+
+2/9/2020 6:41:02 PM;CodDocum 167967884
+
+2/9/2020 6:41:02 PM;CodDocumAseg 190810739
+
+2/9/2020 6:41:02 PM;NumMatricula HHCG78
+
+2/9/2020 6:41:02 PM;Error Cotizar : 1001
+
+2/9/2020 6:41:02 PM;CodMarca 535
+
+2/9/2020 6:41:02 PM;CodModelo 73
+
+2/9/2020 6:41:02 PM;CodSubModelo 4
+
+2/9/2020 6:41:02 PM;AñoFab 2016
+
+2/9/2020 6:41:02 PM;CodDocum 167967884
+
+2/9/2020 6:41:02 PM;CodDocumAseg 190810739
+
+2/9/2020 6:41:02 PM;NumMatricula HHCG78
+
+2/9/2020 6:41:02 PM;Error Cotizar : 1001
+
+2/9/2020 6:41:02 PM;CodMarca 535
+
+2/9/2020 6:41:02 PM;CodModelo 73
+
+2/9/2020 6:41:02 PM;CodSubModelo 4
+
+2/9/2020 6:41:02 PM;AñoFab 2016
+
+2/9/2020 6:41:02 PM;CodDocum 167967884
+
+2/9/2020 6:41:02 PM;CodDocumAseg 190810739
+
+2/9/2020 6:41:02 PM;NumMatricula HHCG78
+
+2/9/2020 6:41:02 PM;Error Cotizar : 1001
+
+2/9/2020 6:45:03 PM;CodMarca 535
+
+2/9/2020 6:45:03 PM;CodModelo 73
+
+2/9/2020 6:45:03 PM;CodSubModelo 4
+
+2/9/2020 6:45:03 PM;AñoFab 2016
+
+2/9/2020 6:45:03 PM;CodDocum 167967884
+
+2/9/2020 6:45:03 PM;CodDocumAseg 190810739
+
+2/9/2020 6:45:03 PM;NumMatricula HHCG78
+
+2/9/2020 6:45:03 PM;Error Cotizar : 1001
+
+2/9/2020 6:45:03 PM;CodMarca 535
+
+2/9/2020 6:45:03 PM;CodModelo 73
+
+2/9/2020 6:45:03 PM;CodSubModelo 4
+
+2/9/2020 6:45:03 PM;AñoFab 2016
+
+2/9/2020 6:45:03 PM;CodDocum 167967884
+
+2/9/2020 6:45:03 PM;CodDocumAseg 190810739
+
+2/9/2020 6:45:03 PM;NumMatricula HHCG78
+
+2/9/2020 6:45:03 PM;Error Cotizar : 1001
+
+2/9/2020 6:45:03 PM;CodMarca 535
+
+2/9/2020 6:45:03 PM;CodModelo 73
+
+2/9/2020 6:45:03 PM;CodSubModelo 4
+
+2/9/2020 6:45:03 PM;AñoFab 2016
+
+2/9/2020 6:45:03 PM;CodDocum 167967884
+
+2/9/2020 6:45:03 PM;CodDocumAseg 190810739
+
+2/9/2020 6:45:03 PM;NumMatricula HHCG78
+
+2/9/2020 6:45:03 PM;Error Cotizar : 1001
+
+2/9/2020 6:45:03 PM;CodMarca 535
+
+2/9/2020 6:45:03 PM;CodModelo 73
+
+2/9/2020 6:45:03 PM;CodSubModelo 4
+
+2/9/2020 6:45:03 PM;AñoFab 2016
+
+2/9/2020 6:45:03 PM;CodDocum 167967884
+
+2/9/2020 6:45:03 PM;CodDocumAseg 190810739
+
+2/9/2020 6:45:03 PM;NumMatricula HHCG78
+
+2/9/2020 6:45:03 PM;Error Cotizar : 1001
+
+2/9/2020 6:49:13 PM;CodMarca 535
+
+2/9/2020 6:49:13 PM;CodModelo 73
+
+2/9/2020 6:49:13 PM;CodSubModelo 4
+
+2/9/2020 6:49:13 PM;AñoFab 2016
+
+2/9/2020 6:49:13 PM;CodDocum 167967884
+
+2/9/2020 6:49:13 PM;CodDocumAseg 190810739
+
+2/9/2020 6:49:13 PM;NumMatricula HHCG78
+
+2/9/2020 6:49:13 PM;Error Cotizar : 1001
+
+2/9/2020 6:49:14 PM;CodMarca 535
+
+2/9/2020 6:49:14 PM;CodModelo 73
+
+2/9/2020 6:49:14 PM;CodSubModelo 4
+
+2/9/2020 6:49:14 PM;AñoFab 2016
+
+2/9/2020 6:49:14 PM;CodDocum 167967884
+
+2/9/2020 6:49:14 PM;CodDocumAseg 190810739
+
+2/9/2020 6:49:14 PM;NumMatricula HHCG78
+
+2/9/2020 6:49:14 PM;Error Cotizar : 1001
+
+2/9/2020 6:49:14 PM;CodMarca 535
+
+2/9/2020 6:49:14 PM;CodModelo 73
+
+2/9/2020 6:49:14 PM;CodSubModelo 4
+
+2/9/2020 6:49:14 PM;AñoFab 2016
+
+2/9/2020 6:49:14 PM;CodDocum 167967884
+
+2/9/2020 6:49:14 PM;CodDocumAseg 190810739
+
+2/9/2020 6:49:14 PM;NumMatricula HHCG78
+
+2/9/2020 6:49:14 PM;Error Cotizar : 1001
+
+2/9/2020 6:49:14 PM;CodMarca 535
+
+2/9/2020 6:49:14 PM;CodModelo 73
+
+2/9/2020 6:49:14 PM;CodSubModelo 4
+
+2/9/2020 6:49:14 PM;AñoFab 2016
+
+2/9/2020 6:49:14 PM;CodDocum 167967884
+
+2/9/2020 6:49:14 PM;CodDocumAseg 190810739
+
+2/9/2020 6:49:14 PM;NumMatricula HHCG78
+
+2/9/2020 6:49:14 PM;Error Cotizar : 1001
+
+2/9/2020 6:55:17 PM;CodMarca 535
+
+2/9/2020 6:55:17 PM;CodModelo 73
+
+2/9/2020 6:55:17 PM;CodSubModelo 4
+
+2/9/2020 6:55:17 PM;AñoFab 2016
+
+2/9/2020 6:55:17 PM;CodDocum 167967884
+
+2/9/2020 6:55:17 PM;CodDocumAseg 190810739
+
+2/9/2020 6:55:17 PM;NumMatricula HHCG78
+
+2/9/2020 6:55:17 PM;Error Cotizar : 1001
+
+2/9/2020 6:55:17 PM;CodMarca 535
+
+2/9/2020 6:55:17 PM;CodModelo 73
+
+2/9/2020 6:55:17 PM;CodSubModelo 4
+
+2/9/2020 6:55:17 PM;AñoFab 2016
+
+2/9/2020 6:55:17 PM;CodDocum 167967884
+
+2/9/2020 6:55:17 PM;CodDocumAseg 190810739
+
+2/9/2020 6:55:17 PM;NumMatricula HHCG78
+
+2/9/2020 6:55:17 PM;Error Cotizar : 1001
+
+2/9/2020 6:55:17 PM;CodMarca 535
+
+2/9/2020 6:55:17 PM;CodModelo 73
+
+2/9/2020 6:55:17 PM;CodSubModelo 4
+
+2/9/2020 6:55:17 PM;AñoFab 2016
+
+2/9/2020 6:55:17 PM;CodDocum 167967884
+
+2/9/2020 6:55:17 PM;CodDocumAseg 190810739
+
+2/9/2020 6:55:17 PM;NumMatricula HHCG78
+
+2/9/2020 6:55:17 PM;Error Cotizar : 1001
+
+2/9/2020 6:55:17 PM;CodMarca 535
+
+2/9/2020 6:55:17 PM;CodModelo 73
+
+2/9/2020 6:55:17 PM;CodSubModelo 4
+
+2/9/2020 6:55:17 PM;AñoFab 2016
+
+2/9/2020 6:55:17 PM;CodDocum 167967884
+
+2/9/2020 6:55:17 PM;CodDocumAseg 190810739
+
+2/9/2020 6:55:17 PM;NumMatricula HHCG78
+
+2/9/2020 6:55:17 PM;Error Cotizar : 1001
+
+2/9/2020 7:07:25 PM;CodMarca 535
+
+2/9/2020 7:07:25 PM;CodModelo 73
+
+2/9/2020 7:07:25 PM;CodSubModelo 4
+
+2/9/2020 7:07:25 PM;AñoFab 2016
+
+2/9/2020 7:07:25 PM;CodDocum 167967884
+
+2/9/2020 7:07:25 PM;CodDocumAseg 190810739
+
+2/9/2020 7:07:25 PM;NumMatricula HHCG78
+
+2/9/2020 7:07:25 PM;Error Cotizar : 1001
+
+2/9/2020 7:07:25 PM;CodMarca 535
+
+2/9/2020 7:07:25 PM;CodModelo 73
+
+2/9/2020 7:07:25 PM;CodSubModelo 4
+
+2/9/2020 7:07:25 PM;AñoFab 2016
+
+2/9/2020 7:07:25 PM;CodDocum 167967884
+
+2/9/2020 7:07:25 PM;CodDocumAseg 190810739
+
+2/9/2020 7:07:25 PM;NumMatricula HHCG78
+
+2/9/2020 7:07:25 PM;Error Cotizar : 1001
+
+2/9/2020 7:07:25 PM;CodMarca 535
+
+2/9/2020 7:07:25 PM;CodModelo 73
+
+2/9/2020 7:07:25 PM;CodSubModelo 4
+
+2/9/2020 7:07:25 PM;AñoFab 2016
+
+2/9/2020 7:07:25 PM;CodDocum 167967884
+
+2/9/2020 7:07:25 PM;CodDocumAseg 190810739
+
+2/9/2020 7:07:25 PM;NumMatricula HHCG78
+
+2/9/2020 7:07:25 PM;Error Cotizar : 1001
+
+2/9/2020 7:07:25 PM;CodMarca 535
+
+2/9/2020 7:07:25 PM;CodModelo 73
+
+2/9/2020 7:07:25 PM;CodSubModelo 4
+
+2/9/2020 7:07:25 PM;AñoFab 2016
+
+2/9/2020 7:07:25 PM;CodDocum 167967884
+
+2/9/2020 7:07:25 PM;CodDocumAseg 190810739
+
+2/9/2020 7:07:25 PM;NumMatricula HHCG78
+
+2/9/2020 7:07:25 PM;Error Cotizar : 1001
+
+2/9/2020 7:12:54 PM;CodMarca 535
+
+2/9/2020 7:12:54 PM;CodModelo 73
+
+2/9/2020 7:12:54 PM;CodSubModelo 4
+
+2/9/2020 7:12:54 PM;AñoFab 2016
+
+2/9/2020 7:12:54 PM;CodDocum 167967884
+
+2/9/2020 7:12:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:12:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:12:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:12:54 PM;CodMarca 535
+
+2/9/2020 7:12:54 PM;CodModelo 73
+
+2/9/2020 7:12:54 PM;CodSubModelo 4
+
+2/9/2020 7:12:54 PM;AñoFab 2016
+
+2/9/2020 7:12:54 PM;CodDocum 167967884
+
+2/9/2020 7:12:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:12:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:12:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:12:54 PM;CodMarca 535
+
+2/9/2020 7:12:54 PM;CodModelo 73
+
+2/9/2020 7:12:54 PM;CodSubModelo 4
+
+2/9/2020 7:12:54 PM;AñoFab 2016
+
+2/9/2020 7:12:54 PM;CodDocum 167967884
+
+2/9/2020 7:12:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:12:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:12:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:12:54 PM;CodMarca 535
+
+2/9/2020 7:12:54 PM;CodModelo 73
+
+2/9/2020 7:12:54 PM;CodSubModelo 4
+
+2/9/2020 7:12:54 PM;AñoFab 2016
+
+2/9/2020 7:12:54 PM;CodDocum 167967884
+
+2/9/2020 7:12:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:12:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:12:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:01 PM;CodMarca 535
+
+2/9/2020 7:13:01 PM;CodModelo 73
+
+2/9/2020 7:13:01 PM;CodSubModelo 4
+
+2/9/2020 7:13:01 PM;AñoFab 2016
+
+2/9/2020 7:13:01 PM;CodDocum 167967884
+
+2/9/2020 7:13:01 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:01 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:01 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:01 PM;CodMarca 535
+
+2/9/2020 7:13:01 PM;CodModelo 73
+
+2/9/2020 7:13:01 PM;CodSubModelo 4
+
+2/9/2020 7:13:01 PM;AñoFab 2016
+
+2/9/2020 7:13:01 PM;CodDocum 167967884
+
+2/9/2020 7:13:01 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:01 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:01 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:01 PM;CodMarca 535
+
+2/9/2020 7:13:01 PM;CodModelo 73
+
+2/9/2020 7:13:01 PM;CodSubModelo 4
+
+2/9/2020 7:13:01 PM;AñoFab 2016
+
+2/9/2020 7:13:01 PM;CodDocum 167967884
+
+2/9/2020 7:13:01 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:01 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:01 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:02 PM;CodMarca 535
+
+2/9/2020 7:13:02 PM;CodModelo 73
+
+2/9/2020 7:13:02 PM;CodSubModelo 4
+
+2/9/2020 7:13:02 PM;AñoFab 2016
+
+2/9/2020 7:13:02 PM;CodDocum 167967884
+
+2/9/2020 7:13:02 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:02 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:02 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:07 PM;CodMarca 535
+
+2/9/2020 7:13:07 PM;CodModelo 73
+
+2/9/2020 7:13:07 PM;CodSubModelo 4
+
+2/9/2020 7:13:07 PM;AñoFab 2016
+
+2/9/2020 7:13:07 PM;CodDocum 167967884
+
+2/9/2020 7:13:07 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:07 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:07 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:07 PM;CodMarca 535
+
+2/9/2020 7:13:07 PM;CodModelo 73
+
+2/9/2020 7:13:07 PM;CodSubModelo 4
+
+2/9/2020 7:13:07 PM;AñoFab 2016
+
+2/9/2020 7:13:07 PM;CodDocum 167967884
+
+2/9/2020 7:13:07 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:07 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:07 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:07 PM;CodMarca 535
+
+2/9/2020 7:13:07 PM;CodModelo 73
+
+2/9/2020 7:13:07 PM;CodSubModelo 4
+
+2/9/2020 7:13:07 PM;AñoFab 2016
+
+2/9/2020 7:13:07 PM;CodDocum 167967884
+
+2/9/2020 7:13:07 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:07 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:07 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:08 PM;CodMarca 535
+
+2/9/2020 7:13:08 PM;CodModelo 73
+
+2/9/2020 7:13:08 PM;CodSubModelo 4
+
+2/9/2020 7:13:08 PM;AñoFab 2016
+
+2/9/2020 7:13:08 PM;CodDocum 167967884
+
+2/9/2020 7:13:08 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:08 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:08 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:22 PM;CodMarca 535
+
+2/9/2020 7:13:22 PM;CodModelo 73
+
+2/9/2020 7:13:22 PM;CodSubModelo 4
+
+2/9/2020 7:13:22 PM;AñoFab 2016
+
+2/9/2020 7:13:22 PM;CodDocum 167967884
+
+2/9/2020 7:13:22 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:22 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:22 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:22 PM;CodMarca 535
+
+2/9/2020 7:13:22 PM;CodModelo 73
+
+2/9/2020 7:13:22 PM;CodSubModelo 4
+
+2/9/2020 7:13:22 PM;AñoFab 2016
+
+2/9/2020 7:13:22 PM;CodDocum 167967884
+
+2/9/2020 7:13:22 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:22 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:22 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:22 PM;CodMarca 535
+
+2/9/2020 7:13:22 PM;CodModelo 73
+
+2/9/2020 7:13:22 PM;CodSubModelo 4
+
+2/9/2020 7:13:22 PM;AñoFab 2016
+
+2/9/2020 7:13:22 PM;CodDocum 167967884
+
+2/9/2020 7:13:22 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:22 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:22 PM;Error Cotizar : 1001
+
+2/9/2020 7:13:23 PM;CodMarca 535
+
+2/9/2020 7:13:23 PM;CodModelo 73
+
+2/9/2020 7:13:23 PM;CodSubModelo 4
+
+2/9/2020 7:13:23 PM;AñoFab 2016
+
+2/9/2020 7:13:23 PM;CodDocum 167967884
+
+2/9/2020 7:13:23 PM;CodDocumAseg 190810739
+
+2/9/2020 7:13:23 PM;NumMatricula HHCG78
+
+2/9/2020 7:13:23 PM;Error Cotizar : 1001
+
+2/9/2020 7:16:57 PM;CodMarca 535
+
+2/9/2020 7:16:57 PM;CodModelo 73
+
+2/9/2020 7:16:57 PM;CodSubModelo 4
+
+2/9/2020 7:16:57 PM;AñoFab 2016
+
+2/9/2020 7:16:57 PM;CodDocum 167967884
+
+2/9/2020 7:16:57 PM;CodDocumAseg 190810739
+
+2/9/2020 7:16:57 PM;NumMatricula HHCG78
+
+2/9/2020 7:16:57 PM;Error Cotizar : 1001
+
+2/9/2020 7:16:57 PM;CodMarca 535
+
+2/9/2020 7:16:57 PM;CodModelo 73
+
+2/9/2020 7:16:57 PM;CodSubModelo 4
+
+2/9/2020 7:16:57 PM;AñoFab 2016
+
+2/9/2020 7:16:57 PM;CodDocum 167967884
+
+2/9/2020 7:16:57 PM;CodDocumAseg 190810739
+
+2/9/2020 7:16:57 PM;NumMatricula HHCG78
+
+2/9/2020 7:16:57 PM;Error Cotizar : 1001
+
+2/9/2020 7:16:58 PM;CodMarca 535
+
+2/9/2020 7:16:58 PM;CodModelo 73
+
+2/9/2020 7:16:58 PM;CodSubModelo 4
+
+2/9/2020 7:16:58 PM;AñoFab 2016
+
+2/9/2020 7:16:58 PM;CodDocum 167967884
+
+2/9/2020 7:16:58 PM;CodDocumAseg 190810739
+
+2/9/2020 7:16:58 PM;NumMatricula HHCG78
+
+2/9/2020 7:16:58 PM;Error Cotizar : 1001
+
+2/9/2020 7:16:58 PM;CodMarca 535
+
+2/9/2020 7:16:58 PM;CodModelo 73
+
+2/9/2020 7:16:58 PM;CodSubModelo 4
+
+2/9/2020 7:16:58 PM;AñoFab 2016
+
+2/9/2020 7:16:58 PM;CodDocum 167967884
+
+2/9/2020 7:16:58 PM;CodDocumAseg 190810739
+
+2/9/2020 7:16:58 PM;NumMatricula HHCG78
+
+2/9/2020 7:16:58 PM;Error Cotizar : 1001
+
+2/9/2020 7:22:07 PM;CodMarca 535
+
+2/9/2020 7:22:07 PM;CodModelo 73
+
+2/9/2020 7:22:07 PM;CodSubModelo 4
+
+2/9/2020 7:22:07 PM;AñoFab 2016
+
+2/9/2020 7:22:07 PM;CodDocum 167967884
+
+2/9/2020 7:22:07 PM;CodDocumAseg 190810739
+
+2/9/2020 7:22:07 PM;NumMatricula HHCG78
+
+2/9/2020 7:22:07 PM;Error Cotizar : 1001
+
+2/9/2020 7:22:07 PM;CodMarca 535
+
+2/9/2020 7:22:07 PM;CodModelo 73
+
+2/9/2020 7:22:07 PM;CodSubModelo 4
+
+2/9/2020 7:22:07 PM;AñoFab 2016
+
+2/9/2020 7:22:07 PM;CodDocum 167967884
+
+2/9/2020 7:22:07 PM;CodDocumAseg 190810739
+
+2/9/2020 7:22:07 PM;NumMatricula HHCG78
+
+2/9/2020 7:22:07 PM;Error Cotizar : 1001
+
+2/9/2020 7:22:07 PM;CodMarca 535
+
+2/9/2020 7:22:07 PM;CodModelo 73
+
+2/9/2020 7:22:07 PM;CodSubModelo 4
+
+2/9/2020 7:22:07 PM;AñoFab 2016
+
+2/9/2020 7:22:07 PM;CodDocum 167967884
+
+2/9/2020 7:22:07 PM;CodDocumAseg 190810739
+
+2/9/2020 7:22:07 PM;NumMatricula HHCG78
+
+2/9/2020 7:22:07 PM;Error Cotizar : 1001
+
+2/9/2020 7:22:07 PM;CodMarca 535
+
+2/9/2020 7:22:07 PM;CodModelo 73
+
+2/9/2020 7:22:07 PM;CodSubModelo 4
+
+2/9/2020 7:22:07 PM;AñoFab 2016
+
+2/9/2020 7:22:07 PM;CodDocum 167967884
+
+2/9/2020 7:22:07 PM;CodDocumAseg 190810739
+
+2/9/2020 7:22:07 PM;NumMatricula HHCG78
+
+2/9/2020 7:22:07 PM;Error Cotizar : 1001
+
+2/9/2020 7:22:14 PM;CodMarca 535
+
+2/9/2020 7:22:14 PM;CodModelo 73
+
+2/9/2020 7:22:14 PM;CodSubModelo 4
+
+2/9/2020 7:22:14 PM;AñoFab 2016
+
+2/9/2020 7:22:14 PM;CodDocum 167967884
+
+2/9/2020 7:22:14 PM;CodDocumAseg 190810739
+
+2/9/2020 7:22:14 PM;NumMatricula HHCG78
+
+2/9/2020 7:22:14 PM;Error Cotizar : 1001
+
+2/9/2020 7:22:14 PM;CodMarca 535
+
+2/9/2020 7:22:14 PM;CodModelo 73
+
+2/9/2020 7:22:14 PM;CodSubModelo 4
+
+2/9/2020 7:22:14 PM;AñoFab 2016
+
+2/9/2020 7:22:14 PM;CodDocum 167967884
+
+2/9/2020 7:22:14 PM;CodDocumAseg 190810739
+
+2/9/2020 7:22:14 PM;NumMatricula HHCG78
+
+2/9/2020 7:22:14 PM;Error Cotizar : 1001
+
+2/9/2020 7:22:14 PM;CodMarca 535
+
+2/9/2020 7:22:14 PM;CodModelo 73
+
+2/9/2020 7:22:14 PM;CodSubModelo 4
+
+2/9/2020 7:22:14 PM;AñoFab 2016
+
+2/9/2020 7:22:14 PM;CodDocum 167967884
+
+2/9/2020 7:22:14 PM;CodDocumAseg 190810739
+
+2/9/2020 7:22:14 PM;NumMatricula HHCG78
+
+2/9/2020 7:22:14 PM;Error Cotizar : 1001
+
+2/9/2020 7:22:15 PM;CodMarca 535
+
+2/9/2020 7:22:15 PM;CodModelo 73
+
+2/9/2020 7:22:15 PM;CodSubModelo 4
+
+2/9/2020 7:22:15 PM;AñoFab 2016
+
+2/9/2020 7:22:15 PM;CodDocum 167967884
+
+2/9/2020 7:22:15 PM;CodDocumAseg 190810739
+
+2/9/2020 7:22:15 PM;NumMatricula HHCG78
+
+2/9/2020 7:22:15 PM;Error Cotizar : 1001
+
+2/9/2020 7:28:08 PM;CodMarca 535
+
+2/9/2020 7:28:08 PM;CodModelo 73
+
+2/9/2020 7:28:08 PM;CodSubModelo 4
+
+2/9/2020 7:28:08 PM;AñoFab 2016
+
+2/9/2020 7:28:08 PM;CodDocum 167967884
+
+2/9/2020 7:28:08 PM;CodDocumAseg 190810739
+
+2/9/2020 7:28:08 PM;NumMatricula HHCG78
+
+2/9/2020 7:28:08 PM;Error Cotizar : 1001
+
+2/9/2020 7:28:08 PM;CodMarca 535
+
+2/9/2020 7:28:08 PM;CodModelo 73
+
+2/9/2020 7:28:08 PM;CodSubModelo 4
+
+2/9/2020 7:28:08 PM;AñoFab 2016
+
+2/9/2020 7:28:08 PM;CodDocum 167967884
+
+2/9/2020 7:28:08 PM;CodDocumAseg 190810739
+
+2/9/2020 7:28:08 PM;NumMatricula HHCG78
+
+2/9/2020 7:28:08 PM;Error Cotizar : 1001
+
+2/9/2020 7:28:08 PM;CodMarca 535
+
+2/9/2020 7:28:08 PM;CodModelo 73
+
+2/9/2020 7:28:08 PM;CodSubModelo 4
+
+2/9/2020 7:28:08 PM;AñoFab 2016
+
+2/9/2020 7:28:08 PM;CodDocum 167967884
+
+2/9/2020 7:28:08 PM;CodDocumAseg 190810739
+
+2/9/2020 7:28:08 PM;NumMatricula HHCG78
+
+2/9/2020 7:28:08 PM;Error Cotizar : 1001
+
+2/9/2020 7:28:08 PM;CodMarca 535
+
+2/9/2020 7:28:08 PM;CodModelo 73
+
+2/9/2020 7:28:08 PM;CodSubModelo 4
+
+2/9/2020 7:28:08 PM;AñoFab 2016
+
+2/9/2020 7:28:08 PM;CodDocum 167967884
+
+2/9/2020 7:28:08 PM;CodDocumAseg 190810739
+
+2/9/2020 7:28:08 PM;NumMatricula HHCG78
+
+2/9/2020 7:28:08 PM;Error Cotizar : 1001
+
+2/9/2020 7:33:51 PM;CodMarca 535
+
+2/9/2020 7:33:51 PM;CodModelo 73
+
+2/9/2020 7:33:51 PM;CodSubModelo 4
+
+2/9/2020 7:33:51 PM;AñoFab 2016
+
+2/9/2020 7:33:51 PM;CodDocum 167967884
+
+2/9/2020 7:33:51 PM;CodDocumAseg 190810739
+
+2/9/2020 7:33:51 PM;NumMatricula HHCG78
+
+2/9/2020 7:33:51 PM;Error Cotizar : 1001
+
+2/9/2020 7:33:51 PM;CodMarca 535
+
+2/9/2020 7:33:51 PM;CodModelo 73
+
+2/9/2020 7:33:51 PM;CodSubModelo 4
+
+2/9/2020 7:33:51 PM;AñoFab 2016
+
+2/9/2020 7:33:51 PM;CodDocum 167967884
+
+2/9/2020 7:33:51 PM;CodDocumAseg 190810739
+
+2/9/2020 7:33:51 PM;NumMatricula HHCG78
+
+2/9/2020 7:33:51 PM;Error Cotizar : 1001
+
+2/9/2020 7:33:51 PM;CodMarca 535
+
+2/9/2020 7:33:51 PM;CodModelo 73
+
+2/9/2020 7:33:51 PM;CodSubModelo 4
+
+2/9/2020 7:33:51 PM;AñoFab 2016
+
+2/9/2020 7:33:51 PM;CodDocum 167967884
+
+2/9/2020 7:33:51 PM;CodDocumAseg 190810739
+
+2/9/2020 7:33:51 PM;NumMatricula HHCG78
+
+2/9/2020 7:33:51 PM;Error Cotizar : 1001
+
+2/9/2020 7:33:51 PM;CodMarca 535
+
+2/9/2020 7:33:51 PM;CodModelo 73
+
+2/9/2020 7:33:51 PM;CodSubModelo 4
+
+2/9/2020 7:33:51 PM;AñoFab 2016
+
+2/9/2020 7:33:51 PM;CodDocum 167967884
+
+2/9/2020 7:33:51 PM;CodDocumAseg 190810739
+
+2/9/2020 7:33:51 PM;NumMatricula HHCG78
+
+2/9/2020 7:33:51 PM;Error Cotizar : 1001
+
+2/9/2020 7:34:29 PM;CodMarca 535
+
+2/9/2020 7:34:29 PM;CodModelo 73
+
+2/9/2020 7:34:29 PM;CodSubModelo 4
+
+2/9/2020 7:34:29 PM;AñoFab 2016
+
+2/9/2020 7:34:29 PM;CodDocum 167967884
+
+2/9/2020 7:34:29 PM;CodDocumAseg 190810739
+
+2/9/2020 7:34:29 PM;NumMatricula HHCG78
+
+2/9/2020 7:34:29 PM;Error Cotizar : 1001
+
+2/9/2020 7:34:29 PM;CodMarca 535
+
+2/9/2020 7:34:29 PM;CodModelo 73
+
+2/9/2020 7:34:29 PM;CodSubModelo 4
+
+2/9/2020 7:34:29 PM;AñoFab 2016
+
+2/9/2020 7:34:29 PM;CodDocum 167967884
+
+2/9/2020 7:34:29 PM;CodDocumAseg 190810739
+
+2/9/2020 7:34:29 PM;NumMatricula HHCG78
+
+2/9/2020 7:34:29 PM;Error Cotizar : 1001
+
+2/9/2020 7:34:29 PM;CodMarca 535
+
+2/9/2020 7:34:29 PM;CodModelo 73
+
+2/9/2020 7:34:29 PM;CodSubModelo 4
+
+2/9/2020 7:34:29 PM;AñoFab 2016
+
+2/9/2020 7:34:29 PM;CodDocum 167967884
+
+2/9/2020 7:34:29 PM;CodDocumAseg 190810739
+
+2/9/2020 7:34:29 PM;NumMatricula HHCG78
+
+2/9/2020 7:34:29 PM;Error Cotizar : 1001
+
+2/9/2020 7:34:29 PM;CodMarca 535
+
+2/9/2020 7:34:29 PM;CodModelo 73
+
+2/9/2020 7:34:29 PM;CodSubModelo 4
+
+2/9/2020 7:34:29 PM;AñoFab 2016
+
+2/9/2020 7:34:29 PM;CodDocum 167967884
+
+2/9/2020 7:34:29 PM;CodDocumAseg 190810739
+
+2/9/2020 7:34:29 PM;NumMatricula HHCG78
+
+2/9/2020 7:34:29 PM;Error Cotizar : 1001
+
+2/9/2020 7:34:45 PM;CodMarca 535
+
+2/9/2020 7:34:45 PM;CodModelo 73
+
+2/9/2020 7:34:45 PM;CodSubModelo 4
+
+2/9/2020 7:34:45 PM;AñoFab 2016
+
+2/9/2020 7:34:45 PM;CodDocum 167967884
+
+2/9/2020 7:34:45 PM;CodDocumAseg 190810739
+
+2/9/2020 7:34:45 PM;NumMatricula HHCG78
+
+2/9/2020 7:34:45 PM;Error Cotizar : 1001
+
+2/9/2020 7:34:45 PM;CodMarca 535
+
+2/9/2020 7:34:45 PM;CodModelo 73
+
+2/9/2020 7:34:45 PM;CodSubModelo 4
+
+2/9/2020 7:34:45 PM;AñoFab 2016
+
+2/9/2020 7:34:45 PM;CodDocum 167967884
+
+2/9/2020 7:34:45 PM;CodDocumAseg 190810739
+
+2/9/2020 7:34:45 PM;NumMatricula HHCG78
+
+2/9/2020 7:34:45 PM;Error Cotizar : 1001
+
+2/9/2020 7:34:45 PM;CodMarca 535
+
+2/9/2020 7:34:45 PM;CodModelo 73
+
+2/9/2020 7:34:45 PM;CodSubModelo 4
+
+2/9/2020 7:34:45 PM;AñoFab 2016
+
+2/9/2020 7:34:45 PM;CodDocum 167967884
+
+2/9/2020 7:34:45 PM;CodDocumAseg 190810739
+
+2/9/2020 7:34:45 PM;NumMatricula HHCG78
+
+2/9/2020 7:34:45 PM;Error Cotizar : 1001
+
+2/9/2020 7:34:45 PM;CodMarca 535
+
+2/9/2020 7:34:45 PM;CodModelo 73
+
+2/9/2020 7:34:45 PM;CodSubModelo 4
+
+2/9/2020 7:34:45 PM;AñoFab 2016
+
+2/9/2020 7:34:45 PM;CodDocum 167967884
+
+2/9/2020 7:34:45 PM;CodDocumAseg 190810739
+
+2/9/2020 7:34:45 PM;NumMatricula HHCG78
+
+2/9/2020 7:34:45 PM;Error Cotizar : 1001
+
+2/9/2020 7:36:18 PM;CodMarca 535
+
+2/9/2020 7:36:18 PM;CodModelo 73
+
+2/9/2020 7:36:18 PM;CodSubModelo 4
+
+2/9/2020 7:36:18 PM;AñoFab 2016
+
+2/9/2020 7:36:18 PM;CodDocum 167967884
+
+2/9/2020 7:36:18 PM;CodDocumAseg 190810739
+
+2/9/2020 7:36:18 PM;NumMatricula HHCG78
+
+2/9/2020 7:36:18 PM;Error Cotizar : 1001
+
+2/9/2020 7:36:18 PM;CodMarca 535
+
+2/9/2020 7:36:18 PM;CodModelo 73
+
+2/9/2020 7:36:18 PM;CodSubModelo 4
+
+2/9/2020 7:36:18 PM;AñoFab 2016
+
+2/9/2020 7:36:18 PM;CodDocum 167967884
+
+2/9/2020 7:36:18 PM;CodDocumAseg 190810739
+
+2/9/2020 7:36:18 PM;NumMatricula HHCG78
+
+2/9/2020 7:36:18 PM;Error Cotizar : 1001
+
+2/9/2020 7:36:18 PM;CodMarca 535
+
+2/9/2020 7:36:18 PM;CodModelo 73
+
+2/9/2020 7:36:18 PM;CodSubModelo 4
+
+2/9/2020 7:36:18 PM;AñoFab 2016
+
+2/9/2020 7:36:18 PM;CodDocum 167967884
+
+2/9/2020 7:36:18 PM;CodDocumAseg 190810739
+
+2/9/2020 7:36:18 PM;NumMatricula HHCG78
+
+2/9/2020 7:36:18 PM;Error Cotizar : 1001
+
+2/9/2020 7:36:18 PM;CodMarca 535
+
+2/9/2020 7:36:18 PM;CodModelo 73
+
+2/9/2020 7:36:18 PM;CodSubModelo 4
+
+2/9/2020 7:36:18 PM;AñoFab 2016
+
+2/9/2020 7:36:18 PM;CodDocum 167967884
+
+2/9/2020 7:36:18 PM;CodDocumAseg 190810739
+
+2/9/2020 7:36:18 PM;NumMatricula HHCG78
+
+2/9/2020 7:36:18 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:29 PM;CodMarca 535
+
+2/9/2020 7:47:29 PM;CodModelo 73
+
+2/9/2020 7:47:29 PM;CodSubModelo 4
+
+2/9/2020 7:47:29 PM;AñoFab 2016
+
+2/9/2020 7:47:29 PM;CodDocum 167967884
+
+2/9/2020 7:47:29 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:29 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:29 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:29 PM;CodMarca 535
+
+2/9/2020 7:47:29 PM;CodModelo 73
+
+2/9/2020 7:47:29 PM;CodSubModelo 4
+
+2/9/2020 7:47:29 PM;AñoFab 2016
+
+2/9/2020 7:47:29 PM;CodDocum 167967884
+
+2/9/2020 7:47:29 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:29 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:29 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:29 PM;CodMarca 535
+
+2/9/2020 7:47:29 PM;CodModelo 73
+
+2/9/2020 7:47:29 PM;CodSubModelo 4
+
+2/9/2020 7:47:29 PM;AñoFab 2016
+
+2/9/2020 7:47:29 PM;CodDocum 167967884
+
+2/9/2020 7:47:29 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:29 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:29 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:29 PM;CodMarca 535
+
+2/9/2020 7:47:29 PM;CodModelo 73
+
+2/9/2020 7:47:29 PM;CodSubModelo 4
+
+2/9/2020 7:47:29 PM;AñoFab 2016
+
+2/9/2020 7:47:29 PM;CodDocum 167967884
+
+2/9/2020 7:47:29 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:29 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:29 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:48 PM;CodMarca 535
+
+2/9/2020 7:47:48 PM;CodModelo 73
+
+2/9/2020 7:47:48 PM;CodSubModelo 4
+
+2/9/2020 7:47:48 PM;AñoFab 2016
+
+2/9/2020 7:47:48 PM;CodDocum 167967884
+
+2/9/2020 7:47:48 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:48 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:48 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:48 PM;CodMarca 535
+
+2/9/2020 7:47:48 PM;CodModelo 73
+
+2/9/2020 7:47:48 PM;CodSubModelo 4
+
+2/9/2020 7:47:48 PM;AñoFab 2016
+
+2/9/2020 7:47:48 PM;CodDocum 167967884
+
+2/9/2020 7:47:48 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:48 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:48 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:48 PM;CodMarca 535
+
+2/9/2020 7:47:48 PM;CodModelo 73
+
+2/9/2020 7:47:48 PM;CodSubModelo 4
+
+2/9/2020 7:47:48 PM;AñoFab 2016
+
+2/9/2020 7:47:48 PM;CodDocum 167967884
+
+2/9/2020 7:47:48 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:48 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:48 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:49 PM;CodMarca 535
+
+2/9/2020 7:47:49 PM;CodModelo 73
+
+2/9/2020 7:47:49 PM;CodSubModelo 4
+
+2/9/2020 7:47:49 PM;AñoFab 2016
+
+2/9/2020 7:47:49 PM;CodDocum 167967884
+
+2/9/2020 7:47:49 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:49 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:49 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:58 PM;CodMarca 535
+
+2/9/2020 7:47:58 PM;CodModelo 73
+
+2/9/2020 7:47:58 PM;CodSubModelo 4
+
+2/9/2020 7:47:58 PM;AñoFab 2016
+
+2/9/2020 7:47:58 PM;CodDocum 167967884
+
+2/9/2020 7:47:58 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:58 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:58 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:58 PM;CodMarca 535
+
+2/9/2020 7:47:58 PM;CodModelo 73
+
+2/9/2020 7:47:58 PM;CodSubModelo 4
+
+2/9/2020 7:47:58 PM;AñoFab 2016
+
+2/9/2020 7:47:58 PM;CodDocum 167967884
+
+2/9/2020 7:47:58 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:58 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:58 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:58 PM;CodMarca 535
+
+2/9/2020 7:47:58 PM;CodModelo 73
+
+2/9/2020 7:47:58 PM;CodSubModelo 4
+
+2/9/2020 7:47:58 PM;AñoFab 2016
+
+2/9/2020 7:47:58 PM;CodDocum 167967884
+
+2/9/2020 7:47:58 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:58 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:58 PM;Error Cotizar : 1001
+
+2/9/2020 7:47:58 PM;CodMarca 535
+
+2/9/2020 7:47:58 PM;CodModelo 73
+
+2/9/2020 7:47:58 PM;CodSubModelo 4
+
+2/9/2020 7:47:58 PM;AñoFab 2016
+
+2/9/2020 7:47:58 PM;CodDocum 167967884
+
+2/9/2020 7:47:58 PM;CodDocumAseg 190810739
+
+2/9/2020 7:47:58 PM;NumMatricula HHCG78
+
+2/9/2020 7:47:58 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:12 PM;CodMarca 535
+
+2/9/2020 7:48:12 PM;CodModelo 73
+
+2/9/2020 7:48:12 PM;CodSubModelo 4
+
+2/9/2020 7:48:12 PM;AñoFab 2016
+
+2/9/2020 7:48:12 PM;CodDocum 167967884
+
+2/9/2020 7:48:12 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:12 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:12 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:12 PM;CodMarca 535
+
+2/9/2020 7:48:12 PM;CodModelo 73
+
+2/9/2020 7:48:12 PM;CodSubModelo 4
+
+2/9/2020 7:48:12 PM;AñoFab 2016
+
+2/9/2020 7:48:12 PM;CodDocum 167967884
+
+2/9/2020 7:48:12 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:12 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:12 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:12 PM;CodMarca 535
+
+2/9/2020 7:48:12 PM;CodModelo 73
+
+2/9/2020 7:48:12 PM;CodSubModelo 4
+
+2/9/2020 7:48:12 PM;AñoFab 2016
+
+2/9/2020 7:48:12 PM;CodDocum 167967884
+
+2/9/2020 7:48:12 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:12 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:12 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:12 PM;CodMarca 535
+
+2/9/2020 7:48:12 PM;CodModelo 73
+
+2/9/2020 7:48:12 PM;CodSubModelo 4
+
+2/9/2020 7:48:12 PM;AñoFab 2016
+
+2/9/2020 7:48:12 PM;CodDocum 167967884
+
+2/9/2020 7:48:12 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:12 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:12 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:20 PM;CodMarca 535
+
+2/9/2020 7:48:20 PM;CodModelo 73
+
+2/9/2020 7:48:20 PM;CodSubModelo 4
+
+2/9/2020 7:48:20 PM;AñoFab 2016
+
+2/9/2020 7:48:20 PM;CodDocum 167967884
+
+2/9/2020 7:48:20 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:20 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:20 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:20 PM;CodMarca 535
+
+2/9/2020 7:48:20 PM;CodModelo 73
+
+2/9/2020 7:48:20 PM;CodSubModelo 4
+
+2/9/2020 7:48:20 PM;AñoFab 2016
+
+2/9/2020 7:48:20 PM;CodDocum 167967884
+
+2/9/2020 7:48:20 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:20 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:20 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:21 PM;CodMarca 535
+
+2/9/2020 7:48:21 PM;CodModelo 73
+
+2/9/2020 7:48:21 PM;CodSubModelo 4
+
+2/9/2020 7:48:21 PM;AñoFab 2016
+
+2/9/2020 7:48:21 PM;CodDocum 167967884
+
+2/9/2020 7:48:21 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:21 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:21 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:21 PM;CodMarca 535
+
+2/9/2020 7:48:21 PM;CodModelo 73
+
+2/9/2020 7:48:21 PM;CodSubModelo 4
+
+2/9/2020 7:48:21 PM;AñoFab 2016
+
+2/9/2020 7:48:21 PM;CodDocum 167967884
+
+2/9/2020 7:48:21 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:21 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:21 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:27 PM;CodMarca 535
+
+2/9/2020 7:48:27 PM;CodModelo 73
+
+2/9/2020 7:48:27 PM;CodSubModelo 4
+
+2/9/2020 7:48:27 PM;AñoFab 2016
+
+2/9/2020 7:48:27 PM;CodDocum 167967884
+
+2/9/2020 7:48:27 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:27 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:27 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:27 PM;CodMarca 535
+
+2/9/2020 7:48:27 PM;CodModelo 73
+
+2/9/2020 7:48:27 PM;CodSubModelo 4
+
+2/9/2020 7:48:27 PM;AñoFab 2016
+
+2/9/2020 7:48:27 PM;CodDocum 167967884
+
+2/9/2020 7:48:27 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:27 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:27 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:27 PM;CodMarca 535
+
+2/9/2020 7:48:27 PM;CodModelo 73
+
+2/9/2020 7:48:27 PM;CodSubModelo 4
+
+2/9/2020 7:48:27 PM;AñoFab 2016
+
+2/9/2020 7:48:27 PM;CodDocum 167967884
+
+2/9/2020 7:48:27 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:27 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:27 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:27 PM;CodMarca 535
+
+2/9/2020 7:48:27 PM;CodModelo 73
+
+2/9/2020 7:48:27 PM;CodSubModelo 4
+
+2/9/2020 7:48:27 PM;AñoFab 2016
+
+2/9/2020 7:48:27 PM;CodDocum 167967884
+
+2/9/2020 7:48:27 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:27 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:27 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:33 PM;CodMarca 535
+
+2/9/2020 7:48:33 PM;CodModelo 73
+
+2/9/2020 7:48:33 PM;CodSubModelo 4
+
+2/9/2020 7:48:33 PM;AñoFab 2016
+
+2/9/2020 7:48:33 PM;CodDocum 167967884
+
+2/9/2020 7:48:33 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:33 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:33 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:33 PM;CodMarca 535
+
+2/9/2020 7:48:33 PM;CodModelo 73
+
+2/9/2020 7:48:33 PM;CodSubModelo 4
+
+2/9/2020 7:48:33 PM;AñoFab 2016
+
+2/9/2020 7:48:33 PM;CodDocum 167967884
+
+2/9/2020 7:48:33 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:33 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:33 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:33 PM;CodMarca 535
+
+2/9/2020 7:48:33 PM;CodModelo 73
+
+2/9/2020 7:48:33 PM;CodSubModelo 4
+
+2/9/2020 7:48:33 PM;AñoFab 2016
+
+2/9/2020 7:48:33 PM;CodDocum 167967884
+
+2/9/2020 7:48:33 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:33 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:33 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:34 PM;CodMarca 535
+
+2/9/2020 7:48:34 PM;CodModelo 73
+
+2/9/2020 7:48:34 PM;CodSubModelo 4
+
+2/9/2020 7:48:34 PM;AñoFab 2016
+
+2/9/2020 7:48:34 PM;CodDocum 167967884
+
+2/9/2020 7:48:34 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:34 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:34 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:42 PM;CodMarca 535
+
+2/9/2020 7:48:42 PM;CodModelo 73
+
+2/9/2020 7:48:42 PM;CodSubModelo 4
+
+2/9/2020 7:48:42 PM;AñoFab 2016
+
+2/9/2020 7:48:42 PM;CodDocum 167967884
+
+2/9/2020 7:48:42 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:42 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:42 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:42 PM;CodMarca 535
+
+2/9/2020 7:48:42 PM;CodModelo 73
+
+2/9/2020 7:48:42 PM;CodSubModelo 4
+
+2/9/2020 7:48:42 PM;AñoFab 2016
+
+2/9/2020 7:48:42 PM;CodDocum 167967884
+
+2/9/2020 7:48:42 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:42 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:42 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:43 PM;CodMarca 535
+
+2/9/2020 7:48:43 PM;CodModelo 73
+
+2/9/2020 7:48:43 PM;CodSubModelo 4
+
+2/9/2020 7:48:43 PM;AñoFab 2016
+
+2/9/2020 7:48:43 PM;CodDocum 167967884
+
+2/9/2020 7:48:43 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:43 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:43 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:43 PM;CodMarca 535
+
+2/9/2020 7:48:43 PM;CodModelo 73
+
+2/9/2020 7:48:43 PM;CodSubModelo 4
+
+2/9/2020 7:48:43 PM;AñoFab 2016
+
+2/9/2020 7:48:43 PM;CodDocum 167967884
+
+2/9/2020 7:48:43 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:43 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:43 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:54 PM;CodMarca 535
+
+2/9/2020 7:48:54 PM;CodModelo 73
+
+2/9/2020 7:48:54 PM;CodSubModelo 4
+
+2/9/2020 7:48:54 PM;AñoFab 2016
+
+2/9/2020 7:48:54 PM;CodDocum 167967884
+
+2/9/2020 7:48:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:54 PM;CodMarca 535
+
+2/9/2020 7:48:54 PM;CodModelo 73
+
+2/9/2020 7:48:54 PM;CodSubModelo 4
+
+2/9/2020 7:48:54 PM;AñoFab 2016
+
+2/9/2020 7:48:54 PM;CodDocum 167967884
+
+2/9/2020 7:48:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:54 PM;CodMarca 535
+
+2/9/2020 7:48:54 PM;CodModelo 73
+
+2/9/2020 7:48:54 PM;CodSubModelo 4
+
+2/9/2020 7:48:54 PM;AñoFab 2016
+
+2/9/2020 7:48:54 PM;CodDocum 167967884
+
+2/9/2020 7:48:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:48:54 PM;CodMarca 535
+
+2/9/2020 7:48:54 PM;CodModelo 73
+
+2/9/2020 7:48:54 PM;CodSubModelo 4
+
+2/9/2020 7:48:54 PM;AñoFab 2016
+
+2/9/2020 7:48:54 PM;CodDocum 167967884
+
+2/9/2020 7:48:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:48:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:48:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:36 PM;CodMarca 535
+
+2/9/2020 7:49:36 PM;CodModelo 73
+
+2/9/2020 7:49:36 PM;CodSubModelo 4
+
+2/9/2020 7:49:36 PM;AñoFab 2016
+
+2/9/2020 7:49:36 PM;CodDocum 167967884
+
+2/9/2020 7:49:36 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:36 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:36 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:37 PM;CodMarca 535
+
+2/9/2020 7:49:37 PM;CodModelo 73
+
+2/9/2020 7:49:37 PM;CodSubModelo 4
+
+2/9/2020 7:49:37 PM;AñoFab 2016
+
+2/9/2020 7:49:37 PM;CodDocum 167967884
+
+2/9/2020 7:49:37 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:37 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:37 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:37 PM;CodMarca 535
+
+2/9/2020 7:49:37 PM;CodModelo 73
+
+2/9/2020 7:49:37 PM;CodSubModelo 4
+
+2/9/2020 7:49:37 PM;AñoFab 2016
+
+2/9/2020 7:49:37 PM;CodDocum 167967884
+
+2/9/2020 7:49:37 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:37 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:37 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:37 PM;CodMarca 535
+
+2/9/2020 7:49:37 PM;CodModelo 73
+
+2/9/2020 7:49:37 PM;CodSubModelo 4
+
+2/9/2020 7:49:37 PM;AñoFab 2016
+
+2/9/2020 7:49:37 PM;CodDocum 167967884
+
+2/9/2020 7:49:37 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:37 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:37 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:46 PM;CodMarca 535
+
+2/9/2020 7:49:46 PM;CodModelo 73
+
+2/9/2020 7:49:46 PM;CodSubModelo 4
+
+2/9/2020 7:49:46 PM;AñoFab 2016
+
+2/9/2020 7:49:46 PM;CodDocum 167967884
+
+2/9/2020 7:49:46 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:46 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:46 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:46 PM;CodMarca 535
+
+2/9/2020 7:49:46 PM;CodModelo 73
+
+2/9/2020 7:49:46 PM;CodSubModelo 4
+
+2/9/2020 7:49:46 PM;AñoFab 2016
+
+2/9/2020 7:49:46 PM;CodDocum 167967884
+
+2/9/2020 7:49:46 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:46 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:46 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:46 PM;CodMarca 535
+
+2/9/2020 7:49:46 PM;CodModelo 73
+
+2/9/2020 7:49:46 PM;CodSubModelo 4
+
+2/9/2020 7:49:46 PM;AñoFab 2016
+
+2/9/2020 7:49:46 PM;CodDocum 167967884
+
+2/9/2020 7:49:46 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:46 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:46 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:46 PM;CodMarca 535
+
+2/9/2020 7:49:46 PM;CodModelo 73
+
+2/9/2020 7:49:46 PM;CodSubModelo 4
+
+2/9/2020 7:49:46 PM;AñoFab 2016
+
+2/9/2020 7:49:46 PM;CodDocum 167967884
+
+2/9/2020 7:49:46 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:46 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:46 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:54 PM;CodMarca 535
+
+2/9/2020 7:49:54 PM;CodModelo 73
+
+2/9/2020 7:49:54 PM;CodSubModelo 4
+
+2/9/2020 7:49:54 PM;AñoFab 2016
+
+2/9/2020 7:49:54 PM;CodDocum 167967884
+
+2/9/2020 7:49:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:54 PM;CodMarca 535
+
+2/9/2020 7:49:54 PM;CodModelo 73
+
+2/9/2020 7:49:54 PM;CodSubModelo 4
+
+2/9/2020 7:49:54 PM;AñoFab 2016
+
+2/9/2020 7:49:54 PM;CodDocum 167967884
+
+2/9/2020 7:49:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:54 PM;CodMarca 535
+
+2/9/2020 7:49:54 PM;CodModelo 73
+
+2/9/2020 7:49:54 PM;CodSubModelo 4
+
+2/9/2020 7:49:54 PM;AñoFab 2016
+
+2/9/2020 7:49:54 PM;CodDocum 167967884
+
+2/9/2020 7:49:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:49:54 PM;CodMarca 535
+
+2/9/2020 7:49:54 PM;CodModelo 73
+
+2/9/2020 7:49:54 PM;CodSubModelo 4
+
+2/9/2020 7:49:54 PM;AñoFab 2016
+
+2/9/2020 7:49:54 PM;CodDocum 167967884
+
+2/9/2020 7:49:54 PM;CodDocumAseg 190810739
+
+2/9/2020 7:49:54 PM;NumMatricula HHCG78
+
+2/9/2020 7:49:54 PM;Error Cotizar : 1001
+
+2/9/2020 7:50:01 PM;CodMarca 535
+
+2/9/2020 7:50:01 PM;CodModelo 73
+
+2/9/2020 7:50:01 PM;CodSubModelo 4
+
+2/9/2020 7:50:01 PM;AñoFab 2016
+
+2/9/2020 7:50:01 PM;CodDocum 167967884
+
+2/9/2020 7:50:01 PM;CodDocumAseg 190810739
+
+2/9/2020 7:50:01 PM;NumMatricula HHCG78
+
+2/9/2020 7:50:01 PM;Error Cotizar : 1001
+
+2/9/2020 7:50:01 PM;CodMarca 535
+
+2/9/2020 7:50:01 PM;CodModelo 73
+
+2/9/2020 7:50:01 PM;CodSubModelo 4
+
+2/9/2020 7:50:01 PM;AñoFab 2016
+
+2/9/2020 7:50:01 PM;CodDocum 167967884
+
+2/9/2020 7:50:01 PM;CodDocumAseg 190810739
+
+2/9/2020 7:50:01 PM;NumMatricula HHCG78
+
+2/9/2020 7:50:01 PM;Error Cotizar : 1001
+
+2/9/2020 7:50:01 PM;CodMarca 535
+
+2/9/2020 7:50:01 PM;CodModelo 73
+
+2/9/2020 7:50:01 PM;CodSubModelo 4
+
+2/9/2020 7:50:01 PM;AñoFab 2016
+
+2/9/2020 7:50:01 PM;CodDocum 167967884
+
+2/9/2020 7:50:01 PM;CodDocumAseg 190810739
+
+2/9/2020 7:50:01 PM;NumMatricula HHCG78
+
+2/9/2020 7:50:01 PM;Error Cotizar : 1001
+
+2/9/2020 7:50:01 PM;CodMarca 535
+
+2/9/2020 7:50:01 PM;CodModelo 73
+
+2/9/2020 7:50:01 PM;CodSubModelo 4
+
+2/9/2020 7:50:01 PM;AñoFab 2016
+
+2/9/2020 7:50:01 PM;CodDocum 167967884
+
+2/9/2020 7:50:01 PM;CodDocumAseg 190810739
+
+2/9/2020 7:50:01 PM;NumMatricula HHCG78
+
+2/9/2020 7:50:01 PM;Error Cotizar : 1001
+
+2/9/2020 7:50:09 PM;CodMarca 535
+
+2/9/2020 7:50:09 PM;CodModelo 73
+
+2/9/2020 7:50:09 PM;CodSubModelo 4
+
+2/9/2020 7:50:09 PM;AñoFab 2016
+
+2/9/2020 7:50:09 PM;CodDocum 167967884
+
+2/9/2020 7:50:09 PM;CodDocumAseg 190810739
+
+2/9/2020 7:50:09 PM;NumMatricula HHCG78
+
+2/9/2020 7:50:09 PM;Error Cotizar : 1001
+
+2/9/2020 7:50:09 PM;CodMarca 535
+
+2/9/2020 7:50:09 PM;CodModelo 73
+
+2/9/2020 7:50:09 PM;CodSubModelo 4
+
+2/9/2020 7:50:09 PM;AñoFab 2016
+
+2/9/2020 7:50:09 PM;CodDocum 167967884
+
+2/9/2020 7:50:09 PM;CodDocumAseg 190810739
+
+2/9/2020 7:50:09 PM;NumMatricula HHCG78
+
+2/9/2020 7:50:09 PM;Error Cotizar : 1001
+
+2/9/2020 7:50:09 PM;CodMarca 535
+
+2/9/2020 7:50:09 PM;CodModelo 73
+
+2/9/2020 7:50:09 PM;CodSubModelo 4
+
+2/9/2020 7:50:09 PM;AñoFab 2016
+
+2/9/2020 7:50:09 PM;CodDocum 167967884
+
+2/9/2020 7:50:10 PM;CodDocumAseg 190810739
+
+2/9/2020 7:50:10 PM;NumMatricula HHCG78
+
+2/9/2020 7:50:10 PM;Error Cotizar : 1001
+
+2/9/2020 7:50:10 PM;CodMarca 535
+
+2/9/2020 7:50:10 PM;CodModelo 73
+
+2/9/2020 7:50:10 PM;CodSubModelo 4
+
+2/9/2020 7:50:10 PM;AñoFab 2016
+
+2/9/2020 7:50:10 PM;CodDocum 167967884
+
+2/9/2020 7:50:10 PM;CodDocumAseg 190810739
+
+2/9/2020 7:50:10 PM;NumMatricula HHCG78
+
+2/9/2020 7:50:10 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:20 PM;CodMarca 535
+
+2/9/2020 7:56:20 PM;CodModelo 73
+
+2/9/2020 7:56:20 PM;CodSubModelo 4
+
+2/9/2020 7:56:20 PM;AñoFab 2016
+
+2/9/2020 7:56:20 PM;CodDocum 167967884
+
+2/9/2020 7:56:20 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:20 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:20 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:20 PM;CodMarca 535
+
+2/9/2020 7:56:20 PM;CodModelo 73
+
+2/9/2020 7:56:20 PM;CodSubModelo 4
+
+2/9/2020 7:56:20 PM;AñoFab 2016
+
+2/9/2020 7:56:20 PM;CodDocum 167967884
+
+2/9/2020 7:56:20 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:20 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:20 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:20 PM;CodMarca 535
+
+2/9/2020 7:56:20 PM;CodModelo 73
+
+2/9/2020 7:56:20 PM;CodSubModelo 4
+
+2/9/2020 7:56:20 PM;AñoFab 2016
+
+2/9/2020 7:56:20 PM;CodDocum 167967884
+
+2/9/2020 7:56:20 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:20 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:20 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:20 PM;CodMarca 535
+
+2/9/2020 7:56:20 PM;CodModelo 73
+
+2/9/2020 7:56:20 PM;CodSubModelo 4
+
+2/9/2020 7:56:20 PM;AñoFab 2016
+
+2/9/2020 7:56:20 PM;CodDocum 167967884
+
+2/9/2020 7:56:20 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:20 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:20 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:33 PM;CodMarca 535
+
+2/9/2020 7:56:33 PM;CodModelo 73
+
+2/9/2020 7:56:33 PM;CodSubModelo 4
+
+2/9/2020 7:56:33 PM;AñoFab 2016
+
+2/9/2020 7:56:33 PM;CodDocum 167967884
+
+2/9/2020 7:56:33 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:33 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:33 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:34 PM;CodMarca 535
+
+2/9/2020 7:56:34 PM;CodModelo 73
+
+2/9/2020 7:56:34 PM;CodSubModelo 4
+
+2/9/2020 7:56:34 PM;AñoFab 2016
+
+2/9/2020 7:56:34 PM;CodDocum 167967884
+
+2/9/2020 7:56:34 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:34 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:34 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:34 PM;CodMarca 535
+
+2/9/2020 7:56:34 PM;CodModelo 73
+
+2/9/2020 7:56:34 PM;CodSubModelo 4
+
+2/9/2020 7:56:34 PM;AñoFab 2016
+
+2/9/2020 7:56:34 PM;CodDocum 167967884
+
+2/9/2020 7:56:34 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:34 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:34 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:34 PM;CodMarca 535
+
+2/9/2020 7:56:34 PM;CodModelo 73
+
+2/9/2020 7:56:34 PM;CodSubModelo 4
+
+2/9/2020 7:56:34 PM;AñoFab 2016
+
+2/9/2020 7:56:34 PM;CodDocum 167967884
+
+2/9/2020 7:56:34 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:34 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:34 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:45 PM;CodMarca 535
+
+2/9/2020 7:56:45 PM;CodModelo 73
+
+2/9/2020 7:56:45 PM;CodSubModelo 4
+
+2/9/2020 7:56:45 PM;AñoFab 2016
+
+2/9/2020 7:56:45 PM;CodDocum 167967884
+
+2/9/2020 7:56:45 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:45 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:45 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:45 PM;CodMarca 535
+
+2/9/2020 7:56:45 PM;CodModelo 73
+
+2/9/2020 7:56:45 PM;CodSubModelo 4
+
+2/9/2020 7:56:45 PM;AñoFab 2016
+
+2/9/2020 7:56:45 PM;CodDocum 167967884
+
+2/9/2020 7:56:45 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:45 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:45 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:45 PM;CodMarca 535
+
+2/9/2020 7:56:45 PM;CodModelo 73
+
+2/9/2020 7:56:45 PM;CodSubModelo 4
+
+2/9/2020 7:56:45 PM;AñoFab 2016
+
+2/9/2020 7:56:45 PM;CodDocum 167967884
+
+2/9/2020 7:56:45 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:45 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:45 PM;Error Cotizar : 1001
+
+2/9/2020 7:56:45 PM;CodMarca 535
+
+2/9/2020 7:56:45 PM;CodModelo 73
+
+2/9/2020 7:56:45 PM;CodSubModelo 4
+
+2/9/2020 7:56:45 PM;AñoFab 2016
+
+2/9/2020 7:56:45 PM;CodDocum 167967884
+
+2/9/2020 7:56:45 PM;CodDocumAseg 190810739
+
+2/9/2020 7:56:45 PM;NumMatricula HHCG78
+
+2/9/2020 7:56:45 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:14 PM;CodMarca 535
+
+2/9/2020 7:57:14 PM;CodModelo 73
+
+2/9/2020 7:57:14 PM;CodSubModelo 4
+
+2/9/2020 7:57:14 PM;AñoFab 2016
+
+2/9/2020 7:57:14 PM;CodDocum 167967884
+
+2/9/2020 7:57:14 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:14 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:14 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:14 PM;CodMarca 535
+
+2/9/2020 7:57:14 PM;CodModelo 73
+
+2/9/2020 7:57:14 PM;CodSubModelo 4
+
+2/9/2020 7:57:14 PM;AñoFab 2016
+
+2/9/2020 7:57:14 PM;CodDocum 167967884
+
+2/9/2020 7:57:14 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:14 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:14 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:14 PM;CodMarca 535
+
+2/9/2020 7:57:14 PM;CodModelo 73
+
+2/9/2020 7:57:14 PM;CodSubModelo 4
+
+2/9/2020 7:57:14 PM;AñoFab 2016
+
+2/9/2020 7:57:14 PM;CodDocum 167967884
+
+2/9/2020 7:57:14 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:14 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:14 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:14 PM;CodMarca 535
+
+2/9/2020 7:57:14 PM;CodModelo 73
+
+2/9/2020 7:57:14 PM;CodSubModelo 4
+
+2/9/2020 7:57:14 PM;AñoFab 2016
+
+2/9/2020 7:57:14 PM;CodDocum 167967884
+
+2/9/2020 7:57:14 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:14 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:14 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:28 PM;CodMarca 535
+
+2/9/2020 7:57:28 PM;CodModelo 73
+
+2/9/2020 7:57:28 PM;CodSubModelo 4
+
+2/9/2020 7:57:28 PM;AñoFab 2016
+
+2/9/2020 7:57:28 PM;CodDocum 167967884
+
+2/9/2020 7:57:28 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:28 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:28 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:28 PM;CodMarca 535
+
+2/9/2020 7:57:28 PM;CodModelo 73
+
+2/9/2020 7:57:28 PM;CodSubModelo 4
+
+2/9/2020 7:57:28 PM;AñoFab 2016
+
+2/9/2020 7:57:28 PM;CodDocum 167967884
+
+2/9/2020 7:57:28 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:28 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:28 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:28 PM;CodMarca 535
+
+2/9/2020 7:57:28 PM;CodModelo 73
+
+2/9/2020 7:57:28 PM;CodSubModelo 4
+
+2/9/2020 7:57:28 PM;AñoFab 2016
+
+2/9/2020 7:57:28 PM;CodDocum 167967884
+
+2/9/2020 7:57:28 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:28 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:28 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:28 PM;CodMarca 535
+
+2/9/2020 7:57:28 PM;CodModelo 73
+
+2/9/2020 7:57:28 PM;CodSubModelo 4
+
+2/9/2020 7:57:28 PM;AñoFab 2016
+
+2/9/2020 7:57:28 PM;CodDocum 167967884
+
+2/9/2020 7:57:28 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:28 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:28 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:38 PM;CodMarca 535
+
+2/9/2020 7:57:38 PM;CodModelo 73
+
+2/9/2020 7:57:38 PM;CodSubModelo 4
+
+2/9/2020 7:57:38 PM;AñoFab 2016
+
+2/9/2020 7:57:38 PM;CodDocum 167967884
+
+2/9/2020 7:57:38 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:38 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:38 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:38 PM;CodMarca 535
+
+2/9/2020 7:57:38 PM;CodModelo 73
+
+2/9/2020 7:57:38 PM;CodSubModelo 4
+
+2/9/2020 7:57:38 PM;AñoFab 2016
+
+2/9/2020 7:57:38 PM;CodDocum 167967884
+
+2/9/2020 7:57:38 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:38 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:38 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:38 PM;CodMarca 535
+
+2/9/2020 7:57:38 PM;CodModelo 73
+
+2/9/2020 7:57:38 PM;CodSubModelo 4
+
+2/9/2020 7:57:38 PM;AñoFab 2016
+
+2/9/2020 7:57:38 PM;CodDocum 167967884
+
+2/9/2020 7:57:38 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:38 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:38 PM;Error Cotizar : 1001
+
+2/9/2020 7:57:38 PM;CodMarca 535
+
+2/9/2020 7:57:38 PM;CodModelo 73
+
+2/9/2020 7:57:38 PM;CodSubModelo 4
+
+2/9/2020 7:57:38 PM;AñoFab 2016
+
+2/9/2020 7:57:38 PM;CodDocum 167967884
+
+2/9/2020 7:57:38 PM;CodDocumAseg 190810739
+
+2/9/2020 7:57:38 PM;NumMatricula HHCG78
+
+2/9/2020 7:57:38 PM;Error Cotizar : 1001
+
+2/9/2020 7:59:05 PM;CodMarca 520
+
+2/9/2020 7:59:05 PM;CodModelo 80
+
+2/9/2020 7:59:05 PM;CodSubModelo 2
+
+2/9/2020 7:59:05 PM;AñoFab 2019
+
+2/9/2020 7:59:05 PM;CodDocum 108726466
+
+2/9/2020 7:59:05 PM;CodDocumAseg 171902568
+
+2/9/2020 7:59:05 PM;NumMatricula LPGR68
+
+2/9/2020 7:59:05 PM;Error Cotizar : 1001
+
+2/9/2020 7:59:05 PM;CodMarca 520
+
+2/9/2020 7:59:05 PM;CodModelo 80
+
+2/9/2020 7:59:05 PM;CodSubModelo 2
+
+2/9/2020 7:59:05 PM;AñoFab 2019
+
+2/9/2020 7:59:05 PM;CodDocum 108726466
+
+2/9/2020 7:59:05 PM;CodDocumAseg 171902568
+
+2/9/2020 7:59:05 PM;NumMatricula LPGR68
+
+2/9/2020 7:59:05 PM;Error Cotizar : 1001
+
+2/9/2020 7:59:06 PM;CodMarca 520
+
+2/9/2020 7:59:06 PM;CodModelo 80
+
+2/9/2020 7:59:06 PM;CodSubModelo 2
+
+2/9/2020 7:59:06 PM;AñoFab 2019
+
+2/9/2020 7:59:06 PM;CodDocum 108726466
+
+2/9/2020 7:59:06 PM;CodDocumAseg 171902568
+
+2/9/2020 7:59:06 PM;NumMatricula LPGR68
+
+2/9/2020 7:59:06 PM;Error Cotizar : 1001
+
+2/9/2020 7:59:06 PM;CodMarca 520
+
+2/9/2020 7:59:06 PM;CodModelo 80
+
+2/9/2020 7:59:06 PM;CodSubModelo 2
+
+2/9/2020 7:59:06 PM;AñoFab 2019
+
+2/9/2020 7:59:06 PM;CodDocum 108726466
+
+2/9/2020 7:59:06 PM;CodDocumAseg 171902568
+
+2/9/2020 7:59:06 PM;NumMatricula LPGR68
+
+2/9/2020 7:59:06 PM;Error Cotizar : 1001
+
+2/9/2020 8:07:23 PM;GrabaTabladeDesctoPAT
+
+2/9/2020 8:07:23 PM;8012000063461
+
+2/9/2020 8:07:23 PM;5
+
+2/9/2020 8:07:23 PM;9.88
+
+2/9/2020 8:07:23 PM;9.39
+
+2/9/2020 8:07:23 PM;11.76
+
+2/9/2020 8:07:23 PM;11.17
+
+2/9/2020 8:07:28 PM;ExisteInspeccion post
+
+2/9/2020 8:07:31 PM;dvDeclaracionEstado.Visible
+
+2/9/2020 8:07:31 PM;8003
+
+2/9/2020 8:07:31 PM;0
+
+2/9/2020 8:07:31 PM;FALSE
+
+2/9/2020 8:18:06 PM;GrabaTabladeDesctoPAT
+
+2/9/2020 8:18:06 PM;8012000063461
+
+2/9/2020 8:18:06 PM;GD
+
+2/9/2020 8:21:57 PM;GrabaTabladeDesctoPAT
+
+2/9/2020 8:21:57 PM;8012000058113
+
+2/9/2020 8:21:57 PM;5
+
+2/9/2020 8:21:57 PM;9.94
+
+2/9/2020 8:21:57 PM;9.44
+
+2/9/2020 8:21:57 PM;11.83
+
+2/9/2020 8:21:57 PM;11.24
+
+2/9/2020 8:22:09 PM;ExisteInspeccion post
+
+2/9/2020 8:22:10 PM;dvDeclaracionEstado.Visible
+
+2/9/2020 8:22:10 PM;8003
+
+2/9/2020 8:22:10 PM;0
+
+2/9/2020 8:22:10 PM;FALSE
+
+2/9/2020 8:27:03 PM;GrabaTabladeDesctoPAT
+
+2/9/2020 8:27:03 PM;8012000058113
+
+2/9/2020 8:27:03 PM;GD
+
+2/9/2020 9:10:33 PM;CodMarca 505
+
+2/9/2020 9:10:33 PM;CodModelo 45
+
+2/9/2020 9:10:33 PM;CodSubModelo 3
+
+2/9/2020 9:10:33 PM;AñoFab 2013
+
+2/9/2020 9:10:33 PM;CodDocum 68789567
+
+2/9/2020 9:10:33 PM;CodDocumAseg 187658527
+
+2/9/2020 9:10:33 PM;NumMatricula FKYX60
+
+2/9/2020 9:10:33 PM;Error Cotizar : 1001
+
+2/9/2020 9:10:33 PM;CodMarca 505
+
+2/9/2020 9:10:33 PM;CodModelo 45
+
+2/9/2020 9:10:33 PM;CodSubModelo 3
+
+2/9/2020 9:10:33 PM;AñoFab 2013
+
+2/9/2020 9:10:33 PM;CodDocum 68789567
+
+2/9/2020 9:10:33 PM;CodDocumAseg 187658527
+
+2/9/2020 9:10:33 PM;NumMatricula FKYX60
+
+2/9/2020 9:10:33 PM;Error Cotizar : 1001
+
+2/9/2020 9:10:33 PM;CodMarca 505
+
+2/9/2020 9:10:33 PM;CodModelo 45
+
+2/9/2020 9:10:33 PM;CodSubModelo 3
+
+2/9/2020 9:10:33 PM;AñoFab 2013
+
+2/9/2020 9:10:33 PM;CodDocum 68789567
+
+2/9/2020 9:10:33 PM;CodDocumAseg 187658527
+
+2/9/2020 9:10:33 PM;NumMatricula FKYX60
+
+2/9/2020 9:10:33 PM;Error Cotizar : 1001
+
+2/9/2020 9:10:34 PM;CodMarca 505
+
+2/9/2020 9:10:34 PM;CodModelo 45
+
+2/9/2020 9:10:34 PM;CodSubModelo 3
+
+2/9/2020 9:10:34 PM;AñoFab 2013
+
+2/9/2020 9:10:34 PM;CodDocum 68789567
+
+2/9/2020 9:10:34 PM;CodDocumAseg 187658527
+
+2/9/2020 9:10:34 PM;NumMatricula FKYX60
+
+2/9/2020 9:10:34 PM;Error Cotizar : 1001
+
+2/9/2020 9:20:29 PM;ExisteInspeccion post
+
+2/9/2020 9:33:03 PM;GrabaTabladeDesctoPAT
+
+2/9/2020 9:33:03 PM;8022000004273
+
+2/9/2020 9:33:03 PM;5
+
+2/9/2020 9:33:03 PM;18.18
+
+2/9/2020 9:33:03 PM;17.27
+
+2/9/2020 9:33:03 PM;21.63
+
+2/9/2020 9:33:03 PM;20.55
+
+2/9/2020 9:33:07 PM;ExisteInspeccion post
+
+2/9/2020 9:33:10 PM;dvDeclaracionEstado.Visible
+
+2/9/2020 9:33:10 PM;8003
+
+2/9/2020 9:33:10 PM;0
+
+2/9/2020 9:33:10 PM;FALSE
+
+2/9/2020 9:35:53 PM;GrabaTabladeDesctoPAT
+
+2/9/2020 9:35:53 PM;8022000004273
+
+2/9/2020 9:35:53 PM;TA
+
+2/9/2020 10:10:08 PM;CodMarca 140
+
+2/9/2020 10:10:08 PM;CodModelo 240
+
+2/9/2020 10:10:08 PM;CodSubModelo 23
+
+2/9/2020 10:10:08 PM;AñoFab 2016
+
+2/9/2020 10:10:08 PM;CodDocum 77002804
+
+2/9/2020 10:10:08 PM;CodDocumAseg 163955288
+
+2/9/2020 10:10:08 PM;NumMatricula HKBR90
+
+2/9/2020 10:10:08 PM;Error Cotizar : ORA-20005: ORA-20005: ORA-20004: Tabla g2009901_mcl no contiene datos
+ORA-06512: at "TRON2000.EM_P_
+
+2/9/2020 10:10:09 PM;CodMarca 140
+
+2/9/2020 10:10:09 PM;CodModelo 240
+
+2/9/2020 10:10:09 PM;CodSubModelo 23
+
+2/9/2020 10:10:09 PM;AñoFab 2016
+
+2/9/2020 10:10:09 PM;CodDocum 77002804
+
+2/9/2020 10:10:09 PM;CodDocumAseg 163955288
+
+2/9/2020 10:10:09 PM;NumMatricula HKBR90
+
+2/9/2020 10:10:09 PM;Error Cotizar : ORA-20005: ORA-20005: ORA-20004: Tabla g2009901_mcl no contiene datos
+ORA-06512: at "TRON2000.EM_P_
+
+2/9/2020 10:10:09 PM;CodMarca 140
+
+2/9/2020 10:10:09 PM;CodModelo 240
+
+2/9/2020 10:10:09 PM;CodSubModelo 23
+
+2/9/2020 10:10:09 PM;AñoFab 2016
+
+2/9/2020 10:10:09 PM;CodDocum 77002804
+
+2/9/2020 10:10:09 PM;CodDocumAseg 163955288
+
+2/9/2020 10:10:09 PM;NumMatricula HKBR90
+
+2/9/2020 10:10:09 PM;Error Cotizar : ORA-20005: ORA-20005: ORA-20004: Tabla g2009901_mcl no contiene datos
+ORA-06512: at "TRON2000.EM_P_
+
+2/9/2020 10:10:09 PM;CodMarca 140
+
+2/9/2020 10:10:09 PM;CodModelo 240
+
+2/9/2020 10:10:09 PM;CodSubModelo 23
+
+2/9/2020 10:10:09 PM;AñoFab 2016
+
+2/9/2020 10:10:09 PM;CodDocum 77002804
+
+2/9/2020 10:10:09 PM;CodDocumAseg 163955288
+
+2/9/2020 10:10:09 PM;NumMatricula HKBR90
+
+2/9/2020 10:10:09 PM;Error Cotizar : ORA-20005: ORA-20005: ORA-20004: Tabla g2009901_mcl no contiene datos
+ORA-06512: at "TRON2000.EM_P_
+
+2/9/2020 10:10:10 PM;CodMarca 140
+
+2/9/2020 10:10:10 PM;CodModelo 240
+
+2/9/2020 10:10:10 PM;CodSubModelo 23
+
+2/9/2020 10:10:10 PM;AñoFab 2016
+
+2/9/2020 10:10:10 PM;CodDocum 77002804
+
+2/9/2020 10:10:10 PM;CodDocumAseg 163955288
+
+2/9/2020 10:10:10 PM;NumMatricula HKBR90
+
+2/9/2020 10:10:10 PM;Error Cotizar : 1001
+
+2/9/2020 10:10:10 PM;CodMarca 140
+
+2/9/2020 10:10:10 PM;CodModelo 240
+
+2/9/2020 10:10:10 PM;CodSubModelo 23
+
+2/9/2020 10:10:10 PM;AñoFab 2016
+
+2/9/2020 10:10:10 PM;CodDocum 77002804
+
+2/9/2020 10:10:10 PM;CodDocumAseg 163955288
+
+2/9/2020 10:10:10 PM;NumMatricula HKBR90
+
+2/9/2020 10:10:10 PM;Error Cotizar : 1001
+
+2/9/2020 10:10:10 PM;CodMarca 140
+
+2/9/2020 10:10:10 PM;CodModelo 240
+
+2/9/2020 10:10:10 PM;CodSubModelo 23
+
+2/9/2020 10:10:10 PM;AñoFab 2016
+
+2/9/2020 10:10:10 PM;CodDocum 77002804
+
+2/9/2020 10:10:10 PM;CodDocumAseg 163955288
+
+2/9/2020 10:10:10 PM;NumMatricula HKBR90
+
+2/9/2020 10:10:10 PM;Error Cotizar : 1001
+
+2/9/2020 10:10:11 PM;CodMarca 140
+
+2/9/2020 10:10:11 PM;CodModelo 240
+
+2/9/2020 10:10:11 PM;CodSubModelo 23
+
+2/9/2020 10:10:11 PM;AñoFab 2016
+
+2/9/2020 10:10:11 PM;CodDocum 77002804
+
+2/9/2020 10:10:11 PM;CodDocumAseg 163955288
+
+2/9/2020 10:10:11 PM;NumMatricula HKBR90
+
+2/9/2020 10:10:11 PM;Error Cotizar : 1001
+
+2/9/2020 10:10:11 PM;CodMarca 140
+
+2/9/2020 10:10:11 PM;CodModelo 240
+
+2/9/2020 10:10:11 PM;CodSubModelo 23
+
+2/9/2020 10:10:11 PM;AñoFab 2016
+
+2/9/2020 10:10:11 PM;CodDocum 77002804
+
+2/9/2020 10:10:11 PM;CodDocumAseg 163955288
+
+2/9/2020 10:10:11 PM;NumMatricula HKBR90
+
+2/9/2020 10:10:11 PM;Error Cotizar : ORA-20005: ORA-20005: ORA-20004: Tabla g2009901_mcl no contiene datos
+ORA-06512: at "TRON2000.EM_P_
+
+2/9/2020 10:10:11 PM;CodMarca 140
+
+2/9/2020 10:10:11 PM;CodModelo 240
+
+2/9/2020 10:10:11 PM;CodSubModelo 23
+
+2/9/2020 10:10:11 PM;AñoFab 2016
+
+2/9/2020 10:10:11 PM;CodDocum 77002804
+
+2/9/2020 10:10:11 PM;CodDocumAseg 163955288
+
+2/9/2020 10:10:11 PM;NumMatricula HKBR90
+
+2/9/2020 10:10:11 PM;Error Cotizar : ORA-20005: ORA-20005: ORA-20004: Tabla g2009901_mcl no contiene datos
+ORA-06512: at "TRON2000.EM_P_
+
+2/9/2020 10:10:11 PM;Error Input string was not in a correct format.
+
+2/9/2020 11:11:11 PM;CodMarca 220
+
+2/9/2020 11:11:11 PM;CodModelo 122
+
+2/9/2020 11:11:11 PM;CodSubModelo 1
+
+2/9/2020 11:11:11 PM;AñoFab 2007
+
+2/9/2020 11:11:11 PM;CodDocum 83414065
+
+2/9/2020 11:11:11 PM;CodDocumAseg 156207632
+
+2/9/2020 11:11:11 PM;NumMatricula UW4068
+
+2/9/2020 11:11:11 PM;Error Cotizar : 1003
+
+2/9/2020 11:11:16 PM;CodMarca 220
+
+2/9/2020 11:11:16 PM;CodModelo 122
+
+2/9/2020 11:11:16 PM;CodSubModelo 1
+
+2/9/2020 11:11:16 PM;AñoFab 2007
+
+2/9/2020 11:11:16 PM;CodDocum 83414065
+
+2/9/2020 11:11:16 PM;CodDocumAseg 156207632
+
+2/9/2020 11:11:16 PM;NumMatricula UW4068
+
+2/9/2020 11:11:16 PM;Error Cotizar : 1001
+
+2/9/2020 11:11:16 PM;CodMarca 220
+
+2/9/2020 11:11:16 PM;CodModelo 122
+
+2/9/2020 11:11:16 PM;CodSubModelo 1
+
+2/9/2020 11:11:16 PM;AñoFab 2007
+
+2/9/2020 11:11:16 PM;CodDocum 83414065
+
+2/9/2020 11:11:16 PM;CodDocumAseg 156207632
+
+2/9/2020 11:11:16 PM;NumMatricula UW4068
+
+2/9/2020 11:11:16 PM;Error Cotizar : 1001
+
+2/9/2020 11:11:17 PM;CodMarca 220
+
+2/9/2020 11:11:17 PM;CodModelo 122
+
+2/9/2020 11:11:17 PM;CodSubModelo 1
+
+2/9/2020 11:11:17 PM;AñoFab 2007
+
+2/9/2020 11:11:17 PM;CodDocum 83414065
+
+2/9/2020 11:11:17 PM;CodDocumAseg 156207632
+
+2/9/2020 11:11:17 PM;NumMatricula UW4068
+
+2/9/2020 11:11:17 PM;Error Cotizar : 1001
+
+2/9/2020 11:11:18 PM;CodMarca 220
+
+2/9/2020 11:11:18 PM;CodModelo 122
+
+2/9/2020 11:11:18 PM;CodSubModelo 1
+
+2/9/2020 11:11:18 PM;AñoFab 2007
+
+2/9/2020 11:11:18 PM;CodDocum 83414065
+
+2/9/2020 11:11:18 PM;CodDocumAseg 156207632
+
+2/9/2020 11:11:18 PM;NumMatricula UW4068
+
+2/9/2020 11:11:18 PM;Error Cotizar : 1001
+
+2/9/2020 11:11:20 PM;Error Input string was not in a correct format.
+
+2/9/2020 11:26:49 PM;CodMarca 220
+
+2/9/2020 11:26:49 PM;CodModelo 195
+
+2/9/2020 11:26:49 PM;CodSubModelo 5
+
+2/9/2020 11:26:49 PM;AñoFab 2019
+
+2/9/2020 11:26:49 PM;CodDocum 78886498
+
+2/9/2020 11:26:49 PM;CodDocumAseg 157115235
+
+2/9/2020 11:26:49 PM;NumMatricula LSHF58
+
+2/9/2020 11:26:49 PM;Error Cotizar : 1001
+
+2/9/2020 11:26:49 PM;CodMarca 220
+
+2/9/2020 11:26:49 PM;CodModelo 195
+
+2/9/2020 11:26:49 PM;CodSubModelo 5
+
+2/9/2020 11:26:49 PM;AñoFab 2019
+
+2/9/2020 11:26:49 PM;CodDocum 78886498
+
+2/9/2020 11:26:49 PM;CodDocumAseg 157115235
+
+2/9/2020 11:26:49 PM;NumMatricula LSHF58
+
+2/9/2020 11:26:49 PM;Error Cotizar : 1001
+
+2/9/2020 11:26:49 PM;CodMarca 220
+
+2/9/2020 11:26:49 PM;CodModelo 195
+
+2/9/2020 11:26:49 PM;CodSubModelo 5
+
+2/9/2020 11:26:49 PM;AñoFab 2019
+
+2/9/2020 11:26:49 PM;CodDocum 78886498
+
+2/9/2020 11:26:49 PM;CodDocumAseg 157115235
+
+2/9/2020 11:26:49 PM;NumMatricula LSHF58
+
+2/9/2020 11:26:49 PM;Error Cotizar : 1001
+
+2/9/2020 11:26:49 PM;CodMarca 220
+
+2/9/2020 11:26:49 PM;CodModelo 195
+
+2/9/2020 11:26:49 PM;CodSubModelo 5
+
+2/9/2020 11:26:49 PM;AñoFab 2019
+
+2/9/2020 11:26:49 PM;CodDocum 78886498
+
+2/9/2020 11:26:49 PM;CodDocumAseg 157115235
+
+2/9/2020 11:26:49 PM;NumMatricula LSHF58
+
+2/9/2020 11:26:49 PM;Error Cotizar : 1001
+
+2/9/2020 11:32:54 PM;CodMarca 220
+
+2/9/2020 11:32:54 PM;CodModelo 195
+
+2/9/2020 11:32:54 PM;CodSubModelo 5
+
+2/9/2020 11:32:54 PM;AñoFab 2019
+
+2/9/2020 11:32:54 PM;CodDocum 78886498
+
+2/9/2020 11:32:54 PM;CodDocumAseg 157115235
+
+2/9/2020 11:32:54 PM;NumMatricula LSHF58
+
+2/9/2020 11:32:54 PM;Error Cotizar : 1001
+
+2/9/2020 11:32:55 PM;CodMarca 220
+
+2/9/2020 11:32:55 PM;CodModelo 195
+
+2/9/2020 11:32:55 PM;CodSubModelo 5
+
+2/9/2020 11:32:55 PM;AñoFab 2019
+
+2/9/2020 11:32:55 PM;CodDocum 78886498
+
+2/9/2020 11:32:55 PM;CodDocumAseg 157115235
+
+2/9/2020 11:32:55 PM;NumMatricula LSHF58
+
+2/9/2020 11:32:55 PM;Error Cotizar : 1001
+
+2/9/2020 11:32:55 PM;CodMarca 220
+
+2/9/2020 11:32:55 PM;CodModelo 195
+
+2/9/2020 11:32:55 PM;CodSubModelo 5
+
+2/9/2020 11:32:55 PM;AñoFab 2019
+
+2/9/2020 11:32:55 PM;CodDocum 78886498
+
+2/9/2020 11:32:55 PM;CodDocumAseg 157115235
+
+2/9/2020 11:32:55 PM;NumMatricula LSHF58
+
+2/9/2020 11:32:55 PM;Error Cotizar : 1001
+
+2/9/2020 11:32:55 PM;CodMarca 220
+
+2/9/2020 11:32:55 PM;CodModelo 195
+
+2/9/2020 11:32:55 PM;CodSubModelo 5
+
+2/9/2020 11:32:55 PM;AñoFab 2019
+
+2/9/2020 11:32:55 PM;CodDocum 78886498
+
+2/9/2020 11:32:55 PM;CodDocumAseg 157115235
+
+2/9/2020 11:32:55 PM;NumMatricula LSHF58
+
+2/9/2020 11:32:55 PM;Error Cotizar : 1001
+
+2/9/2020 11:41:48 PM;GrabaTabladeDesctoPAT
+
+2/9/2020 11:41:48 PM;8012000063489
+
+2/9/2020 11:41:48 PM;5
+
+2/9/2020 11:41:48 PM;9.17
+
+2/9/2020 11:41:48 PM;8.71
+
+2/9/2020 11:41:48 PM;10.91
+
+2/9/2020 11:41:48 PM;10.36
+
+2/9/2020 11:41:51 PM;ExisteInspeccion post
+
+2/9/2020 11:41:52 PM;dvDeclaracionEstado.Visible
+
+2/9/2020 11:41:52 PM;8120
+
+2/9/2020 11:41:52 PM;0
+
+2/9/2020 11:41:52 PM;FALSE
+
+2/9/2020 11:51:34 PM;CodMarca 135
+
+2/9/2020 11:51:34 PM;CodModelo 225
+
+2/9/2020 11:51:34 PM;CodSubModelo 999
+
+2/9/2020 11:51:34 PM;AñoFab 2020
+
+2/9/2020 11:51:34 PM;CodDocum 132972249
+
+2/9/2020 11:51:34 PM;CodDocumAseg 190034267
+
+2/9/2020 11:51:34 PM;NumMatricula A/D
+
+2/9/2020 11:51:34 PM;Error Cotizar : 1001
+
+2/9/2020 11:51:34 PM;CodMarca 135
+
+2/9/2020 11:51:34 PM;CodModelo 225
+
+2/9/2020 11:51:34 PM;CodSubModelo 999
+
+2/9/2020 11:51:34 PM;AñoFab 2020
+
+2/9/2020 11:51:34 PM;CodDocum 132972249
+
+2/9/2020 11:51:34 PM;CodDocumAseg 190034267
+
+2/9/2020 11:51:34 PM;NumMatricula A/D
+
+2/9/2020 11:51:34 PM;Error Cotizar : 1001
+
+2/9/2020 11:51:34 PM;CodMarca 135
+
+2/9/2020 11:51:34 PM;CodModelo 225
+
+2/9/2020 11:51:34 PM;CodSubModelo 999
+
+2/9/2020 11:51:34 PM;AñoFab 2020
+
+2/9/2020 11:51:34 PM;CodDocum 132972249
+
+2/9/2020 11:51:34 PM;CodDocumAseg 190034267
+
+2/9/2020 11:51:34 PM;NumMatricula A/D
+
+2/9/2020 11:51:34 PM;Error Cotizar : 1001
+
+2/9/2020 11:51:34 PM;CodMarca 135
+
+2/9/2020 11:51:34 PM;CodModelo 225
+
+2/9/2020 11:51:34 PM;CodSubModelo 999
+
+2/9/2020 11:51:34 PM;AñoFab 2020
+
+2/9/2020 11:51:34 PM;CodDocum 132972249
+
+2/9/2020 11:51:34 PM;CodDocumAseg 190034267
+
+2/9/2020 11:51:34 PM;NumMatricula A/D
+
+2/9/2020 11:51:34 PM;Error Cotizar : 1001
+
+2/9/2020 11:52:11 PM;CodMarca 140
+
+2/9/2020 11:52:11 PM;CodModelo 535
+
+2/9/2020 11:52:11 PM;CodSubModelo 6
+
+2/9/2020 11:52:11 PM;AñoFab 2020
+
+2/9/2020 11:52:11 PM;CodDocum 127059446
+
+2/9/2020 11:52:11 PM;CodDocumAseg 763060284
+
+2/9/2020 11:52:11 PM;NumMatricula LLJV74
+
+2/9/2020 11:52:11 PM;Error Cotizar : 1001
+
+2/9/2020 11:52:11 PM;CodMarca 140
+
+2/9/2020 11:52:11 PM;CodModelo 535
+
+2/9/2020 11:52:11 PM;CodSubModelo 6
+
+2/9/2020 11:52:11 PM;AñoFab 2020
+
+2/9/2020 11:52:11 PM;CodDocum 127059446
+
+2/9/2020 11:52:11 PM;CodDocumAseg 763060284
+
+2/9/2020 11:52:11 PM;NumMatricula LLJV74
+
+2/9/2020 11:52:11 PM;Error Cotizar : 1001
+
+2/9/2020 11:52:11 PM;CodMarca 140
+
+2/9/2020 11:52:11 PM;CodModelo 535
+
+2/9/2020 11:52:11 PM;CodSubModelo 6
+
+2/9/2020 11:52:11 PM;AñoFab 2020
+
+2/9/2020 11:52:11 PM;CodDocum 127059446
+
+2/9/2020 11:52:11 PM;CodDocumAseg 763060284
+
+2/9/2020 11:52:11 PM;NumMatricula LLJV74
+
+2/9/2020 11:52:11 PM;Error Cotizar : 1001
+
+2/9/2020 11:52:12 PM;CodMarca 140
+
+2/9/2020 11:52:12 PM;CodModelo 535
+
+2/9/2020 11:52:12 PM;CodSubModelo 6
+
+2/9/2020 11:52:12 PM;AñoFab 2020
+
+2/9/2020 11:52:12 PM;CodDocum 127059446
+
+2/9/2020 11:52:12 PM;CodDocumAseg 763060284
+
+2/9/2020 11:52:12 PM;NumMatricula LLJV74
+
+2/9/2020 11:52:12 PM;Error Cotizar : 1001
+
+2/9/2020 11:53:58 PM;CodMarca 140
+
+2/9/2020 11:53:58 PM;CodModelo 535
+
+2/9/2020 11:53:58 PM;CodSubModelo 6
+
+2/9/2020 11:53:58 PM;AñoFab 2020
+
+2/9/2020 11:53:58 PM;CodDocum 127059446
+
+2/9/2020 11:53:58 PM;CodDocumAseg 763060284
+
+2/9/2020 11:53:58 PM;NumMatricula LLJV74
+
+2/9/2020 11:53:58 PM;Error Cotizar : 1001
+
+2/9/2020 11:53:58 PM;CodMarca 140
+
+2/9/2020 11:53:58 PM;CodModelo 535
+
+2/9/2020 11:53:58 PM;CodSubModelo 6
+
+2/9/2020 11:53:58 PM;AñoFab 2020
+
+2/9/2020 11:53:58 PM;CodDocum 127059446
+
+2/9/2020 11:53:58 PM;CodDocumAseg 763060284
+
+2/9/2020 11:53:58 PM;NumMatricula LLJV74
+
+2/9/2020 11:53:58 PM;Error Cotizar : 1001
+
+2/9/2020 11:53:58 PM;CodMarca 140
+
+2/9/2020 11:53:58 PM;CodModelo 535
+
+2/9/2020 11:53:58 PM;CodSubModelo 6
+
+2/9/2020 11:53:58 PM;AñoFab 2020
+
+2/9/2020 11:53:58 PM;CodDocum 127059446
+
+2/9/2020 11:53:58 PM;CodDocumAseg 763060284
+
+2/9/2020 11:53:58 PM;NumMatricula LLJV74
+
+2/9/2020 11:53:58 PM;Error Cotizar : 1001
+
+2/9/2020 11:53:59 PM;CodMarca 140
+
+2/9/2020 11:53:59 PM;CodModelo 535
+
+2/9/2020 11:53:59 PM;CodSubModelo 6
+
+2/9/2020 11:53:59 PM;AñoFab 2020
+
+2/9/2020 11:53:59 PM;CodDocum 127059446
+
+2/9/2020 11:53:59 PM;CodDocumAseg 763060284
+
+2/9/2020 11:53:59 PM;NumMatricula LLJV74
+
+2/9/2020 11:53:59 PM;Error Cotizar : 1001
+
+2/9/2020 11:57:43 PM;CodMarca 140
+
+2/9/2020 11:57:43 PM;CodModelo 535
+
+2/9/2020 11:57:43 PM;CodSubModelo 6
+
+2/9/2020 11:57:43 PM;AñoFab 2020
+
+2/9/2020 11:57:43 PM;CodDocum 127059446
+
+2/9/2020 11:57:43 PM;CodDocumAseg 763060284
+
+2/9/2020 11:57:43 PM;NumMatricula LLJV74
+
+2/9/2020 11:57:43 PM;Error Cotizar : 1001
+
+2/9/2020 11:57:43 PM;CodMarca 140
+
+2/9/2020 11:57:43 PM;CodModelo 535
+
+2/9/2020 11:57:43 PM;CodSubModelo 6
+
+2/9/2020 11:57:43 PM;AñoFab 2020
+
+2/9/2020 11:57:43 PM;CodDocum 127059446
+
+2/9/2020 11:57:43 PM;CodDocumAseg 763060284
+
+2/9/2020 11:57:43 PM;NumMatricula LLJV74
+
+2/9/2020 11:57:43 PM;Error Cotizar : 1001
+
+2/9/2020 11:57:43 PM;CodMarca 140
+
+2/9/2020 11:57:43 PM;CodModelo 535
+
+2/9/2020 11:57:43 PM;CodSubModelo 6
+
+2/9/2020 11:57:43 PM;AñoFab 2020
+
+2/9/2020 11:57:43 PM;CodDocum 127059446
+
+2/9/2020 11:57:43 PM;CodDocumAseg 763060284
+
+2/9/2020 11:57:43 PM;NumMatricula LLJV74
+
+2/9/2020 11:57:43 PM;Error Cotizar : 1001
+
+2/9/2020 11:57:44 PM;CodMarca 140
+
+2/9/2020 11:57:44 PM;CodModelo 535
+
+2/9/2020 11:57:44 PM;CodSubModelo 6
+
+2/9/2020 11:57:44 PM;AñoFab 2020
+
+2/9/2020 11:57:44 PM;CodDocum 127059446
+
+2/9/2020 11:57:44 PM;CodDocumAseg 763060284
+
+2/9/2020 11:57:44 PM;NumMatricula LLJV74
+
+2/9/2020 11:57:44 PM;Error Cotizar : 1001
+

@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <meta name="google-site-verification" content="NgG3_8SpQStoZlEUJRUUpBZsJZQbPVf7Aj9bdiZcmIE" />
+    <meta name="ROBOTS" content="NOODP">
+    <meta name="GOOGLEBOT" content="NOODP">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="js/JSCal2/css/jscal2.css" />
+    <link rel="stylesheet" type="text/css" href="js/JSCal2/css/border-radius.css" />
+
+    <script type="text/javascript" src="js/JSCal2/js/jscal2.js"></script>
+    <script type="text/javascript" src="js/JSCal2/js/lang/es.js"></script>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+
+    <script language="JavaScript" type="text/javascript">
+        function entra(){javascript:history.forward(1);}
+    </script>
+
+</head>
+<body onload="entra()">
+    <form id="form1" runat="server">
+    <div id="content">
+        <table id="master_page" cellpadding="0" cellspacing="0" width="100%">
+            <caption>
+                <table class="TituloPrincipal" width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </caption>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot class="foot">
+                <tr>
+                    <td>
+                        <div class="redline">
+                        </div>
+                        <ul type="circle">
+                            <li><a href='javascript:void(0)' onclick="window.open('../../enlinea/pdf/P_PRIVACIDAD_INTERNET.pdf')">
+                                P&oacute;litica de privacidad </a></li>
+                            <br />
+                            <li>Si se presenta algún problema en el uso de esta aplicación por favor enviar un email
+                                a <a href='mailto:webmaster@mapfre.cl'>webmaster</a> </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    </form>
+</body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15700466-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</html>

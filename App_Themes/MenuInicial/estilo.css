@@ -1,0 +1,137 @@
+﻿/* INICIAL *************/
+html,body{
+	margin:0;
+	height:100%;
+	background:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ESTRUCTURA cuerpo ***************/
+#cuerpo_popup{
+	width:800px;
+    height:570px;
+    background:url('img/background.jpg') top no-repeat;
+    margin: auto;
+    padding-top: 78px;
+}
+#cuerpo_popup #pregunta .titulo{
+    background-color: #c10003;
+    color: #fff;
+    line-height: 35px;
+    font-family: Verdana;
+    font-size: 24px;
+    padding: 0 75px;
+}
+
+#cuerpo_popup #pregunta .encabezado{
+    height: 27px; 
+    font-family: Verdana;
+    font-size: 18px;
+    color:#c10003;
+    line-height: 27px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 75px;
+}
+#cuerpo_popup #pregunta .bloque.borde{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 75px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+#cuerpo_popup #pregunta .bloque.borde h2{
+    margin-left: 0;
+    padding-bottom: 5px;
+}
+#cuerpo_popup #pregunta .bloque h2{
+    font-family: Verdana;
+    font-size: 18px;
+    color: #777;
+    padding-left: 40px;
+    padding-bottom: 25px;
+    margin-left: 75px;
+    line-height: 28px;
+    height: 32px;
+    background: url('img/ico_tre.jpg') no-repeat;    
+}
+#cuerpo_popup #pregunta .bloque p{
+    font-family: Verdana;
+    font-size: 14px;
+    color: #777;
+    line-height: 23px;
+    padding-left: 45px;
+}
+#cuerpo_popup #pregunta .bloque span{
+    text-decoration: underline;
+}
+#cuerpo_popup #pregunta .bloque span.color{
+    color: #c10003;
+}        
+#cuerpo_popup #pregunta .bloque input{
+    border: none;    
+    background: #c10003;
+    padding: 3px 13px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    text-align: center;
+    font-family: verdana;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#cuerpo_popup #pregunta .bloque input.volver{  
+    background: #777;
+}
+#cuerpo_popup #pregunta .bloque input.volver:hover{
+    background: #c10003;
+}
+#cuerpo_popup #pregunta .bloque.volver{
+    margin-top: 20px;
+    margin-left: 75px; 
+}
+#cuerpo_popup #pregunta .bloque .columna{
+    float: left;
+}
+#cuerpo_popup #pregunta .bloque .columna .lista{
+    color: #777777;
+    font-family: verdana;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+#cuerpo_popup #pregunta .bloque .columna .lista ul{
+    list-style: circle;
+    padding: 10px 20px 10px 10px;
+}
+#cuerpo_popup #pregunta .bloque .columna .lista ul li{
+    line-height: 22px;
+}
+
+#cuerpo_popup #pregunta .bloque .botones{margin-left: 115px;}
+
+#cuerpo_popup #pregunta .bloque input.izquierda{float:left;}
+#cuerpo_popup #pregunta .bloque input.derecha{float:right;}
+#cuerpo_popup #pregunta .bloque input:hover{
+    background: #777;
+}
+
+.foot ul {
+    list-style: circle outside none;
+    margin: auto;
+    width: 800px;
+}
+
+.foot li {
+    color: #000000;
+    font-family: verdana;
+    font-size: 11px;
+    margin: auto;
+}
+
+.foot li a {
+    color: #000000;
+}

@@ -1,0 +1,74 @@
+21-05-2018 20:50:10;GrabaTabladeDesctoPAT
+
+21-05-2018 20:50:10;1800000001
+
+21-05-2018 20:50:10;5
+
+21-05-2018 20:50:10;16,73
+
+21-05-2018 20:50:10;15,89
+
+21-05-2018 20:50:10;19,91
+
+21-05-2018 20:50:10;18,91
+
+21-05-2018 20:50:11;ExisteInspeccion post
+
+21-05-2018 21:59:30;GrabaTabladeDesctoPAT
+
+21-05-2018 21:59:30;8021800000034
+
+21-05-2018 21:59:30;5
+
+21-05-2018 21:59:30;413,42
+
+21-05-2018 21:59:30;392,75
+
+21-05-2018 21:59:30;491,97
+
+21-05-2018 21:59:30;467,37
+
+21-05-2018 21:59:31;ExisteInspeccion post
+
+21-05-2018 21:59:37;dvDeclaracionEstado.Visible
+
+21-05-2018 21:59:37;8000
+
+21-05-2018 21:59:37;0
+
+21-05-2018 21:59:37;FALSE
+
+21-05-2018 22:35:48;CodMarca 44
+
+21-05-2018 22:35:48;CodModelo 8
+
+21-05-2018 22:35:48;CodSubModelo 2
+
+21-05-2018 22:35:48;AñoFab 2012
+
+21-05-2018 22:35:48;CodDocum 19
+
+21-05-2018 22:35:48;CodDocumAseg 95833586
+
+21-05-2018 22:35:48;NumMatricula FFFF34
+
+21-05-2018 22:35:48;Error Cotizar : ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "OV.MEL_
+
+21-05-2018 22:38:49;CodMarca 44
+
+21-05-2018 22:38:49;CodModelo 8
+
+21-05-2018 22:38:49;CodSubModelo 2
+
+21-05-2018 22:38:49;AñoFab 2012
+
+21-05-2018 22:38:49;CodDocum 19
+
+21-05-2018 22:38:49;CodDocumAseg 95833586
+
+21-05-2018 22:38:49;NumMatricula FFFF34
+
+21-05-2018 22:38:49;Error Cotizar : ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "OV.MEL_
+

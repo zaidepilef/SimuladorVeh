@@ -1,0 +1,84 @@
+7/12/2016 11:11:42 AM;Error Emision : Object reference not set to an instance of an object.
+
+7/12/2016 11:12:11 AM;Error Emision : Object reference not set to an instance of an object.
+
+7/12/2016 11:12:49 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:13:05 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:13:19 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:13:41 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:14:09 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:19:06 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:19:35 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:20:32 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:29:10 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:34:13 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:34:48 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:40:12 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:43:41 AM;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-29532: Java call terminated by uncaught Java exception: oracle.xml.sql.OracleXMLSQLException: 'java.sql.BatchUpdateException: ORA-00001: unique constraint (TRON2000.PK_P2000040) violated
+' encountered during processing ROW element 16.  All prior XML row changes were rolled back. in the XML document.
+ORA-06512: at "SYS.DBMS_XMLSAVE", line 115
+ORA-06512: at "TRON2000.EM_K_GEN_WS_MMX", line 1748
+ORA-06512: at line 1
+
+7/12/2016 11:50:36 AM;Error Emision : Object reference not set to an instance of an object.
+

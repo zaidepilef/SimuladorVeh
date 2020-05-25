@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.aach.cl/wsSisgenGenV3/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.aach.cl/wsSisgenGenV3/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.aach.cl/wsSisgenGenV3/">
+      <s:element name="getGenerico">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TipoConsulta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Rut" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Patente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ramo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NroSiniestro" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaDesde" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaHasta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RutCia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ObsUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getGenericoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getGenericoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getGenericoSoapIn">
+    <wsdl:part name="parameters" element="tns:getGenerico" />
+  </wsdl:message>
+  <wsdl:message name="getGenericoSoapOut">
+    <wsdl:part name="parameters" element="tns:getGenericoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGenericoHttpGetIn">
+    <wsdl:part name="TipoConsulta" type="s:string" />
+    <wsdl:part name="Rut" type="s:string" />
+    <wsdl:part name="Patente" type="s:string" />
+    <wsdl:part name="Ramo" type="s:string" />
+    <wsdl:part name="NroSiniestro" type="s:string" />
+    <wsdl:part name="FechaDesde" type="s:string" />
+    <wsdl:part name="FechaHasta" type="s:string" />
+    <wsdl:part name="RutCia" type="s:string" />
+    <wsdl:part name="Usuario" type="s:string" />
+    <wsdl:part name="Clave" type="s:string" />
+    <wsdl:part name="NomUser" type="s:string" />
+    <wsdl:part name="ObsUser" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getGenericoHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getGenericoHttpPostIn">
+    <wsdl:part name="TipoConsulta" type="s:string" />
+    <wsdl:part name="Rut" type="s:string" />
+    <wsdl:part name="Patente" type="s:string" />
+    <wsdl:part name="Ramo" type="s:string" />
+    <wsdl:part name="NroSiniestro" type="s:string" />
+    <wsdl:part name="FechaDesde" type="s:string" />
+    <wsdl:part name="FechaHasta" type="s:string" />
+    <wsdl:part name="RutCia" type="s:string" />
+    <wsdl:part name="Usuario" type="s:string" />
+    <wsdl:part name="Clave" type="s:string" />
+    <wsdl:part name="NomUser" type="s:string" />
+    <wsdl:part name="ObsUser" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getGenericoHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="wsSisgenGenV3Soap">
+    <wsdl:operation name="getGenerico">
+      <wsdl:input message="tns:getGenericoSoapIn" />
+      <wsdl:output message="tns:getGenericoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="wsSisgenGenV3HttpGet">
+    <wsdl:operation name="getGenerico">
+      <wsdl:input message="tns:getGenericoHttpGetIn" />
+      <wsdl:output message="tns:getGenericoHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="wsSisgenGenV3HttpPost">
+    <wsdl:operation name="getGenerico">
+      <wsdl:input message="tns:getGenericoHttpPostIn" />
+      <wsdl:output message="tns:getGenericoHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsSisgenGenV3Soap" type="tns:wsSisgenGenV3Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getGenerico">
+      <soap:operation soapAction="http://www.aach.cl/wsSisgenGenV3/getGenerico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsSisgenGenV3Soap12" type="tns:wsSisgenGenV3Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getGenerico">
+      <soap12:operation soapAction="http://www.aach.cl/wsSisgenGenV3/getGenerico" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsSisgenGenV3HttpGet" type="tns:wsSisgenGenV3HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="getGenerico">
+      <http:operation location="/getGenerico" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsSisgenGenV3HttpPost" type="tns:wsSisgenGenV3HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getGenerico">
+      <http:operation location="/getGenerico" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsSisgenGenV3">
+    <wsdl:port name="wsSisgenGenV3Soap" binding="tns:wsSisgenGenV3Soap">
+      <soap:address location="https://www.aach.cl/wssisgengenV3/wsSisgenGenV3.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsSisgenGenV3Soap12" binding="tns:wsSisgenGenV3Soap12">
+      <soap12:address location="https://www.aach.cl/wssisgengenV3/wsSisgenGenV3.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsSisgenGenV3HttpGet" binding="tns:wsSisgenGenV3HttpGet">
+      <http:address location="https://www.aach.cl/wssisgengenV3/wsSisgenGenV3.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsSisgenGenV3HttpPost" binding="tns:wsSisgenGenV3HttpPost">
+      <http:address location="https://www.aach.cl/wssisgengenV3/wsSisgenGenV3.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,12 @@
+10-07-2018 16:17:27;ExisteInspeccion post
+
+10-07-2018 16:26:55;ExisteInspeccion post
+
+10-07-2018 16:27:00;dvDeclaracionEstado.Visible
+
+10-07-2018 16:27:00;8000
+
+10-07-2018 16:27:00;0
+
+10-07-2018 16:27:00;FALSE
+

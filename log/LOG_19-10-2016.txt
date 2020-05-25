@@ -1,0 +1,15 @@
+19-10-2016 17:56:54;Error Emision : COT:8011600000132 Error: 8010099041082ORA-20000:   [em_p_pos_cod_docum] ORA-06550: line 1, column 7:
+PLS-00905: object TRON2000.EM_P_POS_COD_DOCUM_MCL is invalid
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+19-10-2016 17:57:01;Error Emision : COT:8011600000132 Error: 8010099041083ORA-20000:   [em_p_pos_cod_docum] ORA-06550: line 1, column 7:
+PLS-00905: object TRON2000.EM_P_POS_COD_DOCUM_MCL is invalid
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+19-10-2016 18:04:43;Error Emision : COT:8011600000133 Error: 8010099041102ORA-20000:   [em_p_pos_cod_docum] ORA-06550: line 1, column 7:
+PLS-00905: object TRON2000.EM_P_POS_COD_DOCUM_MCL is invalid
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
