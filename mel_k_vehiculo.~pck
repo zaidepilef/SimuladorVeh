@@ -9675,32 +9675,14 @@ create or replace package body mel_k_vehiculo is
   PROCEDURE P_TRAE_OPCIONES(P_COD_CONV VARCHAR2, P_OPCIONES OUT TYCURSOR) IS
   
   BEGIN
-   
+  
     OPEN P_OPCIONES FOR
       SELECT *
         FROM MEL_VEH_ADMIN M
        WHERE M.COD_CONV = UPPER(P_COD_CONV)
          AND M.MCA_INH = 'N';
-
+  
   END P_TRAE_OPCIONES;
-  
-  
-  /*-----------------------------------------------
-  FDR TRAE OPCIONES SI EXISTE OCNVENION EN AMIUNATEGUI
-  ---------------- */
-  PROCEDURE P_TRAE_OPCIONES_RESTRICCION(P_COD_CONV VARCHAR2, P_OPCIONES OUT TYCURSOR) IS
-  
-  BEGIN
-  
-    OPEN P_OPCIONES FOR
-      SELECT *
-        FROM MEL_VEH_ADMIN M
-       WHERE M.COD_CONV = UPPER(P_COD_CONV)
-         AND M.MCA_INH = 'N';
-
-
-  
-  END P_TRAE_OPCIONES_RESTRICCION;
 
   /**********************************/
 
