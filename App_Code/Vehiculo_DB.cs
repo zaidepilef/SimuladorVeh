@@ -422,7 +422,7 @@ public class Vehiculo_DB
 
             objComando.agregarINParametro("p_cod_ramo", OracleDbType.Varchar2, cod_ramo);
             objComando.agregarINParametro("p_cod_modalidad", OracleDbType.Varchar2, cod_modalidad);
-            objComando.agregarOUTParametro("p_monto_exenta", OracleDbType.Varchar2, 255);
+            objComando.agregarOUTParametro("p_monto_exenta", OracleDbType.Double,255);
 
             return objComando.ejecutarRegistroSP();
 

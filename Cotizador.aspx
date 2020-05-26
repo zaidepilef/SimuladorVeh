@@ -380,6 +380,7 @@
                         </table>
                     </fieldset>
                 </div>
+
                 <div id="DatosVigenciaEmisor" runat="server">
                     <fieldset>
                         <table>
@@ -442,6 +443,8 @@
                         <br />
                     </fieldset>
                 </div>
+
+
                 <div id="Opc_Coberturas" runat="server">
                     <div id="Coberturas">
                         <fieldset>
@@ -604,6 +607,7 @@
                         </fieldset>
                     </div>
                 </div>
+
                 <div id="OpcCoberturasAutoAntiguo" runat="server">
                     <div id="CoberturasAutoAntiguo">
                         <fieldset>
@@ -628,6 +632,7 @@
                         </fieldset>
                     </div>
                 </div>
+
                 <div id="Opc_CoberturasOpcionales" runat="server">
                     <div id="CoberturasOpcionales">
                         <fieldset>
@@ -684,8 +689,8 @@
                         </fieldset>
                     </div>
                 </div>
-                <asp:UpdateProgress ID="UpdateProgress3" AssociatedUpdatePanelID="UpdatePanelDatos"
-                    runat="server">
+                
+                <asp:UpdateProgress ID="UpdateProgress3" AssociatedUpdatePanelID="UpdatePanelDatos" runat="server">
                     <ProgressTemplate>
                         <div class="overlay">
                         </div>
@@ -693,9 +698,12 @@
                             Por favor, Espere un momento mientras cargamos la información</div>
                     </ProgressTemplate>
                 </asp:UpdateProgress>
+            
             </div>
+
         </ContentTemplate>
     </asp:UpdatePanel>
+
     <asp:UpdatePanel ID="UpdateCalcular" runat="server">
         <ContentTemplate>
             <div id="content2">
@@ -725,15 +733,20 @@
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
+    
     <asp:UpdatePanel ID="UpdatePanelResultados" runat="server">
         <ContentTemplate>
             <div id="content4">
+
                 <div id="divResultados">
                     <fieldset>
                         <table style="width: 90%; text-align: center; background-color: #FFFFFF; font-family: Arial, Verdana;
                             font-size: 11px; font-weight: normal; text-transform: capitalize;" id="tblDescRec"
                             runat="server" visible="true">
                             <tr>
+
+                            <!-- AQUI HAY QUE MOVER EL CODIGO -->
+                            <!-- SE DEBE RESTRINGIR LA VISIBILIDAD DE COMBO COMISION DESEADA Y PORCENTAJE CUANDO EL CORREDOR SEA AMUNATEGUI  -->
                                 <td id="tdCuadroCom" runat="server" visible="true" style="width: 25%;">
                                     <asp:CheckBox ID="chkComisionDif" runat="server" AutoPostBack="true" OnCheckedChanged="chkComisionDif_CheckedChanged" />
                                     Indique comisión deseada
@@ -742,18 +755,10 @@
                                         <asp:ListItem Text="12" Value="12"></asp:ListItem>
                                     </asp:DropDownList>
                                 </td>
-                                <td id="tdRecargo" runat="server" style="width: 25%;">
-                                    % Recargo
-                                    <asp:TextBox ID="txtRecargo1" OnTextChanged="AplicaRecargos" AutoPostBack="true"
-                                        runat="server" MaxLength="2" Width="25"></asp:TextBox>
-                                </td>
-                                <td id="tdDscto" runat="server" style="width: 25%;">
-                                    % Descuento
-                                    <asp:DropDownList ID="drpDescuento1" AutoPostBack="true" OnSelectedIndexChanged="AplicaDescuentos"
-                                        runat="server">
-                                    </asp:DropDownList>
-                                </td>
+
+                                
                                 <td style="width: 25%;">
+
                                     Indique número de cuotas
                                     <asp:DropDownList ID="drpValCuotaPAT" AutoPostBack="true" OnSelectedIndexChanged="drpValCuotaPAT_SelectedIndexChanged"
                                         runat="server">
@@ -764,7 +769,25 @@
                                         <asp:ListItem Text="4" Value="4"></asp:ListItem>
                                         <asp:ListItem Text="3" Value="3"></asp:ListItem>
                                     </asp:DropDownList>
+
                                 </td>
+
+                                <td id="tdRecargo" runat="server" style="width: 25%;">
+                                    % Recargo
+                                    <asp:TextBox ID="txtRecargo1" OnTextChanged="AplicaRecargos" AutoPostBack="true"
+                                        runat="server" MaxLength="2" Width="25"></asp:TextBox>
+                                </td>
+
+
+                                <td id="tdDscto" runat="server" style="width: 25%;">
+                                    % Descuento
+                                    <asp:DropDownList ID="drpDescuento1" AutoPostBack="true" OnSelectedIndexChanged="AplicaDescuentos"
+                                        runat="server">
+                                    </asp:DropDownList>
+                                </td>
+
+
+
                             </tr>
                         </table>
                         <br />
@@ -1446,18 +1469,18 @@
                         </asp:Table>
                     </fieldset>
                 </div>
-                <asp:UpdateProgress ID="UpdateProgress1" AssociatedUpdatePanelID="UpdatePanelResultados"
-                    runat="server">
+
+                <asp:UpdateProgress ID="UpdateProgress1" AssociatedUpdatePanelID="UpdatePanelResultados" runat="server">
                     <ProgressTemplate>
-                        <div class="overlay">
-                        </div>
-                        <div class="bottomimg">
-                            Por favor, Espere un momento mientras calculamos nuevamente</div>
+                        <div class="overlay"></div>
+                        <div class="bottomimg">Por favor, Espere un momento mientras calculamos nuevamente</div>
                     </ProgressTemplate>
                 </asp:UpdateProgress>
+
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
+
     <asp:UpdatePanel ID="UpdatePanel2" runat="server">
         <ContentTemplate>
             <div id="content3">
@@ -1500,6 +1523,7 @@
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
+
     <asp:UpdatePanel ID="UpdatePanelCorreo" runat="server">
         <ContentTemplate>
             <div id="EnviarCorreo" runat="server">
@@ -1575,6 +1599,7 @@
             </asp:UpdateProgress>
         </ContentTemplate>
     </asp:UpdatePanel>
+
     <asp:UpdatePanel ID="UpdatePanelSuplanta" runat="server">
         <ContentTemplate>
             <div id="PanelSuplanta" runat="server">
@@ -1629,6 +1654,7 @@
             </asp:UpdateProgress>
         </ContentTemplate>
     </asp:UpdatePanel>
+
     <asp:UpdatePanel ID="UpdatePanelMELTW" runat="server">
         <ContentTemplate>
             <div id="PanelMELTW" runat="server">
@@ -1712,6 +1738,7 @@
             </asp:UpdateProgress>
         </ContentTemplate>
     </asp:UpdatePanel>
+
     <asp:UpdatePanel ID="UpdatePanelMarketing" runat="server">
         <ContentTemplate>
             <div id="PanelMarketing" runat="server">
@@ -1782,6 +1809,7 @@
             </asp:UpdateProgress>
         </ContentTemplate>
     </asp:UpdatePanel>
+
     <asp:UpdatePanel ID="UpdatePanelAutoAntiguo" runat="server" Visible="false">
         <ContentTemplate>
             <%--<div id="PanelAutoAntiguo" runat="server">
@@ -1848,6 +1876,9 @@
             </asp:UpdateProgress>
         </ContentTemplate>
     </asp:UpdatePanel>
+
     <input type="hidden" id="hdnMinVigencia" name="hdnMinVigencia" runat="server" />
+
     <input type="hidden" id="hdnMinVigenciaSel" name="hdnMinVigenciaSel" runat="server" />
+
 </asp:Content>
