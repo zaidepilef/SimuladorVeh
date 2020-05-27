@@ -18,6 +18,7 @@ public partial class Cotizador : System.Web.UI.Page
     static int flag = 0;  //06_06 bandera temporal
     static string[] deducible = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" };
     static List<string> lista = new List<string>();
+    string RutCorredor = "";
     protected void Page_PreInit(object sender, EventArgs e)
     {
         try
@@ -43,6 +44,8 @@ public partial class Cotizador : System.Web.UI.Page
                         this.Theme = Session["Theme"].ToString();
                 }
             }
+
+
         }
         catch
         {
@@ -196,8 +199,9 @@ public partial class Cotizador : System.Web.UI.Page
                     Response.Redirect("SessionTerminada.aspx", false);
                 }
 
+                
+                
                 //FirmaDigital.FirmaDocumentoSimple("nom_archivo");
-
                 PanelMarketing.Visible = true;
 
                 Session["MCA_MEL"] = "S";
@@ -517,6 +521,11 @@ public partial class Cotizador : System.Web.UI.Page
                     {
                         topeDscto = dr["P_TOPE_DSCTO"].ToString();
                     }
+
+                    ///FDR: aplico la restriccion de AMUNATEGUI 
+                    RutCorredor = Session["MM_Cuenta"].ToString();
+                    RestringeAmunategui(RutCorredor);
+
                 }
                 catch (Exception ex)
                 {
@@ -5030,6 +5039,14 @@ public partial class Cotizador : System.Web.UI.Page
         }
     }
 
+    /// <summary>
+    /// funcion que esconde opciones por una restriccion en amunategui
+    /// </summary>
+    private void EscondeAmunategui() {
+        tdCuadroCom.Visible = false;
+        tdRecargo.Visible = false;
+    }
+
     private void EscondeComisionDif()
     {
         this.tblrowPrimaComision.Visible = false;
@@ -5824,6 +5841,7 @@ public partial class Cotizador : System.Web.UI.Page
             }
         }
     }
+
     protected void drpSubModelo_SelectedIndexChanged(object sender, EventArgs e)
     {
         string cod_sub_modelo = UtilesWeb.GetPropertyValue(sender, "SelectedValue");
@@ -5891,14 +5909,17 @@ public partial class Cotizador : System.Web.UI.Page
 
         return cob_opc;
     }
+
     protected void chk8105_CheckedChanged(object sender, EventArgs e)
     {
         EscondeResultados();
     }
+
     protected void chk8133_CheckedChanged(object sender, EventArgs e)
     {
         EscondeResultados();
     }
+    
     protected void chkExGar_CheckedChanged(object sender, EventArgs e)
     {
         EscondeResultados();
@@ -5929,6 +5950,7 @@ public partial class Cotizador : System.Web.UI.Page
         CalculaComisionDif();
         
     }
+
     protected void chkComisionDif_CheckedChanged(object sender, EventArgs e)
     {
 
@@ -5957,6 +5979,7 @@ public partial class Cotizador : System.Web.UI.Page
 
 
     }
+
     // 05_06
     protected void CalculaComisionDif()
     {
@@ -6116,6 +6139,7 @@ public partial class Cotizador : System.Web.UI.Page
         Response.Redirect("Cotizador.aspx");
         //}
     }
+
     protected void ImgTw_Click(object sender, ImageClickEventArgs e)
     {
         Session["MCA_MEL"] = "N";
@@ -6130,6 +6154,7 @@ public partial class Cotizador : System.Web.UI.Page
 
         Response.Redirect("Cotizador.aspx");
     }
+
     protected void ImgMel13_Click(object sender, ImageClickEventArgs e)
     {
         Session["MCA_MEL"] = "S";
@@ -6306,6 +6331,19 @@ public partial class Cotizador : System.Web.UI.Page
             return false;
         else
             return true;
+    }
+
+    /// <summary>
+    /// funcion de restriccion en caso amunategui
+    /// </summary>
+    /// <param name="cod_docum"></param>
+    public void RestringeAmunategui(string cod_docum) {
+
+        if (Cotiza.RestringeAmunategui(cod_docum))
+        {
+            EscondeAmunategui();
+        }
+      
     }
 
     protected void imgBtnAutoAntiguo_Click(object sender, ImageClickEventArgs e)

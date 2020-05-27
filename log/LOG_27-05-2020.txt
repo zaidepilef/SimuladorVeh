@@ -1,0 +1,4 @@
+27-05-2020 15:31:19;ERROR Cotizar.UpdatePrimaNeta : Índice fuera de los límites de la matriz.
+
+27-05-2020 15:31:20;ERROR Cotizar.UpdatePrimaNeta : Índice fuera de los límites de la matriz.
+

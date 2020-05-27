@@ -15,6 +15,28 @@ using Oracle.DataAccess.Client;
 /// </summary>
 public class Cotiza_DB
 {
+    #region  Procedimiento para verificar si es de amunategui
+    public DataRow EvaluaRestriccion_DB(string cod_docum, OracleConnection conn)
+    {
+        MCommand objComando = new MCommand();
+        try
+        {
+            objComando.Connection = conn;
+            objComando.CommandText = "MEL_K_VEHICULO.P_EVALUA_RESTRICCION";
+            objComando.agregarINParametro("P_COD_DOCUM", OracleDbType.Varchar2, cod_docum);
+            objComando.agregarOUTParametro("P_DESCUENTO", OracleDbType.Varchar2, 255);
+            objComando.agregarOUTParametro("P_COMISION", OracleDbType.Varchar2, 255);
+            objComando.agregarOUTParametro("P_INSPECCION", OracleDbType.Varchar2, 255);
+            objComando.agregarOUTParametro("P_ERROR", OracleDbType.Varchar2, 255);
+            return objComando.ejecutarRegistroSP();
+        }
+        catch (Exception ex)
+        {
+            throw new Exception("ERROR Cotizador.Cotizar_Fechas_DB : " + ex.Message);
+        }
+    }
+    #endregion
+
     #region Cantidad de planes disponibles
     public DataSet CantPlanes_DB(string cod_docum, OracleConnection conexion)
     {
@@ -40,19 +62,12 @@ public class Cotiza_DB
     #endregion
 
     #region Procedimiento que calcula las primas
-
-    public DataRow Cotizar_DB(string cod_ramo, string COD_DOCUM, string COD_DOCUM_ASEG,
-        int COD_MARCA, int COD_MODELO, int COD_SUB_MODELO, int COD_MODALIDAD, string NUM_MATRICULA,
-        string monto_rc, string edad, string sexo, string cant_siniestros, string monto_siniestros,
-        string rc_exceso, string ANTIG_VEH, string COD_CONV, string COB_OPC, string MCA_MEL,
-        string tipo_descuento_databusiness, string descuento_databusiness, OracleConnection conn)
+    public DataRow Cotizar_DB(string cod_ramo, string COD_DOCUM, string COD_DOCUM_ASEG, int COD_MARCA, int COD_MODELO, int COD_SUB_MODELO, int COD_MODALIDAD, string NUM_MATRICULA, string monto_rc, string edad, string sexo, string cant_siniestros, string monto_siniestros, string rc_exceso, string ANTIG_VEH, string COD_CONV, string COB_OPC, string MCA_MEL, string tipo_descuento_databusiness, string descuento_databusiness, OracleConnection conn)
     {
         MCommand objComando = new MCommand();
-
         try
         {
             objComando.Connection = conn;
-
             objComando.CommandText = "MEL_K_VEHICULO.P_CALCULA_PRIMAS";
 
             objComando.agregarINParametro("p_cod_docum_mae", OracleDbType.Varchar2, COD_DOCUM);
@@ -92,7 +107,6 @@ public class Cotiza_DB
             throw new Exception("ERROR Cotizador.Cotizar_DB : " + ex.Message);
         }
     }
-
     #endregion
 
     #region Procedimiento que calcula las primas con Rango de Fechas
@@ -145,25 +159,19 @@ public class Cotiza_DB
             throw new Exception("ERROR Cotizador.Cotizar_Fechas_DB : " + ex.Message);
         }
     }
-
     #endregion
 
     #region Procedimiento que trae nombre modalidad
     public DataRow NomModalidad_DB(int cod_modalidad, OracleConnection conexion)
     {
         MCommand objComando = new MCommand();
-
         try
         {
             objComando.Connection = conexion;
-
             objComando.CommandText = "MEL_K_VEHICULO.P_NOM_MODALIDAD";
-
             objComando.agregarINParametro("p_cod_modalidad", OracleDbType.Int32, cod_modalidad);
             objComando.agregarOUTParametro("p_nom_modalidad", OracleDbType.Varchar2, 255);
-
             return objComando.ejecutarRegistroSP();
-
         }
         catch (Exception ex)
         {
@@ -176,7 +184,6 @@ public class Cotiza_DB
     public DataRow PolizaExistente_DB(string num_matricula, OracleConnection conexion)
     {
         MCommand objComando = new MCommand();
-
         try
         {
             objComando.Connection = conexion;
@@ -200,7 +207,6 @@ public class Cotiza_DB
     public DataRow PrimaTec_DB(string cod_docum_aseg, string cod_docum_tomad, string num_matricula, OracleConnection conexion)
     {
         MCommand objComando = new MCommand();
-
         try
         {
             objComando.Connection = conexion;
@@ -212,7 +218,6 @@ public class Cotiza_DB
             objComando.agregarOUTParametro("P_PRIMA_TEC_MIN", OracleDbType.Single, 50);
 
             return objComando.ejecutarRegistroSP();
-
         }
         catch (Exception ex)
         {
@@ -222,7 +227,6 @@ public class Cotiza_DB
     #endregion
 
     #region Llamada al procedimiento que guarda las modalidades seleccionadas
-
     public DataRow GrabaCotizacion_DB(string COD_DOCUM, string COD_DOCUM_ASEG, string NUM_MATRICULA,
         string string_cot, string NUM_COTIZACION, string COD_RAMO, string monto_rc, string sexo, string edad,
         string rc_exceso, string ID, string fact_48, string convenio, string cob_opc, string MCA_MEL,
@@ -389,7 +393,6 @@ public class Cotiza_DB
     #endregion
 
     #region Graba Datos del Vehiculos para Cotizar
-
     public DataRow GrabaVehiculoCot_DB(string NUM_MATRICULA, string COD_DOCUM, string COD_MARCA, string COD_MODELO, string COD_SUB_MODELO, string ANIO_FAB, string ID, OracleConnection conn)
     {
         MCommand objComando = new MCommand();
@@ -417,11 +420,9 @@ public class Cotiza_DB
             throw new Exception("ERROR Cotizador.GrabaVehiculoCot_DB : " + ex.Message);
         }
     }
-
     #endregion
 
     #region Llamada al procedimiento que guarda las modalidades seleccionadas
-
     public DataRow ImprimeCotizacion_DB(string num_cotizacion, OracleConnection conn)
     {
         MCommand objComando = new MCommand();
@@ -444,19 +445,15 @@ public class Cotiza_DB
             throw new Exception("ERROR Cotizador.ImprimeCotizacion_DB : " + ex.Message);
         }
     }
-
     #endregion
 
     #region Llamada al procedimiento que guarda las modalidades seleccionadas
-
     public DataRow ImprimeNuevaCotizacion_DB(string num_cuotas_PAT, string num_cotizacion, OracleConnection conn)
     {
         MCommand objComando = new MCommand();
-
         try
         {
             objComando.Connection = conn;
-
             //objComando.CommandText = "MEL_K_VEHICULO.P_IMPRIME_COTIZACION2";
             objComando.CommandText = "P_IMPRIME_COTIZACION2";
 
@@ -497,8 +494,6 @@ public class Cotiza_DB
             throw new Exception("ERROR Cotizador.ImprimeCotizacion_DB : " + ex.Message);
         }
     }
-
-
     #endregion
 
     public DataRow LlamaSisgen_DB(string cod_docum_aseg, string cod_docum_tomad, string num_matricula, OracleConnection conn)
@@ -1049,7 +1044,6 @@ public class Cotiza_DB
     #endregion
 
     #region Llamada al procedimiento que guarda la cant. y montos de siniestros en una cotización.
-
     public DataRow updCotizacionSiniestros_DB(string num_cotizacion, string cant_siniestros, string monto_siniestros, OracleConnection conn)
     {
         MCommand objComando = new MCommand();
@@ -1073,7 +1067,6 @@ public class Cotiza_DB
             throw new Exception("ERROR Cotizador.GrabaCotizacion_DB : " + ex.Message);
         }
     }
-
     #endregion
 
     public DataRow CalcularSinComision_DB(int cod_modalidad, string cod_docum, string cod_conv, string cod_cuadro_com, string prima_neta, string desc, string cod_ramo, OracleConnection conn)
@@ -1130,12 +1123,7 @@ public class Cotiza_DB
         }
     }
 
-    public DataRow RegistraPregCotizacion_DB(int cod_cia,
-                                          int cod_ramo,
-                                          string desc_pregunta,
-                                          string respuesta,
-                                          string num_cotizacion,
-                                          string num_poliza, OracleConnection conn)
+    public DataRow RegistraPregCotizacion_DB(int cod_cia,int cod_ramo,string desc_pregunta,string respuesta,string num_cotizacion,string num_poliza, OracleConnection conn)
     {
         MCommand objComando = new MCommand();
 
@@ -1163,14 +1151,9 @@ public class Cotiza_DB
         }
     }
 
-    public DataRow actualizaPregVeh_DB(string num_cotizacion,
-                                    string hijos,
-                                    string franquicia,
-                                    string danospre,
-                                    OracleConnection conn)
+    public DataRow actualizaPregVeh_DB(string num_cotizacion,string hijos,string franquicia,string danospre,OracleConnection conn)
     {
         MCommand objComando = new MCommand();
-
         try
         {
             objComando.Connection = conn;
@@ -1193,23 +1176,16 @@ public class Cotiza_DB
         }
     }
 
-    public DataRow validaControlTecnico_DB(string num_poliza,
-                                    OracleConnection conn)
+    public DataRow validaControlTecnico_DB(string num_poliza, OracleConnection conn)
     {
         MCommand objComando = new MCommand();
-
         try
         {
             objComando.Connection = conn;
-
             objComando.CommandText = "MEL_P_VALIDA_POLIZA";
-
             objComando.agregarINParametro("p_num_poliza", OracleDbType.Varchar2, num_poliza);
-
             objComando.agregarOUTParametro("p_error", OracleDbType.Varchar2, 255);
-
             return objComando.ejecutarRegistroSP();
-
         }
         catch (Exception ex)
         {
@@ -1446,7 +1422,6 @@ public class Cotiza_DB
         return resp;
     }
 
-
     public DataSet getDetalleDescuentos(OracleConnection strConexion, string num_cotizacion)
     {
         try
@@ -1518,7 +1493,6 @@ public class Cotiza_DB
         }
     }
 
-
     public DataRow VerificaPatenteTabla_DB(string p_cod_cia, string p_matricula, OracleConnection conn)
     {
         MCommand objComando = new MCommand();
@@ -1576,16 +1550,15 @@ public class Cotiza_DB
     //        throw new Exception("ERROR Cotizador_DB.LlamaSisgen_DB : " + ex.Message);
     //    }
     //}
+
+    #region Llamada a MEL_K_VALIDA_VEHICULO.P_REGISTRO_PATENTE
     public DataRow GuardaRegistroRemate_DB( string P_MENSAJE, string P_COD_CIA, string P_MATRICULA, string FechaOperacion, OracleConnection conn)
     {
         MCommand objComando = new MCommand();
 
         try
         {
-
-
             objComando.Connection = conn;
-
             objComando.CommandText = "MEL_K_VALIDA_VEHICULO.P_REGISTRO_PATENTE";
 
             objComando.agregarINParametro("P_MENSAJE", OracleDbType.Varchar2, P_MENSAJE);
@@ -1595,13 +1568,12 @@ public class Cotiza_DB
 
             objComando.agregarOUTParametro("P_ERROR", OracleDbType.Varchar2, 255);
 
-
             return objComando.ejecutarRegistroSP();
-
         }
         catch (Exception ex)
         {
             throw new Exception("ERROR Cotizador_DB.LlamaSisgen_DB : " + ex.Message);
         }
     }
+    #endregion
 }

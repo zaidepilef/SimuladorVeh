@@ -16,30 +16,61 @@ using Oracle.DataAccess.Client;
 /// </summary>
 public class Cotiza
 {
-    #region Cantidad de Planes
 
+    #region Restringe condiciones de Amunategui
+    // me retorna 4 varchar desde 
+    /*
+     PROCEDURE P_EVALUA_RESTRICCION(
+                      P_COD_DOCUM IN VARCHAR2,
+                     P_DESCUENTO OUT VARCHAR2,
+                     P_COMISION OUT VARCHAR2,
+                     P_INSPECCION OUT VARCHAR2,
+                     P_ERROR OUT VARCHAR2) IS
+     * */
+    public static bool RestringeAmunategui(string cod_docum) {
+        try
+        {
+            bool pasa = false;
+            DataRow cant = null;
+            Cotiza_DB objCantidad = new Cotiza_DB();
+            using (OracleConnection Conexion = MConexion.getConexion("OVDES"))
+            {
+                cant = objCantidad.EvaluaRestriccion_DB(cod_docum, Conexion);
+                if (cant.ItemArray[3].ToString() == "0")
+                {
+                    pasa = true;
+                }
+            }
+            return pasa;
+            
+        }
+        catch (Exception ex)
+        {
+            //throw new Exception("ERROR Cotizar.UpdatePrimaNeta : " + ex.Message);
+            Logs.writeToLogFile("ERROR Cotizar.UpdatePrimaNeta : " + ex.Message);
+            return false;
+        }
+    
+    }
+    #endregion
+
+    #region Cantidad de Planes
     public static DataSet CantPlanes(string cod_conv)
     {
         DataSet cant = null;
         Cotiza_DB objCantidad = new Cotiza_DB();
-
         try
         {
             using (OracleConnection Conexion = MConexion.getConexion("OVDES"))
             {
                 cant = objCantidad.CantPlanes_DB(cod_conv, Conexion);
-
                 return cant;
-
             }
-
         }
-
         catch (Exception ex)
         {
             throw new Exception(ex.Message);
         }
-
     }
     #endregion
 
@@ -616,7 +647,6 @@ public class Cotiza
 
 
     #region Cantidad de Planes
-
     public static string CuadroComisiones(string cod_docum, string cod_conv, DropDownList cmb)
     {
         DataSet cant = null;
@@ -912,12 +942,7 @@ public class Cotiza
         }
     }
 
-    public static bool RegistraPregCotizacion(int cod_cia,
-                                          int cod_ramo,
-                                          string desc_pregunta,
-                                          string respuesta,
-                                          string num_cotizacion,
-                                          string num_poliza)
+    public static bool RegistraPregCotizacion(int cod_cia,int cod_ramo,string desc_pregunta,string respuesta,string num_cotizacion,string num_poliza)
     {
         DataRow valida = null;
         Cotiza_DB objcomision = new Cotiza_DB();
@@ -946,10 +971,7 @@ public class Cotiza
         }
     }
 
-    public static bool actualizaPregVeh(string num_cotizacion,
-                                    string hijos,
-                                    string franquicia,
-                                    string danospre)
+    public static bool actualizaPregVeh(string num_cotizacion,string hijos,string franquicia,string danospre)
     {
         DataRow valida = null;
         Cotiza_DB objcomision = new Cotiza_DB();
@@ -1119,12 +1141,7 @@ public class Cotiza
         }
     }
 
-
-
-
-
     //#CCE
-
 
     public static DataRow ValidaInspeccionMotor(string num_motor, string cod_docum, string cod_ramo, string convenio)
     {
@@ -1145,7 +1162,6 @@ public class Cotiza
         }
     }
 
-
     //INTEGRACION CAMPAÑA COMERCIAL 
     public static DataRow DsctoVenta_cruzada(string cod_ramo, string CodDocumAseg)
     {
@@ -1165,7 +1181,6 @@ public class Cotiza
             throw new Exception(ex.Message);
         }
     }
-
 
     public static DataRow DsctoFamiliar(string cod_ramo, string CodDocumFamiliar)
     {
@@ -1360,6 +1375,7 @@ public class Cotiza
             throw new Exception(ex.Message);
         }
     }
+    
     public static DataRow GuardaRegistroRemate_DB(string P_MENSAJE, string P_COD_CIA, string P_MATRICULA, string fechaOperacion)
     {
         DataRow cotizacion = null;
@@ -1378,4 +1394,5 @@ public class Cotiza
             throw new Exception(ex.Message);
         }
     }
+
 }
