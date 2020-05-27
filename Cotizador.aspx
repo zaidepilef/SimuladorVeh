@@ -921,7 +921,7 @@
             <div id="content4">
                 <div id="divResultados">
                     <fieldset>
-                        <table style="width: 90%; text-align: center; background-color: #FFFFFF; font-family: Arial, Verdana;
+                        <table style="width: 90%; text-align: left; background-color: #FFFFFF; font-family: Arial, Verdana;
                             font-size: 11px; font-weight: normal; text-transform: capitalize;" id="tblDescRec"
                             runat="server" visible="true">
                             <tr>
