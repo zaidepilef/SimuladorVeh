@@ -745,18 +745,19 @@
                             runat="server" visible="true">
                             <tr>
 
-                            <!-- AQUI HAY QUE MOVER EL CODIGO -->
-                            <!-- SE DEBE RESTRINGIR LA VISIBILIDAD DE COMBO COMISION DESEADA Y PORCENTAJE CUANDO EL CORREDOR SEA AMUNATEGUI  -->
+                           
                                 <td id="tdCuadroCom" runat="server" visible="true" style="width: 25%;">
+                                    <!-- AQUI HAY QUE MOVER EL CODIGO -->
+                                    <!-- SE DEBE RESTRINGIR LA VISIBILIDAD DE COMBO COMISION DESEADA Y PORCENTAJE CUANDO EL CORREDOR SEA AMUNATEGUI  -->
+                                    
                                     <asp:CheckBox ID="chkComisionDif" runat="server" AutoPostBack="true" OnCheckedChanged="chkComisionDif_CheckedChanged" />
                                     Indique comisión deseada
-                                    <asp:DropDownList ID="drpCuadroCom1" OnSelectedIndexChanged="drpCuadroCom_SelectedIndexChanged"
-                                        AutoPostBack="true" runat="server">
+                                    <asp:DropDownList ID="drpCuadroCom1" OnSelectedIndexChanged="drpCuadroCom_SelectedIndexChanged" AutoPostBack="true" runat="server">
                                         <asp:ListItem Text="12" Value="12"></asp:ListItem>
                                     </asp:DropDownList>
                                 </td>
 
-                                <!--  -->
+                               
                                 <td style="width: 25%;">
 
                                     Indique número de cuotas
