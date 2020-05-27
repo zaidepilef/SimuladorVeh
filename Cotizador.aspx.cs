@@ -4414,8 +4414,7 @@ public partial class Cotizador : System.Web.UI.Page
                 PolVeh.NomModalidad = nom_modalidad;
                 PolVeh.PrimaNeta = prima_neta;
                 PolVeh.PrimaTotal = prima_total;
-                System.Globalization.NumberFormatInfo nfi = new
-              System.Globalization.NumberFormatInfo();
+                System.Globalization.NumberFormatInfo nfi = new System.Globalization.NumberFormatInfo();
                 nfi.NumberGroupSeparator = ",";
                 
                 descrecarg = Convert.ToString(Convert.ToDecimal(descrecarg.Replace(",", "."), nfi) + Convert.ToDecimal(totalDescuentosCampaniaComercial.Replace(",", "."), nfi));

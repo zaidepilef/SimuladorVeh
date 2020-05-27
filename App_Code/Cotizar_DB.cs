@@ -320,7 +320,9 @@ public class Cotiza_DB
             objComando.agregarINParametro("P_NUM_MATRICULA", OracleDbType.Varchar2, NUM_MATRICULA);
             objComando.agregarINParametro("P_COD_MODALIDAD", OracleDbType.Varchar2, COD_MODALIDAD);
             objComando.agregarINParametro("P_PRIMA_NETA", OracleDbType.Decimal, PRIMA_NETA);
-            objComando.agregarINParametro("P_DESC", OracleDbType.Varchar2, DESC);
+            objComando.agregarINParametro("P_DESC", OracleDbType.Varchar2, "0");
+            // zaidepilef: SE CAMBIA LA ENTRADA
+            // objComando.agregarINParametro("P_ID", OracleDbType.Double, Convert.ToInt32(ID.ToString()));
             objComando.agregarINParametro("P_ID", OracleDbType.Varchar2, ID);
             objComando.agregarINParametro("P_COD_RAMO", OracleDbType.Varchar2, COD_RAMO);
             objComando.agregarINParametro("P_MONTO_RC", OracleDbType.Varchar2, MONTO_RC);
@@ -331,7 +333,9 @@ public class Cotiza_DB
             objComando.agregarINParametro("P_CONVENIO", OracleDbType.Varchar2, convenio);
             objComando.agregarINParametro("P_COB_OPC", OracleDbType.Varchar2, cob_opc);
             objComando.agregarINParametro("P_MCA_MEL", OracleDbType.Varchar2, MCA_MEL);
-            objComando.agregarINOUTParametro("P_NUM_COTIZACION", OracleDbType.Varchar2, 15, NUM_COTIZACION);
+
+            objComando.agregarOUTParametro("P_NUM_COTIZACION", OracleDbType.Varchar2, 15);
+
             objComando.agregarOUTParametro("P_ERROR", OracleDbType.Varchar2, 255);
 
             return objComando.ejecutarRegistroSP();

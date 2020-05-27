@@ -671,6 +671,9 @@ PROCEDURE P_VERIFICA_TARIFA(P_COD_CONVENIO IN VARCHAR2,
                      P_INSPECCION OUT VARCHAR2,
                      P_ERROR OUT VARCHAR2);
                      
+PROCEDURE P_TRAE_OPCIONES_RESTRICCION(
+                     P_COD_CONV VARCHAR2, 
+                     P_OPCIONES OUT TYCURSOR);
                      
 end mel_k_vehiculo;
 /
@@ -1523,10 +1526,12 @@ create or replace package body mel_k_vehiculo is
                 */
               
                 IF NOT L_EXISTE_DCTO THEN
-                
-                  IF P_DESC < 0 THEN
-                    P_DESC := 0;
-                  END IF;
+                   P_DESC := 0;
+                   /*
+                   IF P_DESC < 0 THEN
+                      P_DESC := 0;
+                   END IF;
+                   */
                 
                 END IF;
               
@@ -3424,7 +3429,7 @@ create or replace package body mel_k_vehiculo is
     
       IF SUBSTR(P_DESC, 0, 1) = '-' THEN
       
-        P_DESCUENTO := TO_NUMBER(SUBSTR(P_DESC, 1, LENGTH(P_DESC)));
+        P_DESCUENTO := 0;
         P_RECARGO   := 0;
       
         PRIMA_NETA := P_PRIMA_NETA + TO_NUMBER(P_DESCUENTO);
@@ -3432,6 +3437,7 @@ create or replace package body mel_k_vehiculo is
       
       ELSE
       
+        P_RECARGO   := TO_NUMBER(SUBSTR(P_DESC, 1, LENGTH(P_DESC)));
         P_RECARGO   := TO_NUMBER(SUBSTR(P_DESC, 1, LENGTH(P_DESC)));
         P_DESCUENTO := 0;
       
@@ -9693,16 +9699,15 @@ create or replace package body mel_k_vehiculo is
   BEGIN
   
     OPEN P_OPCIONES FOR
-      SELECT *
+      SELECT M.*, M.rowid 
         FROM MEL_VEH_ADMIN M
-       WHERE M.COD_CONV = UPPER(P_COD_CONV)
-         AND M.MCA_INH = 'N';
+       WHERE M.COD_CONV = UPPER(P_COD_CONV);
 
-
-  
   END P_TRAE_OPCIONES_RESTRICCION;
 
-  /**********************************/
+  /*-----------------------------------------------
+  FDR
+  -----------------------------------------------*/
 
   PROCEDURE P_VALIDA_SUPLANTA(P_COD_DOCUM VARCHAR2,
                               P_RESPUESTA OUT VARCHAR2) IS
@@ -11186,6 +11191,8 @@ create or replace package body mel_k_vehiculo is
   
   END P_VALIDA_MCA_MEL;
 
+
+  -- FDR:
   PROCEDURE P_MONTO_COB_EXENTA(P_COD_RAMO      VARCHAR2,
                                P_COD_MODALIDAD VARCHAR2,
                                P_MONTO_EXENTA  OUT NUMBER) IS
