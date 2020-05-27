@@ -334,7 +334,7 @@ public class Cotiza_DB
             objComando.agregarINParametro("P_COB_OPC", OracleDbType.Varchar2, cob_opc);
             objComando.agregarINParametro("P_MCA_MEL", OracleDbType.Varchar2, MCA_MEL);
 
-            objComando.agregarOUTParametro("P_NUM_COTIZACION", OracleDbType.Varchar2, 15);
+            objComando.agregarINOUTParametro("P_NUM_COTIZACION", OracleDbType.Varchar2, 15,NUM_COTIZACION);
 
             objComando.agregarOUTParametro("P_ERROR", OracleDbType.Varchar2, 255);
 
