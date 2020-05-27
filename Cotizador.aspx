@@ -756,7 +756,7 @@
                                     </asp:DropDownList>
                                 </td>
 
-                                
+                                <!--  -->
                                 <td style="width: 25%;">
 
                                     Indique número de cuotas
@@ -772,18 +772,12 @@
 
                                 </td>
 
-                                <td id="tdRecargo" runat="server" style="width: 25%;">
-                                    % Recargo
-                                    <asp:TextBox ID="txtRecargo1" OnTextChanged="AplicaRecargos" AutoPostBack="true"
-                                        runat="server" MaxLength="2" Width="25"></asp:TextBox>
+                                <td id="tdRecargo" runat="server" style="width: 25%;"> % Recargo
+                                    <asp:TextBox ID="txtRecargo1" OnTextChanged="AplicaRecargos" AutoPostBack="true" runat="server" MaxLength="2" Width="25"></asp:TextBox>
                                 </td>
 
-
-                                <td id="tdDscto" runat="server" style="width: 25%;">
-                                    % Descuento
-                                    <asp:DropDownList ID="drpDescuento1" AutoPostBack="true" OnSelectedIndexChanged="AplicaDescuentos"
-                                        runat="server">
-                                    </asp:DropDownList>
+                                <td id="tdDscto" runat="server" style="width: 25%;">% Descuento
+                                    <asp:DropDownList ID="drpDescuento1" AutoPostBack="true" OnSelectedIndexChanged="AplicaDescuentos" runat="server"></asp:DropDownList>
                                 </td>
 
 
