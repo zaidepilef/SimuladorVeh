@@ -3429,7 +3429,7 @@ create or replace package body mel_k_vehiculo is
     
       IF SUBSTR(P_DESC, 0, 1) = '-' THEN
       
-        P_DESCUENTO := 0;
+        P_DESCUENTO := TO_NUMBER(SUBSTR(P_DESC, 1, LENGTH(P_DESC)));
         P_RECARGO   := 0;
       
         PRIMA_NETA := P_PRIMA_NETA + TO_NUMBER(P_DESCUENTO);
@@ -3437,8 +3437,8 @@ create or replace package body mel_k_vehiculo is
       
       ELSE
       
-        P_RECARGO   := TO_NUMBER(SUBSTR(P_DESC, 1, LENGTH(P_DESC)));
-        P_RECARGO   := TO_NUMBER(SUBSTR(P_DESC, 1, LENGTH(P_DESC)));
+        -- P_RECARGO   := TO_NUMBER(SUBSTR(P_DESC, 1, LENGTH(P_DESC)));
+        P_RECARGO   := 0;
         P_DESCUENTO := 0;
       
         PRIMA_NETA := P_PRIMA_NETA + TO_NUMBER(P_RECARGO);
@@ -11192,7 +11192,7 @@ create or replace package body mel_k_vehiculo is
   END P_VALIDA_MCA_MEL;
 
 
-  -- FDR:
+  -- FDR
   PROCEDURE P_MONTO_COB_EXENTA(P_COD_RAMO      VARCHAR2,
                                P_COD_MODALIDAD VARCHAR2,
                                P_MONTO_EXENTA  OUT NUMBER) IS
