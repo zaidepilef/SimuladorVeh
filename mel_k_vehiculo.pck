@@ -3436,9 +3436,9 @@ create or replace package body mel_k_vehiculo is
         --PRIMA_NETA := P_PRIMA_NETA;
       
       ELSE
-      
+        -- FDR:
         -- P_RECARGO   := TO_NUMBER(SUBSTR(P_DESC, 1, LENGTH(P_DESC)));
-        P_RECARGO   := 3;
+        P_RECARGO   := 2;
         P_DESCUENTO := 0;
       
         PRIMA_NETA := P_PRIMA_NETA + TO_NUMBER(P_RECARGO);
