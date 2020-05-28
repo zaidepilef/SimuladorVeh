@@ -3,6 +3,7 @@
 function abrirCalendario() {
     $(".fecha_vigencia").datepicker();
 };
+
 function abrirCalendarioFactura() {
     $(".fecha_factura").datepicker();
 };
@@ -13,36 +14,26 @@ function resizeIframe(obj) {
 
 $(document).ready(function () {
     if (typeof (pngfix) != "undefined") { DD_belatedPNG.fix('.png'); }
-    //$(".flotante").fadeOut();
     $(window).on("scroll", function () {
         if ($(this).scrollTop() > 73) {
-            //$(".flotante").removeClass("hidden");
             $(".flotante").fadeIn();
-        }
-        else {
+        } else {
             $(".flotante").fadeOut();
-            //$(".flotante").addClass("hidden");
         }
     });
-
-
-
 
     // Get the modal
     var modal = document.getElementById('myModal');
 
     $("#headerclick").on("click", function () {
-
         modal.style.display = "block";
     });
 
     $("#sideclick").on("click", function () {
-
         modal.style.display = "block";
     });
 
     $("#closecall").on("click", function () {
-
         modal.style.display = "none";
     });
 
@@ -50,58 +41,25 @@ $(document).ready(function () {
     window.onclick = function (event) {
         // Get the modal
         var modal = document.getElementById('myModal');
-
         if (event.target == modal) {
             modal.style.display = "none";
         }
     }
-    //	$("#p_especial").click( function () {
-    //          $("#d_especial").toggle();  
-    //        if($("#d_especial").is(":visible")){
-    //		  $("#p_especial").addClass("abierto");
-    //        }else{
-    //          $("#p_especial").removeClass("abierto");
-    //        }		
-    //	});
-    //    $("#p_medium").click( function () {
-    //          $("#d_medium").toggle(); 
-    //        if($("#d_medium").is(":visible")){
-    //		  $("#p_medium").addClass("abierto");
-    //        }else{
-    //          $("#p_medium").removeClass("abierto");
-    //        }
-    //	});
-    //    $("#p_plus").click( function () {
-    //          $("#d_plus").toggle();  
-    //        if($("#d_plus").is(":visible")){
-    //		  $("#p_plus").addClass("abierto");
-    //        }else{
-    //          $("#p_plus").removeClass("abierto");
-    //        }
-    //	});
-
-    //   $("#p_especial, #p_medium, #p_plus").click( function () {
-    //        $("#d_especial").toggle();  
-    //         $("#d_medium").toggle();
-    //         $("#d_plus").toggle();
-    //         if($("#d_plus").is(":visible")){
-    //            $("#p_especial, #p_medium, #p_plus").addClass("abierto");
-    //         }else{
-    //            $("#p_especial, #p_medium, #p_plus").removeClass("abierto");
-    //         }
-    //    });
 
     $(".inspeccion_centro").click(function () {
         $(".ins_centro").fadeIn();
         $(".ins_domicilio").fadeOut();
     });
+
     $(".inspeccion_domicilio").click(function () {
         $(".ins_centro").fadeOut();
         $(".ins_domicilio").fadeIn();
     });
+
     $(".tipo_pago1").click(function () {
         $(".pago_automatico").fadeIn();
     });
+
     $(".tipo_pago2, .tipo_pago3, .tipo_pago4").click(function () {
         $(".pago_automatico").fadeOut();
     });
@@ -283,7 +241,7 @@ function preguntas_declaracion_estado(btnRadio, resp, idPregunta, idPreguntaPadr
                 success: function (resp) { cant_preguntas = resp; },
                 async: false
             });
-            
+
             if (response != "") {
                 if (response != "N") {
                     $('#Resp' + (parseInt(idPregunta) + 1) + '_1').attr('disabled', false);
@@ -356,14 +314,14 @@ function preguntas_declaracion_estado(btnRadio, resp, idPregunta, idPreguntaPadr
             logica = false;
         }
     }
-   
-   // fdr: aqui verificar que hace con las declariones de daños en los vehiculos
+
+    // fdr: aqui verificar que hace con las declariones de daños en los vehiculos
     if (cant_preguntas == 1 && aData[3] == "NO") {
         facturaValidaDiasHabilesSinFecha();
     } else {
 
         if (logica) {
-            
+
             //$('#ctl00_ContentPlaceHolder1_dvInspeccion').hide();
             $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Contratar Seguro');
             $('#ctl00_ContentPlaceHolder1_trSinInspeccion').show();
@@ -382,23 +340,23 @@ function preguntas_declaracion_estado(btnRadio, resp, idPregunta, idPreguntaPadr
             $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').show();
             $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
         }
-       
+
     }
 
     /*
     var esAmunategui = $("#ctl00_ContentPlaceHolder1_EsAmunategui").val();
     debugger;
     if (esAmunategui == "S") {
-        // debe mostrar si o si todas la inspecciones 
-        // debe borrar el sin Inspeccion
-        //$('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
-        $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Emitir Propuesta');
-        //$('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
-        $('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();
-        $('#ctl00_ContentPlaceHolder1_tr1').show();
-        $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
-        $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').show();
-        $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
+    // debe mostrar si o si todas la inspecciones 
+    // debe borrar el sin Inspeccion
+    //$('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
+    $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Emitir Propuesta');
+    //$('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
+    $('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();
+    $('#ctl00_ContentPlaceHolder1_tr1').show();
+    $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
+    $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').show();
+    $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
     }
     */
 }
@@ -443,15 +401,12 @@ function facturaValidaDiasHabiles(fecha) {
             console.log(response);
         }
     });
-
-  
 }
 
 function facturaValidaDiasHabilesSinFecha() {
     var url = "Emisor.aspx/validaDiasHabilesConFecha";
     var aData = [];
     var jData = JSON.stringify({ aData: aData });
-
     $.ajax({
         contentType: 'application/json; charset=utf-8',
         dataType: 'json',
@@ -485,7 +440,7 @@ function facturaValidaDiasHabilesSinFecha() {
             console.log(response);
         }
     });
-  
+
 }
 
 
