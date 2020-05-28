@@ -434,7 +434,7 @@
                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
                     <tr id="trTituloDeclaracion" runat="server">
                             <td class="titItem">
-                                Declaración sobre el Estado del Vehículo
+                                Declaración sobre el Estado del Vehículo FDR
                             </td>
                         </tr>
                         <tr>
@@ -454,6 +454,7 @@
                                         <asp:HiddenField ID="hdnR2" runat="server" />
                                         <asp:HiddenField ID="hdnR3" runat="server" />
                                         <asp:HiddenField ID="hdnR4" runat="server" />
+                                        <asp:HiddenField ID="EsAmunategui" runat="server" />
                                         
                                     </div>
                                     </div>
@@ -465,13 +466,17 @@
                                 <asp:Label ID="lblInspeccion" CssClass="TituloSecundario" runat="server" Text="inspección"></asp:Label>
                             </td>
                         </tr>
+
                         <tr id="trCentrosInspeccion" runat="server">
+                            
+                            <%-- CENTROS DE INSPECCION --%>
                             <td>
                                 <asp:RadioButton ID="rdbCentrosInspeccion" AutoPostBack="true" GroupName="rdbInspeccion"
                                     Text="Inspeccion en Centros de Inspección" runat="server" OnCheckedChanged="rdbCentrosInspeccion_CheckedChanged" />
                                 &nbsp;&nbsp;<asp:LinkButton ID="lnkDatosCentrosInspeccion" runat="server" OnClick="lnkDatosCentrosInspeccion_Click">mas información</asp:LinkButton>
                             </td>
                         </tr>
+
                         <tr id="trDatosCentrosInspeccion" runat="server">
                             <td>
                                 <table width="400" cellpadding="0" cellspacing="0" border="0">
@@ -524,12 +529,15 @@
                                 </table>
                             </td>
                         </tr>
+                        
                         <tr id="trInspeccionDomicilio" runat="server" visible = "false">
+                            <%-- INSPECCION A DOMICILIO --%>
                             <td>
                                 <asp:RadioButton ID="rdbInspeccionDomicilio" AutoPostBack="true" GroupName="rdbInspeccion" visible = "false"
                                     Text="Inspeccion a Domicilio" runat="server" OnCheckedChanged="rdbInpeccionDomicilio_CheckedChanged" />
                             </td>
                         </tr>
+
                         <tr id="trDatosContacto" runat="server">
                             <td>
                                 <table width="700">
@@ -737,6 +745,7 @@
                             </td>
                         </tr>
                         <%--Cierre autoinspeccion--%>
+
                         <tr id="trRegistraInspeccion" runat="server" visible = "false">
                             <td>
                                 <strong>
@@ -744,22 +753,18 @@
                             </td>
                         </tr>
                         <tr id="trSinInspeccion" runat="server">
+                            <%-- SIN INSPECCION --%>
+
                             <td>
-                                <asp:RadioButton ID="rdbSinInspeccion" AutoPostBack="true" runat="server" Checked="true"
-                                    GroupName="rdbInspeccion" Text="No requiere inspección" />
+                                <asp:RadioButton Visible="true" ID="rdbSinInspeccion" AutoPostBack="true" runat="server" Checked="true" GroupName="rdbInspeccion" Text="No requiere inspección" />
                             </td>
                         </tr>
                         <tr id="trInspeccionExpress" runat="server" visible = "false">
                             <td>
-                                <asp:RadioButton ID="rdbInspeccionExpress" AutoPostBack="true" GroupName="rdbInspeccion" Visible = "false"
-                                    Text="sin Inspección" runat="server" OnCheckedChanged="rdbInspeccionExpress_CheckedChanged" />
+                                <asp:RadioButton ID="rdbInspeccionExpress" AutoPostBack="true" GroupName="rdbInspeccion" Visible="false" Text="sin Inspección" runat="server" OnCheckedChanged="rdbInspeccionExpress_CheckedChanged" />
                             </td>
                         </tr>
-                        <%--<tr id="trDeducibleObligatorio" runat="server">
-                            <td class="DeducibleObligatorio">
-                                Para la opción "Inspeccion en Centros de Inspección" y "Inspeccion a Domicilio", rige deducible obligatorio de 10% con un mínimo de UF 30 en toda y cada perdida, hasta el momento en que se realice la inspeccion y esta sea aprobada por la compañia. Ademas se excluye el robo, hurto y/o uso no autorizado del vehiculo, Perdida Total y Robo de Accesorios.
-                            </td>
-                        </tr>--%>
+                     
                         
                     </table>
                 </fieldset>

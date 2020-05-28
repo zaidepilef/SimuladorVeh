@@ -45,6 +45,7 @@ public partial class Emisor : System.Web.UI.Page
             ViewState["topeDscto"] = value;
         }
     }
+
     public String sumaTotalPorcDsctos
     {
         get
@@ -58,6 +59,8 @@ public partial class Emisor : System.Web.UI.Page
             ViewState["sumaTotalPorcDsctos"] = value;
         }
     }
+
+
     public String porcDsctoCruzado
     {
         get
@@ -71,6 +74,8 @@ public partial class Emisor : System.Web.UI.Page
             ViewState["porcDsctoCruzado"] = value;
         }
     }
+
+
     public String porcDsctoFamiliar
     {
         get
@@ -84,6 +89,8 @@ public partial class Emisor : System.Web.UI.Page
             ViewState["porcDsctoFamiliar"] = value;
         }
     }
+
+
     public String porcDsctoAgendaVencida
     {
         get
@@ -97,6 +104,8 @@ public partial class Emisor : System.Web.UI.Page
             ViewState["porcDsctoAgendaVencida"] = value;
         }
     }
+
+
     public String porcDsctoPat
     {
         get
@@ -125,6 +134,9 @@ public partial class Emisor : System.Web.UI.Page
                 // #CCE
                 Session["Cotizacion"] = "N";
                 // #CCE
+
+                // zaidepilef: 
+                EsAmunategui.Value = "S";
 
                 if (Session["PolVeh"] != null)
                 {
@@ -216,8 +228,6 @@ public partial class Emisor : System.Web.UI.Page
                     !String.IsNullOrEmpty(PolVeh.FechaFinVigencia))
                 {
                     this.txtFechaFinVigencia.Visible = true;
-
-
                     setTextTextBox(txtFechaVigencia, PolVeh.FechaInicioVigencia, true);
                     setTextTextBox(txtFechaFinVigencia, PolVeh.FechaFinVigencia, true);
 
@@ -238,20 +248,13 @@ public partial class Emisor : System.Web.UI.Page
 
 
                 /*FIN CARGA FECHAS VIGENCIA VARIABLE*/
-
                 string minvigencia = DateTime.Now.AddDays(Convert.ToInt32(ConfigurationManager.AppSettings["DiaVigencia"])).ToString("yyyyMMdd");
-
                 hdnMinVigencia.Value = ConfigurationManager.AppSettings["DiaVigencia"].ToString();
-
                 //hdnMinVigencia.Value = minvigencia;
 
-
                 int anio = System.DateTime.Now.Year;
-
                 UtilesWeb.Carga_Anios_DropGenerico(drpAñoVencTarjPAT, anio, anio + 20);
-
                 UtilesWeb.selected(drpAñoVencTarjPAT, anio.ToString());
-
                 if (PolVeh.Convenio == "RIPLEYBI" || Session["CONV"].ToString() == "RIPLEY" || Session["CONV"].ToString() == "RIPLEYCALL" || Session["CONV"].ToString() == "RIPLEYFUNC" || Session["CONV"].ToString() == "CONOSUR")
                 {
                     Session["opc_cuotas"] = "S";
@@ -393,10 +396,12 @@ public partial class Emisor : System.Web.UI.Page
                 //}
                 //else
                 //{
-                //    rdbSinInspeccion.Visible = false;
+                rdbSinInspeccion.Visible = false;
                 //    rdbSinInspeccion.Checked = false;
                 //    rdbInspeccionOficina.Checked = true;
                 //}
+
+                ///aqui FDR
 
                 setInspeccion("patente");  //OJO descomentar
 
@@ -439,10 +444,10 @@ public partial class Emisor : System.Web.UI.Page
                     )
                 {
                     mca_valida_cotinuidad = "N";
-                    
+
                 }
 
-		this.rdbSinInspeccion.Checked = false;
+                this.rdbSinInspeccion.Checked = false;
 
                 if (PolVeh.CodModalidad != "8910")
                 {
@@ -476,7 +481,7 @@ public partial class Emisor : System.Web.UI.Page
                         {
                             if (PolVeh.Fact48 == "1")
                             {
-                                this.trDatosFactura.Visible = true;                                
+                                this.trDatosFactura.Visible = true;
                                 hdn_AutoNuevo.Value = "true";
                             }
                             else
@@ -547,12 +552,17 @@ public partial class Emisor : System.Web.UI.Page
                         if (respuestas[i].Respuesta != "")
                         {
                             if (respuestas[i].Respuesta != "NO")
+                            {
+                                // UtilesWeb.EjecutaJs(this, " alert('dijo que no');");
                                 UtilesWeb.EjecutaJs(this, "$('#Resp" + (i + 1) + "_1').attr('checked', true);");
+                            }
                             else
+                            {
                                 UtilesWeb.EjecutaJs(this, "$('#Resp" + (i + 1) + "_2').attr('checked', true);");
+                            }
 
                             //UtilesWeb.EjecutaJs(this, "console.log('CodeBehind');");
-
+                            // fdr: 
                             if (respuestas[i].IdPregunta != "1")
                                 UtilesWeb.EjecutaJs(this, " preguntas_declaracion_estado(this,'" + respuestas[i].Respuesta + "', '" + respuestas[i].IdPregunta + "', '" + (Convert.ToInt32(respuestas[i].IdPregunta) - 1) + "');");
                             else
@@ -562,19 +572,17 @@ public partial class Emisor : System.Web.UI.Page
                 }
             }
             #endregion
+
             #region Validar Inspeccion para Facturas de mas de tres dias
             if (this.txtFechaFactura.Text != "")
             {
                 HttpContext.Current.Session["FechaFactura"] = this.txtFechaFactura.Text;
-
                 if (UtilesWeb.ValidaDuracionDiasHabil(txtFechaFactura.Text, 3) != "S")
                 {
                     UtilesWeb.EjecutaJs(this, "facturaValidaDiasHabiles('" + txtFechaFactura.Text + "');");
                 }
-
             }
             #endregion
-
 
 
         }
@@ -770,7 +778,7 @@ public partial class Emisor : System.Web.UI.Page
                     //            }
                     //            else
                     //            {
-                    //                this.rdbSinInspeccion.Visible = true;
+                    //this.rdbSinInspeccion.Visible = true;
                     //                this.trSinInspeccion.Visible = true;
                     //                this.rdbSinInspeccion.Checked = true;
                     //            }
@@ -986,8 +994,8 @@ public partial class Emisor : System.Web.UI.Page
                             else
                                 //this.drpRegionTomad.Enabled = habilita_drop;
                                 if (this.drpRegionTomad.SelectedValue != "0") this.drpRegionAseg.Enabled = habilita_drop;
-                            else
-                                this.drpRegionTomad.Enabled = true;
+                                else
+                                    this.drpRegionTomad.Enabled = true;
                         }
 
                         if (datostercero["COD_PROV"].ToString() != "" && datostercero["COD_PROV"].ToString() != "0")
@@ -1015,8 +1023,8 @@ public partial class Emisor : System.Web.UI.Page
                             else
                                 //this.drpCiudadTomad.Enabled = habilita_drop;
                                 if (this.drpCiudadTomad.SelectedValue != "0" && this.drpCiudadAseg.SelectedValue != "Seleccionar") this.drpCiudadTomad.Enabled = habilita_drop;
-                            else
-                                this.drpCiudadTomad.Enabled = true;
+                                else
+                                    this.drpCiudadTomad.Enabled = true;
                         }
 
                         if (datostercero["COD_LOCALIDAD"].ToString() != "" && datostercero["COD_LOCALIDAD"].ToString() != "0")
@@ -1042,8 +1050,8 @@ public partial class Emisor : System.Web.UI.Page
                             else
                                 //this.drpComunaTomad.Enabled = habilita_drop;
                                 if (this.drpComunaTomad.SelectedValue != "0" && this.drpCiudadAseg.SelectedValue != "Seleccionar") this.drpComunaTomad.Enabled = habilita_drop;
-                            else
-                                this.drpComunaTomad.Enabled = true;
+                                else
+                                    this.drpComunaTomad.Enabled = true;
                         }
 
                     }
@@ -2044,15 +2052,15 @@ public partial class Emisor : System.Web.UI.Page
                 //    return false;
                 //}
             }
-			
-			if (ViewState["ExisteInspeccion"].ToString().ToUpper() != "TRUE")
+
+            if (ViewState["ExisteInspeccion"].ToString().ToUpper() != "TRUE")
             {
-				if (!rdbSinInspeccion.Checked && !rdbCentrosInspeccion.Checked && !rbtAutoinspeccion.Checked)
-				{
-					UtilesWeb.EjecutaJs(this, "alert('Debe seleccionar la forma de inspección.');");
-					return false;
-				}
-			}
+                if (!rdbSinInspeccion.Checked && !rdbCentrosInspeccion.Checked && !rbtAutoinspeccion.Checked)
+                {
+                    UtilesWeb.EjecutaJs(this, "alert('Debe seleccionar la forma de inspección.');");
+                    return false;
+                }
+            }
 
             if (this.rdbInspeccionDomicilio.Checked == true)
             {
@@ -2433,6 +2441,7 @@ public partial class Emisor : System.Web.UI.Page
         }
         else
         {
+            //fdr:
             if (this.rdbSinInspeccion.Visible == true)
                 this.rdbSinInspeccion.Checked = true;
             //else
@@ -2746,6 +2755,11 @@ public partial class Emisor : System.Web.UI.Page
         }
     }
 
+    /// <summary>
+    /// METODO INVOCADO DESDE AJAX PARA LAS PREGUNTAS SI O NO
+    /// </summary>
+    /// <param name="aData"></param>
+    /// <returns></returns>
     [WebMethod(EnableSession = true)]
     public static string preguntasDeclaracionEstado(List<string> aData)
     {
@@ -2759,15 +2773,10 @@ public partial class Emisor : System.Web.UI.Page
             {
                 if (id_pregunta != 1)
                     id_pregunta_padre = id_pregunta_padre + 1;
-
-
                 id_pregunta = id_pregunta + 1;
             }
 
-
-
             string retorno = PreguntasDeclaracion.ValidaRespuestaBloqueo(id_pregunta, id_pregunta_padre, respuesta_padre);
-
 
             //if (id_pregunta < respuestas.Count)
             //   id_pregunta = id_pregunta - 1;
@@ -2828,7 +2837,10 @@ public partial class Emisor : System.Web.UI.Page
             if (bData[0] != "0")
                 ing = true;
 
-            return PreguntasDeclaracion.CantPreguntas(ing).ToString();
+
+            string a = "";
+            a = PreguntasDeclaracion.CantPreguntas(ing).ToString();
+            return a;
         }
         catch (Exception ex)
         {

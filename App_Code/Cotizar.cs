@@ -444,6 +444,8 @@ public class Cotiza
         }
     }
 
+
+    // este valida si hay que inspeccionar segun la DB
     public static DataRow ValidaInspeccion(string num_matricula, string cod_docum, string cod_ramo, string convenio)
     {
         DataRow inspeccion = null;
