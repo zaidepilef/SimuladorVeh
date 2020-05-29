@@ -200,7 +200,7 @@ public partial class Emisor : System.Web.UI.Page
                     setTextTextBox(txtApeMaternoAseg, PolVeh.ApeMatAseg, true);
                 }
 
-                setTextTextBox(txtCodDocumTomad, UtilesWeb.getFormated(PolVeh.CodDocumAseg), false)
+                setTextTextBox(txtCodDocumTomad, UtilesWeb.getFormated(PolVeh.CodDocumAseg), false);
                 if (PolVeh.Convenio == "COMPARA")
                 {
                     setTextTextBox(txtNomTomad, PolVeh.NomAseg, false);
@@ -225,8 +225,7 @@ public partial class Emisor : System.Web.UI.Page
 
 
                 /*CJSS*/
-                if (!String.IsNullOrEmpty(PolVeh.FechaInicioVigencia) &&
-                    !String.IsNullOrEmpty(PolVeh.FechaFinVigencia))
+                if (!String.IsNullOrEmpty(PolVeh.FechaInicioVigencia) && !String.IsNullOrEmpty(PolVeh.FechaFinVigencia))
                 {
                     this.txtFechaFinVigencia.Visible = true;
                     setTextTextBox(txtFechaVigencia, PolVeh.FechaInicioVigencia, true);

@@ -68,14 +68,12 @@
                                     <table cellpadding="0" cellspacing="0">
                                         <tr>
                                             <td>
-                                                <asp:CheckBox ID="chkCotExpress" AutoPostBack="true" runat="server" Text="Simulación Express"
-                                                    OnCheckedChanged="chkCotExpress_CheckedChanged" />
+                                                <asp:CheckBox ID="chkCotExpress" AutoPostBack="true" runat="server" Text="Simulación Express" OnCheckedChanged="chkCotExpress_CheckedChanged" />
                                                 <a href="#" class="info">&nbsp;&nbsp;<asp:Image ID="Image27" runat="server" SkinID="ImgNota" />
-                                                    <span>Esta simulación no requiere ingresar la patente.<br>
-                                                    </span></a>
+                                                    <span>Esta simulación no requiere ingresar la patente.<br></span>
+                                                </a>
                                             </td>
-                                            <td>
-                                            </td>
+                                            <td> </td>
                                         </tr>
                                     </table>
                                 </td>
@@ -459,7 +457,8 @@
                                                     Coberturas por Producto
                                                 </td>
                                                 <td style="width: 140px;">
-                                                    Flex
+                                                    Flex FDR
+                                                    <!--FDR de aqui se restringe amunategui -->
                                                 </td>
                                                 <td style="width: 140px;">
                                                     Master
@@ -797,6 +796,7 @@
                         </fieldset>
                     </div>
                 </div>
+
                 <div id="OpcCoberturasAutoAntiguo" runat="server">
                     <div id="CoberturasAutoAntiguo">
                         <fieldset>
@@ -820,6 +820,7 @@
                         </fieldset>
                     </div>
                 </div>
+
                 <div id="Opc_CoberturasOpcionales" runat="server">
                     <div id="CoberturasOpcionales">
                         <fieldset>
@@ -875,6 +876,7 @@
                         </fieldset>
                     </div>
                 </div>
+
                 <asp:UpdateProgress ID="UpdateProgress3" AssociatedUpdatePanelID="UpdatePanelDatos"
                     runat="server">
                     <ProgressTemplate>
@@ -884,9 +886,12 @@
                             Por favor, Espere un momento mientras cargamos la información</div>
                     </ProgressTemplate>
                 </asp:UpdateProgress>
+
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
+
+
     <asp:UpdatePanel ID="UpdateCalcular" runat="server">
         <ContentTemplate>
             <div id="content2">
@@ -904,18 +909,16 @@
                         </tr>
                     </table>
                 </div>
-                <asp:UpdateProgress ID="UpdateProgress4" AssociatedUpdatePanelID="UpdateCalcular"
-                    runat="server">
+                <asp:UpdateProgress ID="UpdateProgress4" AssociatedUpdatePanelID="UpdateCalcular" runat="server">
                     <ProgressTemplate>
-                        <div class="overlay">
-                        </div>
-                        <div class="centralimgcalcular">
-                            Por favor, Espere un momento mientras calculamos su simulación</div>
+                        <div class="overlay"></div>
+                        <div class="centralimgcalcular">Por favor, Espere un momento mientras calculamos su simulación</div>
                     </ProgressTemplate>
                 </asp:UpdateProgress>
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
+
     <asp:UpdatePanel ID="UpdatePanelResultados" runat="server">
         <ContentTemplate>
             <div id="content4">
@@ -964,9 +967,7 @@
                         <br />
                         <asp:Table ID="tblResultados" SkinID="skTblResultados" runat="server">
                             <asp:TableRow ID="tblrowNomPlan" SkinID="skNomPlan" runat="server" Visible="true">
-                                <asp:TableCell CssClass="titNombrePlan" Width="500px">
-                        CUADRO RESUMEN DE PRIMAS (Valores en UF iva incluído)
-                                </asp:TableCell>
+                                <asp:TableCell CssClass="titNombrePlan" Width="500px">CUADRO RESUMEN DE PRIMAS (Valores en UF iva incluído)</asp:TableCell>
                                 <asp:TableCell SkinID="skCeldaRes">
                                     <asp:Label ID="lblNomPlan1" runat="server" Text="Label"></asp:Label>
                                     <asp:HiddenField ID="hdfCodModalidad1" runat="server" />
@@ -1016,10 +1017,10 @@
                                     <asp:HiddenField ID="hdfCodModalidad12" runat="server" />
                                 </asp:TableCell>
                             </asp:TableRow>
+
                             <asp:TableRow ID="tblrowPrimaNeta" SkinID="skPrimaNeta" runat="server" Visible="false">
-                                <asp:TableCell CssClass="titPrimaNeta">
-                Prima Neta Anual
-                                </asp:TableCell>
+
+                                <asp:TableCell CssClass="titPrimaNeta">Prima Neta Anual</asp:TableCell>
                                 <asp:TableCell SkinID="skCeldaRes">
                                     <asp:Label ID="lblPrimaNeta1" runat="server" Text="Label"></asp:Label>
                                 </asp:TableCell>
@@ -1061,8 +1062,7 @@
                                 <asp:TableCell CssClass="titPrimaComision">
                                     <asp:CheckBox ID="chkComisionDif1" runat="server" AutoPostBack="true" OnCheckedChanged="chkComisionDif_CheckedChanged" />
                                     Comisión Ajustada al
-                                    <asp:DropDownList ID="drpCuadroCom" OnSelectedIndexChanged="drpCuadroCom_SelectedIndexChanged"
-                                        AutoPostBack="true" runat="server">
+                                    <asp:DropDownList ID="drpCuadroCom" OnSelectedIndexChanged="drpCuadroCom_SelectedIndexChanged" AutoPostBack="true" runat="server">
                                         <asp:ListItem Text="12" Value="12"></asp:ListItem>
                                     </asp:DropDownList>
                                 </asp:TableCell>

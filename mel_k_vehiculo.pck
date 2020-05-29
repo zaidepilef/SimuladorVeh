@@ -2393,6 +2393,7 @@ create or replace package body mel_k_vehiculo is
 
   PROCEDURE P_TRAE_PLANES(P_COD_DOCUM VARCHAR2, P_PLANES OUT TYCURSOR) IS
   
+    -- que cursor? --
     CURSOR C_VALIDA_EXISTE IS
       SELECT 1
         FROM MEL_PLANES_VEH_USUARIOS M
@@ -2400,6 +2401,14 @@ create or replace package body mel_k_vehiculo is
          AND MCA_INH = 'N';
   
     R_VALIDA_EXISTE C_VALIDA_EXISTE%ROWTYPE;
+    
+    -- valido si es de AMUNATEGUI --
+    CURSOR C_VALIDA_AMUNATEGUI IS
+      SELECT 1
+        FROM MEL_PLANES_VEH_USUARIOS M
+       WHERE M.COD_DOCUM = P_COD_DOCUM
+         AND MCA_INH = 'N';
+    
   
     L_EXISTE BOOLEAN;
   
@@ -2408,6 +2417,7 @@ create or replace package body mel_k_vehiculo is
     OPEN c_valida_existe;
     FETCH c_valida_existe
       INTO r_valida_existe;
+      
     l_existe := c_valida_existe%FOUND;
     CLOSE c_valida_existe;
     --
