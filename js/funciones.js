@@ -178,6 +178,7 @@ function preguntas_declaracion_estado_n(btnRadio, resp, idPregunta, idPreguntaPa
         type: 'POST',
         url: url,
         data: jData,
+        async: false,
         success: function (response) {
             //console.log(response);
             if (response != "") {
@@ -196,15 +197,29 @@ function preguntas_declaracion_estado_n(btnRadio, resp, idPregunta, idPreguntaPa
             console.log(response);
         }
     });
+
+    /// FDR: valida restriccion de amunategui
+    var esAmunategui = $("#ctl00_ContentPlaceHolder1_EsAmunategui").val();
+    // alert("preguntas_declaracion_estado_n esAmunategui : " + esAmunategui);
+    console.log("preguntas_declaracion_estado_n esAmunategui : " + esAmunategui);
+    if (esAmunategui == "S") {
+        // debe mostrar si o si todas la inspecciones 
+        // debe borrar el sin Inspeccion
+        $('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_tr1').show();
+        $('#ctl00_ContentPlaceHolder1_trautoinspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').show();
+        $('#ctl00_ContentPlaceHolder1_trSinInspeccion').show();
+        
+    }
 }
 
 // cuando hay onchange en las respuestas
 function preguntas_declaracion_estado(btnRadio, resp, idPregunta, idPreguntaPadre) {
 
     var url_a = "Emisor.aspx/preguntasDeclaracionEstado";
-
     var url_b = "Emisor.aspx/cantidadPreguntas";
-
     var aData = [];
     aData[0] = btnRadio.id;
     aData[1] = idPregunta;
@@ -300,11 +315,15 @@ function preguntas_declaracion_estado(btnRadio, resp, idPregunta, idPreguntaPadr
                     type: 'POST',
                     url: url_a,
                     data: jData,
+                    async: false,
                     success: function (response) {
-                        if (response != "N" && response != "") { logica = true; }
-                        else { logica = false; }
+                        if (response != "N" && response != "") { 
+                            logica = true; 
+                        } else { 
+                         logica = false; 
+                        }
                     },
-                    async: false
+                   
                 });
 
                 if (j < cant_preguntas)
@@ -315,26 +334,26 @@ function preguntas_declaracion_estado(btnRadio, resp, idPregunta, idPreguntaPadr
         }
     }
 
-    // fdr: aqui verificar que hace con las declariones de daños en los vehiculos
+    
     if (cant_preguntas == 1 && aData[3] == "NO") {
         facturaValidaDiasHabilesSinFecha();
     } else {
 
         if (logica) {
 
-            //$('#ctl00_ContentPlaceHolder1_dvInspeccion').hide();
+            $('#ctl00_ContentPlaceHolder1_dvInspeccion').hide();
             $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Contratar Seguro');
             $('#ctl00_ContentPlaceHolder1_trSinInspeccion').show();
-            //$('#ctl00_ContentPlaceHolder1_tr1').hide();
-            //$('#ctl00_ContentPlaceHolder1_trautoinspeccion').hide();
-            //$('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').hide();
-            //$('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').hide();
+            $('#ctl00_ContentPlaceHolder1_tr1').hide();
+            $('#ctl00_ContentPlaceHolder1_trautoinspeccion').hide();
+            $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').hide();
+            $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').hide();
             $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', true);
         } else {
-            //$('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
+            $('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
             $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Emitir Propuesta');
-            //$('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
-            //$('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();
+            $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
+            $('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();
             $('#ctl00_ContentPlaceHolder1_tr1').show();
             $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
             $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').show();
@@ -343,22 +362,22 @@ function preguntas_declaracion_estado(btnRadio, resp, idPregunta, idPreguntaPadr
 
     }
 
-    /*
+    /// FDR: valida restriccion de amunategui
     var esAmunategui = $("#ctl00_ContentPlaceHolder1_EsAmunategui").val();
-    debugger;
+ 
+    //alert("preguntas_declaracion_estado esAmunategui : " + esAmunategui);
+    console.log("preguntas_declaracion_estado esAmunategui : " + esAmunategui);
     if (esAmunategui == "S") {
-    // debe mostrar si o si todas la inspecciones 
-    // debe borrar el sin Inspeccion
-    //$('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
-    $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Emitir Propuesta');
-    //$('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
-    $('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();
-    $('#ctl00_ContentPlaceHolder1_tr1').show();
-    $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
-    $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').show();
-    $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
+        // debe mostrar si o si todas la inspecciones 
+        // debe borrar el sin Inspeccion
+        $('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_tr1').show();
+        $('#ctl00_ContentPlaceHolder1_trautoinspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').show();
+        $('#ctl00_ContentPlaceHolder1_trSinInspeccion').show();
     }
-    */
+    
 }
 
 function facturaValidaDiasHabiles(fecha) {
@@ -375,6 +394,7 @@ function facturaValidaDiasHabiles(fecha) {
         type: 'POST',
         url: url,
         data: jData,
+        async: false,
         success: function (response) {
             console.log(response);
             if (response != '') {
@@ -382,13 +402,13 @@ function facturaValidaDiasHabiles(fecha) {
                     $('#ctl00_ContentPlaceHolder1_tr1').show();
                     $('#ctl00_ContentPlaceHolder1_trautoinspeccion').show();
                     $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
-                    //$('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
-                    //$('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();
+                    $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
+                    $('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();
                     $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Emitir Propuesta');
                 } else {
-                    //$('#ctl00_ContentPlaceHolder1_tr1').hide();
-                    //$('#ctl00_ContentPlaceHolder1_trautoinspeccion').hide();
-                    //$('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').hide();
+                    $('#ctl00_ContentPlaceHolder1_tr1').hide();
+                    $('#ctl00_ContentPlaceHolder1_trautoinspeccion').hide();
+                    $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').hide();
                     $('#ctl00_ContentPlaceHolder1_trSinInspeccion').show();
                     //$('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').hide();
                     $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Contratar Seguro');
@@ -401,6 +421,21 @@ function facturaValidaDiasHabiles(fecha) {
             console.log(response);
         }
     });
+
+    /// FDR: valida restriccion de amunategui
+    var esAmunategui = $("#ctl00_ContentPlaceHolder1_EsAmunategui").val();
+    //alert("facturaValidaDiasHabiles esAmunategui : " + esAmunategui);
+    console.log("facturaValidaDiasHabiles esAmunategui : " + esAmunategui);
+    if (esAmunategui == "S") {
+        // debe mostrar si o si todas la inspecciones 
+        // debe borrar el sin Inspeccion
+        $('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_tr1').show();
+        $('#ctl00_ContentPlaceHolder1_trautoinspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').show();
+        $('#ctl00_ContentPlaceHolder1_trSinInspeccion').show();
+    }
 }
 
 function facturaValidaDiasHabilesSinFecha() {
@@ -413,6 +448,7 @@ function facturaValidaDiasHabilesSinFecha() {
         type: 'POST',
         url: url,
         data: jData,
+        async : false,
         success: function (response) {
             console.log(response);
             if (response != '') {
@@ -421,14 +457,14 @@ function facturaValidaDiasHabilesSinFecha() {
                     $('#ctl00_ContentPlaceHolder1_trautoinspeccion').show();
                     $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
                     $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').show();
-                    //$('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
-                    //$('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();
+                    $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
+                    $('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();
                     $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Emitir Propuesta');
                 } else {
-                    //$('#ctl00_ContentPlaceHolder1_tr1').hide();
-                    //$('#ctl00_ContentPlaceHolder1_trautoinspeccion').hide();
-                    //$('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').hide();
-                    //$('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').hide();
+                    $('#ctl00_ContentPlaceHolder1_tr1').hide();
+                    $('#ctl00_ContentPlaceHolder1_trautoinspeccion').hide();
+                    $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').hide();
+                    $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').hide();
                     $('#ctl00_ContentPlaceHolder1_trSinInspeccion').show();
                     $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Contratar Seguro');
                 }
@@ -441,6 +477,21 @@ function facturaValidaDiasHabilesSinFecha() {
         }
     });
 
+
+    /// FDR: valida restriccion de amunategui
+    var esAmunategui = $("#ctl00_ContentPlaceHolder1_EsAmunategui").val();
+    // alert("facturaValidaDiasHabilesSinFecha esAmunategui : " + esAmunategui);
+    console.log("facturaValidaDiasHabilesSinFecha esAmunategui : " + esAmunategui);
+    if (esAmunategui == "S") {
+        // debe mostrar si o si todas la inspecciones 
+        // debe borrar el sin Inspeccion
+        $('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_tr1').show();
+        $('#ctl00_ContentPlaceHolder1_trautoinspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
+        $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').show();
+        $('#ctl00_ContentPlaceHolder1_trSinInspeccion').show();
+    }
 }
 
 

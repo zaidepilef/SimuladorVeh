@@ -16,6 +16,7 @@ using System.Web.Configuration;
 
 public partial class Emisor : System.Web.UI.Page
 {
+    string RutCorredor = "";
     protected void Page_PreInit(object sender, EventArgs e)
     {
         try
@@ -121,8 +122,6 @@ public partial class Emisor : System.Web.UI.Page
     }
 
     //FIN INTEGRACION  CAMPAÑA COMERCIAL VENTA CRUZADA
-
-
     protected void Page_Load(object sender, EventArgs e)
     {
         try
@@ -138,6 +137,9 @@ public partial class Emisor : System.Web.UI.Page
                 // zaidepilef: 
                 EsAmunategui.Value = "S";
 
+                // fdr:
+                RutCorredor = Session["MM_Cuenta"].ToString();
+                RestringeAmunategui(RutCorredor);
                 if (Session["PolVeh"] != null)
                 {
                     PolVeh = (Poliza)Session["PolVeh"];
@@ -458,19 +460,6 @@ public partial class Emisor : System.Web.UI.Page
                         //this.trSinInspeccion.Visible = false;
                         this.trDatosFactura.Visible = true;
 
-                        //if (mca_valida_cotinuidad == "Naaa")
-                        //{
-                        //    dvDeclaracionEstado.Visible = false;
-                        //    trTituloDeclaracion.Visible = false;
-                        //}
-                        //else
-                        //{
-                        //    creaPreguntasDeclaracionEstado(true, deducible);
-                        //    hdn_AutoNuevo.Value = "true";
-                        //}
-
-                        //UtilesWeb.EjecutaJs(this, "$('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();");
-                        //this.trDatosFactura.Visible = true;
                         creaPreguntasDeclaracionEstado(true, deducible);
                         hdn_AutoNuevo.Value = "true";
 
@@ -613,30 +602,6 @@ public partial class Emisor : System.Web.UI.Page
             Response.Redirect("SessionTerminada.aspx", false);
         }
 
-        //this.rdbSinInspeccion.Visible = false;
-        //this.trSinInspeccion.Visible = false;
-        //this.rdbCentrosInspeccion.Visible = false;
-        //this.trCentrosInspeccion.Visible = false;
-        //this.rdbInspeccionDomicilio.Visible = false;
-        //this.trInspeccionDomicilio.Visible = false;
-        //this.trRegistraInspeccion.Visible = false;
-        ////this.trDeducibleObligatorio.Visible = false;
-        //this.trInspeccionExpress.Visible = false;
-        ////this.txtFechaVigencia.ReadOnly = true;
-        ////this.txtFechaVigencia.Enabled = false;
-        ////this.calendario.Style.Add("display", "none");
-        ////this.calendario.Style.Add("visibility", "hidden");
-
-        //if (PolVeh.CodModalidad == "8910")
-        //{
-        //    this.rdbSinInspeccion.Visible = true;
-        //    this.trSinInspeccion.Visible = true;
-        //    this.rdbSinInspeccion.Checked = true;
-        //}        
-        //else
-        //{
-        /////////DataRow inspeccion = Cotiza.ValidaInspeccion(PolVeh.NumMatricula, PolVeh.CodDocum, PolVeh.CodRamo, PolVeh.Convenio);
-
         DataRow inspeccion = null;
 
         if (tipo == "patente")
@@ -648,22 +613,6 @@ public partial class Emisor : System.Web.UI.Page
             inspeccion = Cotiza.ValidaInspeccionMotor(PolVeh.NroMotor, PolVeh.CodDocum, PolVeh.CodRamo, PolVeh.Convenio);
         }
 
-        //VER DONDE VALIDAR INSPECCION PARA VEHICULOS ANTIGUOS
-        //if (PolVeh.CodModalidad == "8915")
-        //{
-        //    this.rdbInspeccionDomicilio.Visible = false;
-        //    this.rdbCentrosInspeccion.Visible = true;
-        //    this.rdbCentrosInspeccion.Checked = true;
-        //    this.trCentrosInspeccion.Visible = true;
-
-        //    if (inspeccion["P_ERROR"].ToString() != "0" ||
-        //        inspeccion["P_NUM_INSPEC"].ToString() == "" ||
-        //        inspeccion["P_MCA_VENCIDA"].ToString().ToUpper() != "NO")
-        //    {
-        //        ImgValidaEmitir.Visible = false;
-        //        UtilesWeb.EjecutaJs(this.Page, "alert('Vehículo no presenta inspección vigente en la Compañía, es necesario se encuentre realizada la inspección para continuar con la emisión');");
-        //    }
-        //}
         ////////////////////////////////////////////////////////
 
         if (inspeccion["P_ERROR"].ToString() == "0")
@@ -710,133 +659,9 @@ public partial class Emisor : System.Web.UI.Page
                         //this.calendario.Style.Add("display", "");
                         //this.calendario.Style.Add("visibility", "");
                         #endregion
-                        //}
-                        //else
-                        //{
-                        //    this.lblRegistraInspeccion.Text = "La inspección ingresada se encuentra vencida, por favor seleccione una de las siguientes opciones para efectuar una nueva inspección.";
-                        //    this.trRegistraInspeccion.Visible = true;
-
-                        //    this.rdbCentrosInspeccion.Visible = true;
-                        //    this.trCentrosInspeccion.Visible = true;
-                        //    this.rdbCentrosInspeccion.Checked = true;
-                        //    this.rdbInspeccionDomicilio.Visible = true;
-                        //    //this.trInspeccionDomicilio.Visible = true;
-                        //    //this.trDeducibleObligatorio.Visible = true;
-
-                        //    if (inspeccion["P_EXISTE_INSPECTOR_TER"].ToString() == "SI")
-                        //    {
-                        //        this.trInspeccionExpress.Visible = false;
-                        //        rdbInspeccionExpress.Visible = false;
-                        //    }
-                        //    else
-                        //    {
-                        //        this.trInspeccionExpress.Visible = false;
-                        //        rdbInspeccionExpress.Visible = false;
-                        //    }
-                        //}
+                      
                     }
-                    //else
-                    //{
-                    //    if (PolVeh.Fact48 == "1")
-                    //    {
-                    //        this.trDatosFactura.Visible = true;
-
-                    //        if (this.txtFechaFactura.Text != "")
-                    //        {
-                    //            DateTime fecha_minima = DateTime.Now.AddDays(-1 * Convert.ToDouble(ConfigurationManager.AppSettings["DiaVigenciaFactura"].ToString()));
-
-                    //            string strDate = this.txtFechaFactura.Text;
-                    //            DateTimeFormatInfo dtfi = new DateTimeFormatInfo();
-                    //            dtfi.ShortDatePattern = "dd-MM-yyyy";
-                    //            dtfi.DateSeparator = "-";
-                    //            DateTime objDate = Convert.ToDateTime(strDate, dtfi);
-
-                    //            int compar = objDate.CompareTo(fecha_minima);
-
-                    //            if (compar < 0)
-                    //            {
-                    //                this.rdbSinInspeccion.Visible = false;
-                    //                this.trSinInspeccion.Visible = false;
-                    //                this.rdbSinInspeccion.Checked = false;
-                    //                this.rdbCentrosInspeccion.Visible = true;
-                    //                this.trCentrosInspeccion.Visible = true;
-                    //                this.rdbCentrosInspeccion.Checked = true;
-                    //                this.rdbInspeccionDomicilio.Visible = true;
-                    //                //this.trInspeccionDomicilio.Visible = true;
-                    //                //this.trDeducibleObligatorio.Visible = true;
-
-                    //                if (inspeccion["P_EXISTE_INSPECTOR_TER"].ToString() == "SI")
-                    //                {
-                    //                    this.trInspeccionExpress.Visible = false;
-                    //                    rdbInspeccionExpress.Visible = false;
-                    //                }
-                    //                else
-                    //                {
-                    //                    this.trInspeccionExpress.Visible = false;
-                    //                    rdbInspeccionExpress.Visible = false;
-                    //                }
-                    //            }
-                    //            else
-                    //            {
-                    //this.rdbSinInspeccion.Visible = true;
-                    //                this.trSinInspeccion.Visible = true;
-                    //                this.rdbSinInspeccion.Checked = true;
-                    //            }
-                    //        }
-                    //        else
-                    //        {
-
-                    //        }
-                    //    }
-                    //    else
-                    //    {
-                    //        this.rdbSinInspeccion.Visible = false;
-                    //        this.trSinInspeccion.Visible = false;
-                    //        this.rdbSinInspeccion.Checked = false;
-                    //        this.rdbCentrosInspeccion.Visible = true;
-                    //        this.trCentrosInspeccion.Visible = true;
-                    //        this.rdbCentrosInspeccion.Checked = false;
-                    //        this.rdbInspeccionDomicilio.Visible = true;
-                    //        //this.trInspeccionDomicilio.Visible = true;
-                    //        //this.trDeducibleObligatorio.Visible = true;
-
-                    //        if (Session["CONV"].ToString() == "AUTOANTIGUO")
-                    //        {
-                    //            this.rdbInspeccionDomicilio.Visible = false;
-                    //            this.rdbInspeccionExpress.Visible = false;
-                    //            //this.trDeducibleObligatorio.Visible = false;
-                    //        }
-
-                    //        if (inspeccion["P_EXISTE_INSPECTOR_TER"].ToString() == "SI")
-                    //        {
-                    //            this.trInspeccionExpress.Visible = false;
-                    //            rdbInspeccionExpress.Visible = false;
-                    //        }
-                    //        else
-                    //        {
-                    //            this.trInspeccionExpress.Visible = false;
-                    //            rdbInspeccionExpress.Visible = false;
-                    //        }
-                    //    }
-                    //}
                 }
-                //else
-                //{
-                //    if (PolVeh.Fact48 == "1")
-                //    {
-                //        if (this.txtFechaFactura.Text != "")
-                //        {
-                //            DateTimeFormatInfo d = new CultureInfo("es-CL", false).DateTimeFormat;
-                //            string hoy = DateTime.Now.ToString("dd-MM-yyyy", d).ToUpper();
-                //            PolVeh.FechaCotizacion = hoy;
-                //        }
-                //    }
-                //    else
-                //    {
-                //        this.trDatosFactura.Visible = false;
-                //    }
-                //}
-
             }
         }
 
@@ -855,7 +680,6 @@ public partial class Emisor : System.Web.UI.Page
     protected void setTextTextBox(TextBox textbox, string valor, bool block)
     {
         textbox.Text = valor;
-
         if (block && valor != null)
         {
             textbox.ReadOnly = true;
@@ -875,9 +699,11 @@ public partial class Emisor : System.Web.UI.Page
             if (tip == "ASEG")
             {
                 if (valAseg == "" || valAseg == null)
+                {
                     setTextTextBox(textboxAseg, valor);
-                else
+                } else {
                     setTextTextBox(textboxAseg, valAseg);
+                }
             }
             else
             {
@@ -1188,25 +1014,6 @@ public partial class Emisor : System.Web.UI.Page
             this.txtFonoTomad.Text = ((TextBox)sender).Text;
         }
     }
-
-    //protected void txtEmailAseg_TextChanged(object sender, EventArgs e)
-    //{
-    //    if (UtilesWeb.ValidaTextBoxEmail(this, ((TextBox)sender), ScriptManager1))
-    //    {
-    //        if (this.txtCodDocumAseg.Text == this.txtCodDocumTomad.Text)
-    //        {
-    //            ((TextBox)sender).Text = ((TextBox)sender).Text.ToUpper();
-    //            this.txtEmailTomad.Text = ((TextBox)sender).Text;
-    //        }
-    //    }
-    //    else
-    //    {
-    //        if (this.txtCodDocumAseg.Text == this.txtCodDocumTomad.Text)
-    //        {
-    //            this.txtEmailTomad.Text = ((TextBox)sender).Text;
-    //        }
-    //    }
-    //}
 
     protected void txtNomAseg_TextChanged(object sender, EventArgs e)
     {
@@ -2386,7 +2193,7 @@ public partial class Emisor : System.Web.UI.Page
 
     protected void ImgNuevaCotizacion_Click(object sender, EventArgs e)
     {
-        //Response.Redirect("Cotizador.aspx", false);
+        
         Response.Redirect(Session["LOAD_URL"].ToString());
     }
 
@@ -2407,17 +2214,6 @@ public partial class Emisor : System.Web.UI.Page
            UtilesWeb.ValidaTextBox(this, this.txtNroChasis, ScriptManager1))
         {
 
-            //Poliza PolVeh;
-
-            //if (Session["PolVeh"] != null)
-            //{
-            //    PolVeh = (Poliza)Session["PolVeh"];
-            //}
-            //else
-            //{
-            //    PolVeh = new Poliza();
-            //    Session["PolVeh"] = PolVeh;
-            //}
 
             Poliza PolVeh = Poliza.CargaPoliza();
 
@@ -2441,7 +2237,7 @@ public partial class Emisor : System.Web.UI.Page
         }
         else
         {
-            //fdr:
+            
             if (this.rdbSinInspeccion.Visible == true)
                 this.rdbSinInspeccion.Checked = true;
             //else
@@ -2453,25 +2249,12 @@ public partial class Emisor : System.Web.UI.Page
 
     public void AbreInspeccion()
     {
-        //UtilesWeb.OpenNewWindow(Page, "Inspeccion.aspx", "1080", "800", "1", "0");
         UtilesWeb.EjecutaJs(Page, "window.showModalDialog('Inspeccion.aspx', '', 'center:yes;resizable:no;dialogHeight:800px;dialogWidth:940px')");
     }
 
     protected void drpColor_SelectedIndexChanged(object sender, EventArgs e)
     {
         Poliza PolVeh = Poliza.CargaPoliza();
-
-        //Poliza PolVeh;
-
-        //if (Session["PolVeh"] != null)
-        //{
-        //    PolVeh = (Poliza)Session["PolVeh"];
-        //}
-        //else
-        //{
-        //    PolVeh = new Poliza();
-        //    Session["PolVeh"] = PolVeh;
-        //}
 
         if (this.rdbInspeccionExpress.Checked == true)
         {
@@ -2491,19 +2274,6 @@ public partial class Emisor : System.Web.UI.Page
         if (this.txtNroMotor.Text != "")
         {
             Poliza PolVeh = Poliza.CargaPoliza();
-
-            //Poliza PolVeh;
-
-            //if (Session["PolVeh"] != null)
-            //{
-            //    PolVeh = (Poliza)Session["PolVeh"];
-            //}
-            //else
-            //{
-            //    PolVeh = new Poliza();
-            //    Session["PolVeh"] = PolVeh;
-            //}
-
             string val = Vehiculo.ValidaNroMotor(((TextBox)sender).Text.ToUpper());
 
             if (val == "S")
@@ -2511,18 +2281,6 @@ public partial class Emisor : System.Web.UI.Page
                 UtilesWeb.EjecutaJs(this, "alert('El número de motor ingresado ya cuenta con una póliza vigente.');");
                 ((TextBox)sender).Text = "";
             }
-
-            //if (this.rdbInspeccionExpress.Checked == true)
-            //{
-            //    if (Session["InspeccionExpress"] != null)
-            //    {
-            //        if (Session["InspeccionExpress"].ToString() == "OK")
-            //        {
-            //            UtilesWeb.EjecutaJs(this, "alert('No es posible modificar esta informacion ya que existe una Inspeccion Asociada a estos datos.');");
-            //            this.txtNroMotor.Text = PolVeh.NroMotor;
-            //        }
-            //    }
-            //}
 
             string nro_motor = this.txtNroMotor.Text;
             PolVeh.NroMotor = nro_motor;
@@ -2532,23 +2290,11 @@ public partial class Emisor : System.Web.UI.Page
                 setInspeccion("motor");
             }
         }
-
-
     }
 
     protected void txtNroChasis_TextChanged(object sender, EventArgs e)
     {
         Poliza PolVeh = Poliza.CargaPoliza();
-
-        //if (Session["PolVeh"] != null)
-        //{
-        //    PolVeh = (Poliza)Session["PolVeh"];
-        //}
-        //else
-        //{
-        //    PolVeh = new Poliza();
-        //    Session["PolVeh"] = PolVeh;
-        //}
 
         if (this.rdbInspeccionExpress.Checked == true)
         {
@@ -2899,6 +2645,20 @@ public partial class Emisor : System.Web.UI.Page
             EmitePoliza();
             //Response.Redirect("FinSimulacion.aspx", false);
         }
+    }
+
+    /// <summary>
+    /// funcion que restringe opciones de amunatwgui
+    /// </summary>
+    /// <param name="cod_docum"></param>
+    public void RestringeAmunategui(string cod_docum)
+    {
+        EsAmunategui.Value = "N";
+        if (Cotiza.RestringeAmunategui(cod_docum))
+        {
+            EsAmunategui.Value = "S";
+        }
+
     }
 
 }
