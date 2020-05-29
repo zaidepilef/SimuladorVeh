@@ -2393,71 +2393,91 @@ create or replace package body mel_k_vehiculo is
 
   PROCEDURE P_TRAE_PLANES(P_COD_DOCUM VARCHAR2, P_PLANES OUT TYCURSOR) IS
   
-    -- que cursor? --
     CURSOR C_VALIDA_EXISTE IS
       SELECT 1
         FROM MEL_PLANES_VEH_USUARIOS M
        WHERE M.COD_DOCUM = P_COD_DOCUM
          AND MCA_INH = 'N';
-  
     R_VALIDA_EXISTE C_VALIDA_EXISTE%ROWTYPE;
     
     -- valido si es de AMUNATEGUI --
     CURSOR C_VALIDA_AMUNATEGUI IS
-      SELECT 1
-        FROM MEL_PLANES_VEH_USUARIOS M
-       WHERE M.COD_DOCUM = P_COD_DOCUM
-         AND MCA_INH = 'N';
-    
+      SELECT 1 
+        FROM A1001332@ovpro_prd A 
+       WHERE A.COD_CIA = 1
+         AND A.TIP_DOCUM = 'RUT'
+         AND A.COD_DOCUM = P_COD_DOCUM
+         AND A.cod_nivel3 = '6003';
+    R_VALIDA_AMUNATEGUI C_VALIDA_AMUNATEGUI%ROWTYPE;
   
     L_EXISTE BOOLEAN;
+    L_EXISTE_AMUNATEGUI BOOLEAN;
   
   BEGIN
     --
     OPEN c_valida_existe;
     FETCH c_valida_existe
       INTO r_valida_existe;
-      
-    l_existe := c_valida_existe%FOUND;
-    CLOSE c_valida_existe;
-    --
-    IF l_existe THEN
-      --
+        l_existe := c_valida_existe%FOUND;
+     CLOSE c_valida_existe;
+     ---
+    OPEN c_valida_amunategui;
+    FETCH c_valida_amunategui
+      INTO r_valida_amunategui;
+    l_existe_amunategui := c_valida_amunategui%FOUND;
+    CLOSE c_valida_amunategui;
+    
+    IF l_existe_amunategui THEN
       OPEN p_planes FOR
-        SELECT m.cod_plan,
+           SELECT m.cod_plan,
                (SELECT v.abrev_plan
                   FROM mel_planes_veh v
                  WHERE v.cod_plan = m.cod_plan) abrev,
                m.orden
           FROM mel_planes_veh_usuarios m
-         WHERE m.cod_docum = nvl(p_cod_docum, 'MEL')
-           AND m.mca_inh = 'N'
-        UNION
-        SELECT f.cod_plan,
-               (SELECT v.abrev_plan
-                  FROM mel_planes_veh v
-                 WHERE v.cod_plan = f.cod_plan_real) abrev,
-               f.orden
-          FROM mel_planes_veh_ficticios f
-         WHERE f.cod_docum = nvl(p_cod_docum, 'MEL')
-           AND f.mca_inh = 'N'
-         order by orden;
-      --
-    ELSE
-      --
-      OPEN p_planes FOR
-        SELECT m.cod_plan,
-               (SELECT v.abrev_plan
-                  FROM mel_planes_veh v
-                 WHERE v.cod_plan = m.cod_plan) abrev,
-               m.orden
-          FROM mel_planes_veh_usuarios m
-         WHERE m.cod_docum = 'MEL'
+         WHERE m.cod_docum = 'AGUSTINAS'
            AND m.mca_inh = 'N'
          ORDER BY orden, cod_plan ASC;
+    ELSE
       --
-    END IF;
-    --
+      IF l_existe THEN
+        --
+        OPEN p_planes FOR
+          SELECT m.cod_plan,
+                 (SELECT v.abrev_plan
+                    FROM mel_planes_veh v
+                   WHERE v.cod_plan = m.cod_plan) abrev,
+                 m.orden
+            FROM mel_planes_veh_usuarios m
+           WHERE m.cod_docum = nvl(p_cod_docum, 'MEL')
+             AND m.mca_inh = 'N'
+          UNION
+          SELECT f.cod_plan,
+                 (SELECT v.abrev_plan
+                    FROM mel_planes_veh v
+                   WHERE v.cod_plan = f.cod_plan_real) abrev,
+                 f.orden
+            FROM mel_planes_veh_ficticios f
+           WHERE f.cod_docum = nvl(p_cod_docum, 'MEL')
+             AND f.mca_inh = 'N'
+           order by orden;
+        --
+      ELSE
+        --
+        OPEN p_planes FOR
+          SELECT m.cod_plan,
+                 (SELECT v.abrev_plan
+                    FROM mel_planes_veh v
+                   WHERE v.cod_plan = m.cod_plan) abrev,
+                 m.orden
+            FROM mel_planes_veh_usuarios m
+           WHERE m.cod_docum = 'MEL'
+             AND m.mca_inh = 'N'
+           ORDER BY orden, cod_plan ASC;
+        --
+      END IF;
+      --
+     END IF;
   
   END P_TRAE_PLANES;
 

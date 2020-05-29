@@ -2398,17 +2398,33 @@ create or replace package body mel_k_vehiculo is
         FROM MEL_PLANES_VEH_USUARIOS M
        WHERE M.COD_DOCUM = P_COD_DOCUM
          AND MCA_INH = 'N';
-  
     R_VALIDA_EXISTE C_VALIDA_EXISTE%ROWTYPE;
+    
+    -- valido si es de AMUNATEGUI --
+    CURSOR C_VALIDA_AMUNATEGUI IS
+      SELECT 1 
+        FROM A1001332@ovpro_prd A 
+       WHERE A.COD_CIA = 1
+         AND A.TIP_DOCUM = 'RUT'
+         AND A.COD_DOCUM = P_COD_DOCUM
+         AND A.cod_nivel3 = '6003';
+    R_VALIDA_AMUNATEGUI C_VALIDA_AMUNATEGUI%ROWTYPE;
   
     L_EXISTE BOOLEAN;
+    L_EXISTE_AMUNATEGUI BOOLEAN;
   
   BEGIN
     --
     OPEN c_valida_existe;
     FETCH c_valida_existe
       INTO r_valida_existe;
+      
+    OPEN c_valida_amunategui;
+    FETCH c_valida_amunategui
+      INTO r_valida_amunategui;
+      
     l_existe := c_valida_existe%FOUND;
+    l_existe_amunategui := c_valida_amunategui%FOUND;
     CLOSE c_valida_existe;
     --
     IF l_existe THEN
