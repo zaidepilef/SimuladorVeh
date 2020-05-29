@@ -135,7 +135,7 @@ public partial class Emisor : System.Web.UI.Page
                 // #CCE
 
                 // zaidepilef: 
-                EsAmunategui.Value = "S";
+                EsAmunategui.Value = "N";
 
                 // fdr:
                 RutCorredor = Session["MM_Cuenta"].ToString();
@@ -200,8 +200,7 @@ public partial class Emisor : System.Web.UI.Page
                     setTextTextBox(txtApeMaternoAseg, PolVeh.ApeMatAseg, true);
                 }
 
-                setTextTextBox(txtCodDocumTomad, UtilesWeb.getFormated(PolVeh.CodDocumAseg), false);
-
+                setTextTextBox(txtCodDocumTomad, UtilesWeb.getFormated(PolVeh.CodDocumAseg), false)
                 if (PolVeh.Convenio == "COMPARA")
                 {
                     setTextTextBox(txtNomTomad, PolVeh.NomAseg, false);
@@ -1498,7 +1497,13 @@ public partial class Emisor : System.Web.UI.Page
 
                 if (PolVeh.CodModalidad == "8915")
                 {
-                    PolVeh.Inspeccion = "N";
+                   
+                    if (Cotiza.RestringeAmunategui(RutCorredor))
+                    {
+                        PolVeh.Inspeccion = "A";
+                    } else {
+                        PolVeh.Inspeccion = "N";
+                    }
                 }
             }
 
