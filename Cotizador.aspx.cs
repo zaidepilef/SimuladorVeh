@@ -1228,13 +1228,19 @@ public partial class Cotizador : System.Web.UI.Page
     public void CotizarNuevo() { //////////////////////////////////////////////////////////////////05_06
       
         CargarDescuentos();
-
         Poliza PolVeh = Poliza.CargaPoliza();
-
         DataSet Planes = new DataSet();
-        //ACA ES DONDE VA A BUSCAR LOS PLANES 
-        Planes = Cotiza.CantPlanes(Session["MM_Cuenta"].ToString());
-
+        //ACA ES DONDE VA A BUSCAR LOS PLANES
+        RutCorredor = Session["MM_Cuenta"].ToString();
+        //FDR: Se aplica restriccion de amunategui
+        if (Cotiza.RestringeAmunategui(RutCorredor))
+        {
+            Planes = Cotiza.CantPlanes(RutCorredor);
+        }
+        else
+        {
+            Planes = Cotiza.CantPlanes(Session["CONV"].ToString());
+        }
 
         string mca_cuadros = Cotiza.CuadroComisiones(Session["COD_DOCUM"].ToString(), Session["CONV"].ToString(), this.drpCuadroCom1);
 
@@ -1607,8 +1613,13 @@ public partial class Cotizador : System.Web.UI.Page
 
         DataSet Planes = new DataSet();
         //ACA ES DONDE VA A BUSCAR LOS PLANES 
-        // FDR: PREguntar a GERADO
-        Planes = Cotiza.CantPlanes(Session["MM_Cuenta"].ToString());
+        // Restriccion Amunategui
+        RutCorredor = Session["MM_Cuenta"].ToString();
+        if (Cotiza.RestringeAmunategui(RutCorredor)) {
+            Planes = Cotiza.CantPlanes(RutCorredor);
+        } else {
+            Planes = Cotiza.CantPlanes(Session["CONV"].ToString());
+        }
 
         string mca_cuadros = Cotiza.CuadroComisiones(Session["COD_DOCUM"].ToString(), Session["CONV"].ToString(), this.drpCuadroCom1);
 
