@@ -457,7 +457,7 @@
                                                     Coberturas por Producto
                                                 </td>
                                                 <td style="width: 140px;">
-                                                    Flex FDR
+                                                    Flex
                                                     <!--FDR de aqui se restringe amunategui -->
                                                 </td>
                                                 <td style="width: 140px;">

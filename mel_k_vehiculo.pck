@@ -2435,9 +2435,10 @@ create or replace package body mel_k_vehiculo is
                  WHERE v.cod_plan = m.cod_plan) abrev,
                m.orden
           FROM mel_planes_veh_usuarios m
-         WHERE m.cod_docum = 'AGUSTINAS'
+         WHERE m.cod_docum = 'AMUNATEGUI'
            AND m.mca_inh = 'N'
          ORDER BY orden, cod_plan ASC;
+         -- esto lo mando gerardo
     ELSE
       --
       IF l_existe THEN

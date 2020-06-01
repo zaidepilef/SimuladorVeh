@@ -1610,6 +1610,7 @@ public partial class Cotizador : System.Web.UI.Page
 
         DataSet Planes = new DataSet();
         //ACA ES DONDE VA A BUSCAR LOS PLANES 
+        // FDR: PREguntar a GERADO
         Planes = Cotiza.CantPlanes(Session["CONV"].ToString());
 
         string mca_cuadros = Cotiza.CuadroComisiones(Session["COD_DOCUM"].ToString(), Session["CONV"].ToString(), this.drpCuadroCom1);
