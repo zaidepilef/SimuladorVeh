@@ -657,7 +657,7 @@ public partial class Emisor : System.Web.UI.Page
                         //this.calendario.Style.Add("display", "");
                         //this.calendario.Style.Add("visibility", "");
                         #endregion
-                      
+
                     }
                 }
             }
@@ -699,7 +699,9 @@ public partial class Emisor : System.Web.UI.Page
                 if (valAseg == "" || valAseg == null)
                 {
                     setTextTextBox(textboxAseg, valor);
-                } else {
+                }
+                else
+                {
                     setTextTextBox(textboxAseg, valAseg);
                 }
             }
@@ -1488,22 +1490,37 @@ public partial class Emisor : System.Web.UI.Page
 
             string cod_plan_pago = this.drpPlanPago.SelectedValue;
             PolVeh.CodPlanPago = cod_plan_pago;
-
+            RutCorredor = Session["MM_Cuenta"].ToString();
             if (PolVeh.NumInspeccion != "")
             {
                 string mca_inspeccion = getrdbInspeccion();
                 PolVeh.Inspeccion = mca_inspeccion;
 
+
                 if (PolVeh.CodModalidad == "8915")
                 {
-                   
+                    PolVeh.Inspeccion = "N";
+                } else {
+                    //FDR: Se aplica restriccion de amunategui
                     if (Cotiza.RestringeAmunategui(RutCorredor))
                     {
                         PolVeh.Inspeccion = "A";
-                    } else {
-                        PolVeh.Inspeccion = "N";
                     }
                 }
+
+                /*
+                if (Cotiza.RestringeAmunategui(RutCorredor))
+                {
+                    PolVeh.Inspeccion = "A";
+                }
+                else
+                {
+                    if (PolVeh.CodModalidad == "8915")
+                    {
+                        PolVeh.Inspeccion = "N";
+                    }
+                }*/
+
             }
 
             Cotiza.GrabaOpcionInspeccion(PolVeh.NumCotizacion, PolVeh.Inspeccion);
@@ -2197,7 +2214,7 @@ public partial class Emisor : System.Web.UI.Page
 
     protected void ImgNuevaCotizacion_Click(object sender, EventArgs e)
     {
-        
+
         Response.Redirect(Session["LOAD_URL"].ToString());
     }
 
@@ -2241,7 +2258,7 @@ public partial class Emisor : System.Web.UI.Page
         }
         else
         {
-            
+
             if (this.rdbSinInspeccion.Visible == true)
                 this.rdbSinInspeccion.Checked = true;
             //else

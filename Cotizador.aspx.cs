@@ -1233,7 +1233,8 @@ public partial class Cotizador : System.Web.UI.Page
 
         DataSet Planes = new DataSet();
         //ACA ES DONDE VA A BUSCAR LOS PLANES 
-        Planes = Cotiza.CantPlanes(Session["CONV"].ToString());
+        Planes = Cotiza.CantPlanes(Session["MM_Cuenta"].ToString());
+
 
         string mca_cuadros = Cotiza.CuadroComisiones(Session["COD_DOCUM"].ToString(), Session["CONV"].ToString(), this.drpCuadroCom1);
 
@@ -1511,26 +1512,22 @@ public partial class Cotizador : System.Web.UI.Page
 
         this.tblResultados.CssClass = "Resultados";
 
-        if (mca_cuadros == "S")
-        {
-
-            if ((Planes.Tables[0].Rows.Count - ModError.Count) <= 6)
-            {
+        if (mca_cuadros == "S") {
+            if ((Planes.Tables[0].Rows.Count - ModError.Count) <= 6) {
                 this.tblResultados.Width = 950;
                 this.tblResultados.CssClass = "Resultados2";
             }
 
-            if ((Planes.Tables[0].Rows.Count - ModError.Count) <= 3)
-            {
+            if ((Planes.Tables[0].Rows.Count - ModError.Count) <= 3) {
                 this.tblResultados.Width = 700;
                 this.tblResultados.CssClass = "Resultados2";
             }
         }
         else
         {
-            if ((Planes.Tables[0].Rows.Count - ModError.Count) <= 5)
+            if ((Planes.Tables[0].Rows.Count - ModError.Count) <= 5) {
                 this.tblResultados.Width = 700;
-
+            }
         }
 
 
@@ -1611,7 +1608,7 @@ public partial class Cotizador : System.Web.UI.Page
         DataSet Planes = new DataSet();
         //ACA ES DONDE VA A BUSCAR LOS PLANES 
         // FDR: PREguntar a GERADO
-        Planes = Cotiza.CantPlanes(Session["CONV"].ToString());
+        Planes = Cotiza.CantPlanes(Session["MM_Cuenta"].ToString());
 
         string mca_cuadros = Cotiza.CuadroComisiones(Session["COD_DOCUM"].ToString(), Session["CONV"].ToString(), this.drpCuadroCom1);
 
