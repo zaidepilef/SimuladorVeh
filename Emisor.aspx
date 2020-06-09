@@ -434,7 +434,7 @@
                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
                     <tr id="trTituloDeclaracion" runat="server">
                             <td class="titItem">
-                                Declaración sobre el Estado del Vehículo FDR
+                                Declaración sobre el Estado del Vehículo
                             </td>
                         </tr>
                         <tr>
@@ -769,6 +769,7 @@
                     </table>
                 </fieldset>
             </div>
+
             <div id="DatosVigenciaEmisor">
                 <fieldset>
                     <table>
@@ -827,6 +828,7 @@
                     </table>
                 </fieldset>
             </div>
+            
             <div id="DatosPagoEmisor">
                 <fieldset>
                     <table>
@@ -982,6 +984,7 @@
                     </table>
                 </fieldset>
             </div>
+            
             <asp:UpdateProgress ID="UpdateProgress2" runat="server" AssociatedUpdatePanelID="UpdatePanel1">
                 <ProgressTemplate>
                     <div class="overlay">

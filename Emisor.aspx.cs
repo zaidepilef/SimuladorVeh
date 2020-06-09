@@ -396,7 +396,7 @@ public partial class Emisor : System.Web.UI.Page
                 //}
                 //else
                 //{
-                rdbSinInspeccion.Visible = false;
+                //rdbSinInspeccion.Visible = false;
                 //    rdbSinInspeccion.Checked = false;
                 //    rdbInspeccionOficina.Checked = true;
                 //}

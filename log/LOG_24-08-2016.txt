@@ -1,9 +1,0 @@
-24-08-2016 11:03:25;Error Emision : COT:8011600000042 Error: 8010099039202ORA-20000:  [EM_P_OPCION_FINALMASIVA_P1] ORA-06550: line 0, column 0:
-PLS-00907: cannot load library unit TRON2000.EM_P_OPCION_FINALMASIVA_P1_MCL (referenced by )
-
-24-08-2016 11:03:26;Error Emision : The server rejected one or more recipient addresses. The server response was: 550 5.1.1 Recipient unknown <cristian.zamora@mapfre.cl>
-
-
-24-08-2016 11:03:26;Error Emision : The server rejected one or more recipient addresses. The server response was: 550 5.1.1 Recipient unknown <cristian.zamora@mapfre.cl>
-
-

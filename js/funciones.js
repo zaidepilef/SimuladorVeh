@@ -341,7 +341,7 @@ function preguntas_declaracion_estado(btnRadio, resp, idPregunta, idPreguntaPadr
 
         if (logica) {
 
-            $('#ctl00_ContentPlaceHolder1_dvInspeccion').hide();
+            //$('#ctl00_ContentPlaceHolder1_dvInspeccion').hide();
             $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Contratar Seguro');
             $('#ctl00_ContentPlaceHolder1_trSinInspeccion').show();
             $('#ctl00_ContentPlaceHolder1_tr1').hide();
@@ -350,9 +350,9 @@ function preguntas_declaracion_estado(btnRadio, resp, idPregunta, idPreguntaPadr
             $('#ctl00_ContentPlaceHolder1_rdbInspeccionDomicilio').hide();
             $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', true);
         } else {
-            $('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
+            //$('#ctl00_ContentPlaceHolder1_dvInspeccion').show();
             $('#ctl00_ContentPlaceHolder1_ImgValidaEmitir').val('Emitir Propuesta');
-            $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
+            // $('#ctl00_ContentPlaceHolder1_rdbSinInspeccion').attr('checked', false);
             $('#ctl00_ContentPlaceHolder1_trSinInspeccion').hide();
             $('#ctl00_ContentPlaceHolder1_tr1').show();
             $('#ctl00_ContentPlaceHolder1_trCentrosInspeccion').show();
