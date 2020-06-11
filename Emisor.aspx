@@ -1,23 +1,20 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
     CodeFile="Emisor.aspx.cs" Inherits="Emisor" Title="Emisión de Vehículos" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-
     <script type="text/javascript">
-    function MuestraAyudaNumero()
-    {
-        document.getElementById("tarjeta").style.display = "none";
-		document.getElementById("tarjeta_numero").style.display = "none";
-		document.getElementById("tarjeta_fecha").style.display = "block";  
-    }
-    
-    function MuestraAyudaFecha()
-    {
-        document.getElementById("tarjeta").style.display = "none";
-		document.getElementById("tarjeta_numero").style.display = "block";
-		document.getElementById("tarjeta_fecha").style.display = "none"; 
-    }
-    </script>
+        function MuestraAyudaNumero() {
+            document.getElementById("tarjeta").style.display = "none";
+            document.getElementById("tarjeta_numero").style.display = "none";
+            document.getElementById("tarjeta_fecha").style.display = "block";
+        }
 
+        function MuestraAyudaFecha() {
+            document.getElementById("tarjeta").style.display = "none";
+            document.getElementById("tarjeta_numero").style.display = "block";
+            document.getElementById("tarjeta_fecha").style.display = "none";
+        }
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <br />
@@ -196,7 +193,7 @@
                                                             AutoPostBack="true" CssClass="TextBox" runat="server" MaxLength="10" OnTextChanged="txtFechaFactura_TextChanged"></asp:TextBox>
                                                     </td>
                                                     <td>
-                                                        <input type="button" class="calendario" id="calendar-trigger2" onclick="ini2()"  />
+                                                        <input type="button" class="calendario" id="calendar-trigger2" onclick="ini2()" />
                                                     </td>
                                                     <td>
                                                         (Ej: 23-05-2011)
@@ -208,9 +205,8 @@
                                             <asp:Label ID="lblNumFactura" runat="server" Text="número de factura:"></asp:Label>
                                         </td>
                                         <td class="BodyFacturaRight" style="width: 32%;">
-                                            <asp:TextBox ID="txtNumFactura" MaxLength="10" runat="server" 
-                                                ToolTip="Ingrese el Número de la Factura" 
-                                                ontextchanged="txtNumFactura_TextChanged" AutoPostBack="true"></asp:TextBox>
+                                            <asp:TextBox ID="txtNumFactura" MaxLength="10" runat="server" ToolTip="Ingrese el Número de la Factura"
+                                                OnTextChanged="txtNumFactura_TextChanged" AutoPostBack="true"></asp:TextBox>
                                         </td>
                                     </tr>
                                     <tr>
@@ -428,15 +424,18 @@
             <div id="DatosPreguntas">
                 <fieldset>
                 </fieldset>
-            </div>    
+            </div>
+
             <div id="DatosInspeccionEmisor">
                 <fieldset>
                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
-                    <tr id="trTituloDeclaracion" runat="server">
+
+                        <tr id="trTituloDeclaracion" runat="server">
                             <td class="titItem">
                                 Declaración sobre el Estado del Vehículo
                             </td>
                         </tr>
+
                         <tr>
                             <td>
                                 <div id="dvDeclaracionEstado" runat="server">
@@ -446,8 +445,7 @@
                                         <br />
                                         <div class="cbp-mc-form contenido">
                                             <div class="bloque clearfix" style="margin-bottom: 0px; padding-top: 5px">
-                                                    <asp:CheckBox ID="chkPreguntasDeclaracionEstado" runat="server" 
-                                                    CssClass="chkConfirmo alineacion clearfix" GroupName="grpDeclaracionEstado"/>
+                                                <asp:CheckBox ID="chkPreguntasDeclaracionEstado" runat="server" CssClass="chkConfirmo alineacion clearfix" GroupName="grpDeclaracionEstado" />
                                             </div>
                                         </div>
                                         <asp:HiddenField ID="hdnR1" runat="server" />
@@ -455,12 +453,12 @@
                                         <asp:HiddenField ID="hdnR3" runat="server" />
                                         <asp:HiddenField ID="hdnR4" runat="server" />
                                         <asp:HiddenField ID="EsAmunategui" runat="server" />
-                                        
                                     </div>
-                                    </div>
+                                </div>
                                 <%--<asp:CheckBox ID="chkDeclaracion" runat="server" Text="Declaro expresamente que he tomado conocimiento que las respuestas entregadas en la sección “Declaración sobre el Estado del Riesgo” son determinantes para la evaluación del riesgo por parte de MAPFRE y que cualquier error, reticencia o inexactitud facultará a MAPFRE a rescindir el contrato de seguros y/o exonerar a MAPFRE de la obligación de pagar cualquier indemnización en caso de siniestro. (Art. 524 y 525 del Código de Comercio). Adicionalmente declaro estar en conocimiento que MAPFRE no será responsable de ningún siniestro y por ende los daños si éste hubiere ocurrido antes del inicio de vigencia de la póliza. (Art. 532 del Código de Comercio). " />--%>
                             </td>
                         </tr>
+                        
                         <tr>
                             <td class="titItem">
                                 <asp:Label ID="lblInspeccion" CssClass="TituloSecundario" runat="server" Text="inspección"></asp:Label>
@@ -468,7 +466,6 @@
                         </tr>
 
                         <tr id="trCentrosInspeccion" runat="server">
-                            
                             <%-- CENTROS DE INSPECCION --%>
                             <td>
                                 <asp:RadioButton ID="rdbCentrosInspeccion" AutoPostBack="true" GroupName="rdbInspeccion"
@@ -529,12 +526,12 @@
                                 </table>
                             </td>
                         </tr>
-                        
-                        <tr id="trInspeccionDomicilio" runat="server" visible = "false">
+
+                        <tr id="trInspeccionDomicilio" runat="server" visible="false">
                             <%-- INSPECCION A DOMICILIO --%>
                             <td>
-                                <asp:RadioButton ID="rdbInspeccionDomicilio" AutoPostBack="true" GroupName="rdbInspeccion" visible = "false"
-                                    Text="Inspeccion a Domicilio" runat="server" OnCheckedChanged="rdbInpeccionDomicilio_CheckedChanged" />
+                                <asp:RadioButton ID="rdbInspeccionDomicilio" AutoPostBack="true" GroupName="rdbInspeccion"
+                                    Visible="false" Text="Inspeccion a Domicilio" runat="server" OnCheckedChanged="rdbInpeccionDomicilio_CheckedChanged" />
                             </td>
                         </tr>
 
@@ -564,7 +561,8 @@
                                             Nombre Completo:
                                         </td>
                                         <td class="BodyContactoRight" colspan="5">
-                                            <asp:TextBox ID="txtNomContacto" ToolTip="Ingrese el Nombre Completo del Contacto para la Inspeccion a Domicilio" MaxLength="30" Width="250px" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="txtNomContacto" ToolTip="Ingrese el Nombre Completo del Contacto para la Inspeccion a Domicilio"
+                                                MaxLength="30" Width="250px" runat="server"></asp:TextBox>
                                             &nbsp; &nbsp; &nbsp; &nbsp;
                                         </td>
                                     </tr>
@@ -573,7 +571,8 @@
                                             Dirección para la Inspección:
                                         </td>
                                         <td class="BodyContactoRight" colspan="5">
-                                            <asp:TextBox ID="txtDireccionContacto" ToolTip="Ingrese la Direccion para la Inspeccion a Domicilio" Width="250px" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="txtDireccionContacto" ToolTip="Ingrese la Direccion para la Inspeccion a Domicilio"
+                                                Width="250px" runat="server"></asp:TextBox>
                                             &nbsp; &nbsp; &nbsp; &nbsp;
                                         </td>
                                     </tr>
@@ -609,8 +608,11 @@
                                             Teléfono Fijo:
                                         </td>
                                         <td class="BodyContactoCenter">
-                                            <asp:TextBox ID="txtCodAreaFonoContacto" ToolTip="Ingrese el Codigo de Area del Telefono Fijo de Contacto para la Inspeccion a Domicilio" MaxLength="2" Width="20px" runat="server"></asp:TextBox>-
-                                            <asp:TextBox ID="txtFonoContacto" MaxLength="8"  ToolTip="Ingrese el Telefono Fijo de Contacto para la Inspeccion a Domicilio" Width="80px" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="txtCodAreaFonoContacto" ToolTip="Ingrese el Codigo de Area del Telefono Fijo de Contacto para la Inspeccion a Domicilio"
+                                                MaxLength="2" Width="20px" runat="server">
+                                                </asp:TextBox>-
+                                            <asp:TextBox ID="txtFonoContacto" MaxLength="8" ToolTip="Ingrese el Telefono Fijo de Contacto para la Inspeccion a Domicilio"
+                                                Width="80px" runat="server"></asp:TextBox>
                                         </td>
                                         <td class="BodyContactoCenter">
                                             &nbsp;
@@ -630,8 +632,9 @@
                                             Teléfono Movil:
                                         </td>
                                         <td class="BodyContactoCenter">
-                                            <asp:TextBox ID="txtCodMovilContacto"  MaxLength="2" Width="20px" runat="server"></asp:TextBox>-<asp:TextBox
-                                                ID="txtMovilContacto" ToolTip="Ingrese el Telefono Movil de Contacto para la Inspeccion a Domicilio" MaxLength="8" Width="80px" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="txtCodMovilContacto" MaxLength="2" Width="20px" runat="server"></asp:TextBox>-<asp:TextBox
+                                                ID="txtMovilContacto" ToolTip="Ingrese el Telefono Movil de Contacto para la Inspeccion a Domicilio"
+                                                MaxLength="8" Width="80px" runat="server"></asp:TextBox>
                                         </td>
                                         <td class="BodyContactoCenter">
                                             &nbsp;
@@ -651,28 +654,26 @@
                                             Observaciones:
                                         </td>
                                         <td class="BodyContactoRight" colspan="5">
-                                            <asp:TextBox ID="txtObsContacto" ToolTip="Ingrese alguna Observacion para la Inspeccion a Domicilio" MaxLength="100" runat="server" Width="248px"></asp:TextBox>
+                                            <asp:TextBox ID="txtObsContacto" ToolTip="Ingrese alguna Observacion para la Inspeccion a Domicilio"
+                                                MaxLength="100" runat="server" Width="248px"></asp:TextBox>
                                         </td>
                                     </tr>
-
                                     <tr>
                                         <td class="BottomContacto" colspan="6">
                                             &nbsp;
                                         </td>
                                     </tr>
-
                                 </table>
                             </td>
                         </tr>
-
 
                         <%--autoinspeccion--%>
                         <tr id="tr1" runat="server">
                             <td>
                                 <asp:RadioButton ID="rbtAutoinspeccion" AutoPostBack="true" GroupName="rdbInspeccion"
                                     Text="App autoinspeccón" runat="server" OnCheckedChanged="rbtAutoinspeccion_CheckedChanged" />
-                                &nbsp;&nbsp;<asp:LinkButton ID="LinkButton1" runat="server" >!Nuevo!</asp:LinkButton>
-                                    </span>
+                                &nbsp;&nbsp;<asp:LinkButton ID="LinkButton1" runat="server">!Nuevo!</asp:LinkButton>
+                                </span>
                             </td>
                         </tr>
                         <tr id="trautoinspeccion" runat="server" visible="false">
@@ -688,7 +689,8 @@
                                                 <tr>
                                                     <td class="fuenteDireccion">
                                                         <img src="img/icoAutoInspeccion.png" alt="AutoInspeccion" style="margin: auto; display: block">
-                                                        <span class="info_s" style="text-align: justify; width: 95%">¡Hazlo tú mismo con la nueva aplicación Autoinspección!</span>
+                                                        <span class="info_s" style="text-align: justify; width: 95%">¡Hazlo tú mismo con la
+                                                            nueva aplicación Autoinspección!</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -696,43 +698,31 @@
                                                         <table cellpadding="0" cellspacing="0" border="0">
                                                             <tr>
                                                                 <td class="fuenteDireccion">
-                                                                
                                                                     <span class="info_s" style="text-align: justify; width: 95%">En MAPFRE Chile sabemos
-                                                                    que tu tiempo es valioso, por ello hemos
-                                                                    creado una nueva aplicación AutoInspección para que tú mismo nos
-                                                                    
-                                                                    informes del estado del vehículo, y evites asistir a centros de
-                                                                    
-                                                                    inspección o coordinar visitas.<br />
-                                                                    
-                                                                    La aplicación se encuentra disponible para teléfonos con sistema
-                                                                    
-                                                                    operativo iOS y Android.<br />
-                                                                    
-                                                                    Cuando finalices la compra de tu seguro te enviaremos un correo
-                                                                    
-                                                                    electrónico con las instrucciones para que descargues la aplicación
-                                                                    
-                                                                    en tu teléfono.<br />
-                                                                    <br />
-                                                                    <div class="cbp-mc-column4">
-                                                                        <div class="bloque ">
-                                                                            <img src="img/icoAppStore.png" alt="AppStore" style="margin: auto; display: block">
+                                                                        que tu tiempo es valioso, por ello hemos creado una nueva aplicación AutoInspección
+                                                                        para que tú mismo nos informes del estado del vehículo, y evites asistir a centros
+                                                                        de inspección o coordinar visitas.<br />
+                                                                        La aplicación se encuentra disponible para teléfonos con sistema operativo iOS y
+                                                                        Android.<br />
+                                                                        Cuando finalices la compra de tu seguro te enviaremos un correo electrónico con
+                                                                        las instrucciones para que descargues la aplicación en tu teléfono.<br />
+                                                                        <br />
+                                                                        <div class="cbp-mc-column4">
+                                                                            <div class="bloque ">
+                                                                                <img src="img/icoAppStore.png" alt="AppStore" style="margin: auto; display: block">
+                                                                            </div>
                                                                         </div>
-                                                                    </div>
-                                                                    <div class="cbp-mc-column4">
-                                                                        <div class="bloque ">
-                                                                            <img src="img/icoPlayStore.png" alt="PlayStore" style="margin: auto; display: block">
+                                                                        <div class="cbp-mc-column4">
+                                                                            <div class="bloque ">
+                                                                                <img src="img/icoPlayStore.png" alt="PlayStore" style="margin: auto; display: block">
+                                                                            </div>
                                                                         </div>
-                                                                    </div>
-                                                                </span>
+                                                                    </span>
                                                                 </td>
                                                             </tr>
-                                                            
                                                         </table>
                                                     </td>
                                                 </tr>
-                                                
                                             </table>
                                         </td>
                                     </tr>
@@ -744,32 +734,30 @@
                                 </table>
                             </td>
                         </tr>
-                        <%--Cierre autoinspeccion--%>
 
-                        <tr id="trRegistraInspeccion" runat="server" visible = "false">
+                        <%--Cierre autoinspeccion--%>
+                        <tr id="trRegistraInspeccion" runat="server" visible="false">
                             <td>
-                                <strong>
-                                    <asp:Label ID="lblRegistraInspeccion" runat="server"></asp:Label></strong>
+                                <strong><asp:Label ID="lblRegistraInspeccion" runat="server"></asp:Label></strong>
                             </td>
                         </tr>
+
                         <tr id="trSinInspeccion" runat="server">
                             <%-- SIN INSPECCION --%>
-
                             <td>
-                                <asp:RadioButton Visible="true" ID="rdbSinInspeccion" AutoPostBack="true" runat="server" Checked="true" GroupName="rdbInspeccion" Text="No requiere inspección" />
+                                <asp:RadioButton Visible="true" ID="rdbSinInspeccion" AutoPostBack="true" runat="server"
+                                    Checked="true" GroupName="rdbInspeccion" Text="No requiere inspección" />
                             </td>
                         </tr>
-                        <tr id="trInspeccionExpress" runat="server" visible = "false">
+                        <tr id="trInspeccionExpress" runat="server" visible="false">
                             <td>
-                                <asp:RadioButton ID="rdbInspeccionExpress" AutoPostBack="true" GroupName="rdbInspeccion" Visible="false" Text="sin Inspección" runat="server" OnCheckedChanged="rdbInspeccionExpress_CheckedChanged" />
+                                <asp:RadioButton ID="rdbInspeccionExpress" AutoPostBack="true" GroupName="rdbInspeccion"
+                                    Visible="false" Text="sin Inspección" runat="server" OnCheckedChanged="rdbInspeccionExpress_CheckedChanged" />
                             </td>
                         </tr>
-                     
-                        
                     </table>
                 </fieldset>
             </div>
-
             <div id="DatosVigenciaEmisor">
                 <fieldset>
                     <table>
@@ -777,7 +765,8 @@
                             <td class="titItem">
                                 <asp:Label ID="lblVigencia" CssClass="TituloSecundario" runat="server" Text="Vigencia"></asp:Label>
                             </td>
-                            <td></td>
+                            <td>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -828,9 +817,9 @@
                     </table>
                 </fieldset>
             </div>
-            
             <div id="DatosPagoEmisor">
                 <fieldset>
+
                     <table>
                         <tr>
                             <td class="titItem">
@@ -851,7 +840,7 @@
                                         </td>
                                         <td>
                                             <asp:RadioButton ID="rdbPAC" GroupName="rdbFormasPago" runat="server" Text="PAC"
-                                            AutoPostBack="True" OnCheckedChanged="rdbPAC_CheckedChanged" />
+                                                AutoPostBack="True" OnCheckedChanged="rdbPAC_CheckedChanged" />
                                         </td>
                                     </tr>
                                     <tr>
@@ -925,21 +914,22 @@
                                                 </table>
                                             </div>
                                             <div id="PAC" runat="server" style="width: 800px;">
-                                            <table>
-                                                <tr>
-                                                    <td colspan="2">
-                                                        Cargo a cuenta corriente
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                    Plan de pago:                                                     
-                                                    </td>
-                                                    <td>
-                                                    <label style="font-weight:bold">DOC. 10 Cuotas (La primera cuota cargada al segundo mes)</label>
-                                                    </td>
-                                                </tr>
-                                            </table>
+                                                <table>
+                                                    <tr>
+                                                        <td colspan="2">
+                                                            Cargo a cuenta corriente
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Plan de pago:
+                                                        </td>
+                                                        <td>
+                                                            <label style="font-weight: bold">
+                                                                DOC. 10 Cuotas (La primera cuota cargada al segundo mes)</label>
+                                                        </td>
+                                                    </tr>
+                                                </table>
                                             </div>
                                         </td>
                                     </tr>
@@ -982,9 +972,10 @@
                             </td>
                         </tr>
                     </table>
+                
                 </fieldset>
             </div>
-            
+
             <asp:UpdateProgress ID="UpdateProgress2" runat="server" AssociatedUpdatePanelID="UpdatePanel1">
                 <ProgressTemplate>
                     <div class="overlay">
@@ -993,40 +984,42 @@
                         Por favor, Espere un momento mientras cargamos la información</div>
                 </ProgressTemplate>
             </asp:UpdateProgress>
+
         </ContentTemplate>
     </asp:UpdatePanel>
+
     <asp:UpdatePanel ID="UpdatePanel3" runat="server">
         <ContentTemplate>
             <div id="Botonera">
                 <table id="tblBotonera" runat="server">
                     <tr>
                         <td align="left">
-                            <asp:Button ID="ImgNuevaCotizacion" Text="Nueva Simulación" runat="server" CssClass="estilo_boton"  
+                            <asp:Button ID="ImgNuevaCotizacion" Text="Nueva Simulación" runat="server" CssClass="estilo_boton"
                                 OnClick="ImgNuevaCotizacion_Click" />
                         </td>
                         <td>
-                            <asp:Button ID="ImgValidaEmitir" CssClass="estilo_boton"  runat="server" OnClick="ImgValidaEmitir_Click" 
-                            Text="Generar Propuesta" OnClientClick="validaPreguntas()" />    
-                              
+                            <asp:Button ID="ImgValidaEmitir" CssClass="estilo_boton" runat="server" OnClick="ImgValidaEmitir_Click"
+                                Text="Generar Propuesta" OnClientClick="validaPreguntas()" />
                             <%--<asp:Button ID="imgGenerarPropuesta" CssClass="estilo_boton"  runat="server" OnClick="imgGenerarPropuesta_Click" 
-                            Text="Generar Propuesta" OnClientClick="validaPreguntas()" />--%>                         
+                            Text="Generar Propuesta" OnClientClick="validaPreguntas()" />--%>
                             <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel3">
                                 <ProgressTemplate>
                                     <div>
-                                    <div class="overlay">
-                                    </div>
-                                    <div class="emitimg">
-                                        Por favor, Espere un momento mientras cargamos la información
-                                    </div>
+                                        <div class="overlay">
+                                        </div>
+                                        <div class="emitimg">
+                                            Por favor, Espere un momento mientras cargamos la información
+                                        </div>
                                     </div>
                                 </ProgressTemplate>
                             </asp:UpdateProgress>
-                            
                         </td>
                     </tr>
                 </table>
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
+    
     <input type="hidden" id="hdnMinVigencia" name="hdnMinVigencia" runat="server" />
+
 </asp:Content>
