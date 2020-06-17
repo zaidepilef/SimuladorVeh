@@ -1,0 +1,199 @@
+11-06-2020 15:46:26;CodMarca 65
+
+11-06-2020 15:46:26;CodModelo 103
+
+11-06-2020 15:46:26;CodSubModelo 13
+
+11-06-2020 15:46:26;AñoFab 2020
+
+11-06-2020 15:46:26;CodDocum 256681439
+
+11-06-2020 15:46:26;CodDocumAseg 162005871
+
+11-06-2020 15:46:26;NumMatricula A/D
+
+11-06-2020 15:46:26;Error Cotizar : 1001
+
+11-06-2020 15:46:26;CodMarca 65
+
+11-06-2020 15:46:26;CodModelo 103
+
+11-06-2020 15:46:26;CodSubModelo 13
+
+11-06-2020 15:46:26;AñoFab 2020
+
+11-06-2020 15:46:26;CodDocum 256681439
+
+11-06-2020 15:46:26;CodDocumAseg 162005871
+
+11-06-2020 15:46:26;NumMatricula A/D
+
+11-06-2020 15:46:26;Error Cotizar : 1001
+
+11-06-2020 15:46:27;CodMarca 65
+
+11-06-2020 15:46:27;CodModelo 103
+
+11-06-2020 15:46:27;CodSubModelo 13
+
+11-06-2020 15:46:27;AñoFab 2020
+
+11-06-2020 15:46:27;CodDocum 256681439
+
+11-06-2020 15:46:27;CodDocumAseg 162005871
+
+11-06-2020 15:46:27;NumMatricula A/D
+
+11-06-2020 15:46:27;Error Cotizar : 1001
+
+11-06-2020 15:46:51;ExisteInspeccion post
+
+11-06-2020 15:46:55;dvDeclaracionEstado.Visible
+
+11-06-2020 15:46:55;8003
+
+11-06-2020 15:46:55;1
+
+11-06-2020 15:46:55;FALSE
+
+11-06-2020 15:48:56;GrabaTabladeDesctoPAT
+
+11-06-2020 15:48:56;8012000000052
+
+11-06-2020 15:48:56;GD
+
+11-06-2020 15:49:03;Error Emision : ERROR Cotizador.EmitirPoliza_DB : Error CDCommand.ejecutarRegistroSP() PTXT_ERROR  Varchar2  255 ORA-01400: no se puede realizar una inserción NULL en ("TRON2000"."G2009084_MMX"."NUM_POLIZA")
+ORA-06512: en "TRON2000.EM_K_GEN_WS_MMX", línea 1151
+ORA-06512: en "TRON2000.EM_K_GEN_WS_MMX", línea 1784
+ORA-06512: en línea 1
+
+11-06-2020 15:54:23;CodMarca 65
+
+11-06-2020 15:54:23;CodModelo 103
+
+11-06-2020 15:54:23;CodSubModelo 16
+
+11-06-2020 15:54:23;AñoFab 2020
+
+11-06-2020 15:54:23;CodDocum 256681439
+
+11-06-2020 15:54:23;CodDocumAseg 162005871
+
+11-06-2020 15:54:23;NumMatricula A/D
+
+11-06-2020 15:54:23;Error Cotizar : ORA-06502: PL/SQL: error : character to number conversion error numérico o de valor
+
+11-06-2020 15:54:23;CodMarca 65
+
+11-06-2020 15:54:23;CodModelo 103
+
+11-06-2020 15:54:23;CodSubModelo 16
+
+11-06-2020 15:54:23;AñoFab 2020
+
+11-06-2020 15:54:23;CodDocum 256681439
+
+11-06-2020 15:54:23;CodDocumAseg 162005871
+
+11-06-2020 15:54:23;NumMatricula A/D
+
+11-06-2020 15:54:23;Error Cotizar : ORA-06502: PL/SQL: error : character to number conversion error numérico o de valor
+
+11-06-2020 15:54:24;CodMarca 65
+
+11-06-2020 15:54:24;CodModelo 103
+
+11-06-2020 15:54:24;CodSubModelo 16
+
+11-06-2020 15:54:24;AñoFab 2020
+
+11-06-2020 15:54:24;CodDocum 256681439
+
+11-06-2020 15:54:24;CodDocumAseg 162005871
+
+11-06-2020 15:54:24;NumMatricula A/D
+
+11-06-2020 15:54:24;Error Cotizar : ORA-06502: PL/SQL: error : character to number conversion error numérico o de valor
+
+11-06-2020 15:54:24;CodMarca 65
+
+11-06-2020 15:54:24;CodModelo 103
+
+11-06-2020 15:54:24;CodSubModelo 16
+
+11-06-2020 15:54:24;AñoFab 2020
+
+11-06-2020 15:54:24;CodDocum 256681439
+
+11-06-2020 15:54:24;CodDocumAseg 162005871
+
+11-06-2020 15:54:24;NumMatricula A/D
+
+11-06-2020 15:54:24;Error Cotizar : 1001
+
+11-06-2020 15:54:25;CodMarca 65
+
+11-06-2020 15:54:25;CodModelo 103
+
+11-06-2020 15:54:25;CodSubModelo 16
+
+11-06-2020 15:54:25;AñoFab 2020
+
+11-06-2020 15:54:25;CodDocum 256681439
+
+11-06-2020 15:54:25;CodDocumAseg 162005871
+
+11-06-2020 15:54:25;NumMatricula A/D
+
+11-06-2020 15:54:25;Error Cotizar : 1001
+
+11-06-2020 15:54:25;CodMarca 65
+
+11-06-2020 15:54:25;CodModelo 103
+
+11-06-2020 15:54:25;CodSubModelo 16
+
+11-06-2020 15:54:25;AñoFab 2020
+
+11-06-2020 15:54:25;CodDocum 256681439
+
+11-06-2020 15:54:25;CodDocumAseg 162005871
+
+11-06-2020 15:54:25;NumMatricula A/D
+
+11-06-2020 15:54:25;Error Cotizar : 1001
+
+11-06-2020 15:54:26;CodMarca 65
+
+11-06-2020 15:54:26;CodModelo 103
+
+11-06-2020 15:54:26;CodSubModelo 16
+
+11-06-2020 15:54:26;AñoFab 2020
+
+11-06-2020 15:54:26;CodDocum 256681439
+
+11-06-2020 15:54:26;CodDocumAseg 162005871
+
+11-06-2020 15:54:26;NumMatricula A/D
+
+11-06-2020 15:54:26;Error Cotizar : ORA-06502: PL/SQL: error : character to number conversion error numérico o de valor
+
+11-06-2020 15:54:26;CodMarca 65
+
+11-06-2020 15:54:26;CodModelo 103
+
+11-06-2020 15:54:26;CodSubModelo 16
+
+11-06-2020 15:54:26;AñoFab 2020
+
+11-06-2020 15:54:26;CodDocum 256681439
+
+11-06-2020 15:54:26;CodDocumAseg 162005871
+
+11-06-2020 15:54:26;NumMatricula A/D
+
+11-06-2020 15:54:26;Error Cotizar : ORA-06502: PL/SQL: error : character to number conversion error numérico o de valor
+
+11-06-2020 15:54:26;Error La cadena de entrada no tiene el formato correcto.
+
